@@ -1,5 +1,6 @@
 import { getCurrentUser } from "@/lib/auth/session";
 import { UserMenu } from "./UserMenu";
+import Image from "next/image";
 
 
 export async function DashboardHeader() {
@@ -13,7 +14,7 @@ export async function DashboardHeader() {
     <header className="border-b">
       <div className="flex h-16 items-center justify-between px-4">
         <div className="flex items-center space-x-4">
-          <h1 className="text-xl font-bold">CaloriTrack</h1>
+          <Image src="/Logo.png" width={170} height={20} alt="NutriLog"/>
         </div>
         
         <div className="flex items-center space-x-4">

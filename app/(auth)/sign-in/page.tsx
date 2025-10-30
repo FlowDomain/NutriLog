@@ -104,7 +104,7 @@ export default function SignInPage() {
                     )}
                 />
                 <Button type="submit" className="button primary-btn h-[66px]" disabled={isLoading}>
-                    Sign In
+                    Log In
                     {isLoading && (
                         <Image src="/assets/icons/loader.svg" alt="loader" width={24} height={24} className="ml-2 animate-spin" />
                     )}

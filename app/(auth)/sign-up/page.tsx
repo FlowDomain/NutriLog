@@ -22,7 +22,7 @@ import Link from "next/link";
 
 // Validation schema
 const signUpSchema = z.object({
-    name: z.string().min(2, "Name must be at least 2 characters"),
+    name: z.string().min(3, "Name must be at least 3 characters"),
     email: z.email("Invalid email address"),
     password: z.string().min(8, "Password must be at least 8 characters"),
 });
@@ -136,7 +136,7 @@ export default function SignUpPage() {
                         Already have an account?
                     </p>
                     <Link href={"/sign-in"} className="ml-1 font-medium text-brand">
-                        Sign In
+                        Log In
                     </Link>
 
                 </div>

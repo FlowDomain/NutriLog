@@ -4,8 +4,8 @@
 @custom-variant dark (&:is(.dark *));
 
 @theme {
-    --color-brand: #7288FA;
-    --color-brand-100: #6c63ea;
+    --color-brand: #44BFC4;
+    --color-brand-100: #2b979b;
     --color-green: #3DD9B3;
     --color-red: #FF7474;
     --color-error: #b80000;
@@ -101,37 +101,37 @@
     @apply text-[34px] leading-[42px] font-bold;
   }
   .h2 {
-    @apply text-[24px] leading-[36px] font-bold;
+    @apply text-[24px] leading-9 font-bold;
   }
   .h3 {
-    @apply text-[20px] leading-[28px] font-semibold;
+    @apply text-[20px] leading-7 font-semibold;
   }
   .h4 {
-    @apply text-[18px] leading-[20px] font-medium;
+    @apply text-[18px] leading-5 font-medium;
   }
   .h5 {
-    @apply text-[16px] leading-[24px] font-semibold;
+    @apply text-[16px] leading-6 font-semibold;
   }
   .subtitle-1 {
-    @apply text-[16px] leading-[24px] font-medium;
+    @apply text-[16px] leading-6 font-medium;
   }
   .subtitle-2 {
-    @apply text-[14px] leading-[20px] font-semibold;
+    @apply text-[14px] leading-5 font-semibold;
   }
   .body-1 {
-    @apply text-[16px] leading-[24px] font-normal;
+    @apply text-[16px] leading-6 font-normal;
   }
   .body-2 {
-    @apply text-[14px] leading-[20px] font-normal;
+    @apply text-[14px] leading-5 font-normal;
   }
   .button {
     @apply text-[14px] leading-5 font-medium;
   }
   .caption {
-    @apply text-[12px] leading-[16px] font-normal;
+    @apply text-[12px] leading-4 font-normal;
   }
   .overline {
-    @apply text-[10px] leading-[14px] font-normal;
+    @apply text-[10px] leading-3.5 font-normal;
   }
 
   /* AuthForm */
