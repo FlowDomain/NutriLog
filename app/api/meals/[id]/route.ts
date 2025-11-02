@@ -6,13 +6,14 @@ import { Meal } from "@/database/models/meal";
 // GET /api/meals/[id]
 export async function GET(
     request: NextRequest,
-    { params }: { params: { id: string } }
+    context: { params: Promise<{ id: string }> }
 ) {
     try {
         const session = await requireAuth();
         await connectToDatabase();
+        const { id } = await context.params
 
-        const meal = await Meal.findById(params.id).lean();
+        const meal = await Meal.findById(id).lean();
 
         if (!meal) {
             return NextResponse.json(
@@ -50,13 +51,14 @@ export async function GET(
 // DELETE /api/meals/[id]
 export async function DELETE(
     request: NextRequest,
-    { params }: { params: { id: string } }
+    context: { params: Promise<{ id: string }> }
 ) {
     try {
         const session = await requireAuth();
         await connectToDatabase();
+        const { id } = await context.params
 
-        const meal = await Meal.findById(params.id);
+        const meal = await Meal.findById(id);
 
         if (!meal) {
             return NextResponse.json(

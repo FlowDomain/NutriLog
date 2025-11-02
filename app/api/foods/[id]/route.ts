@@ -8,13 +8,15 @@ import { Food } from "@/database/models/food";
 // GET - Get a single food
 export async function GET(
     request: NextRequest,
-    { params }: { params: { id: string } }
+    context: { params: Promise<{ id: string }> }
 ) {
     try {
         const session = await requireAuth();
         await connectToDatabase();
 
-        const food = await Food.findById(params.id).lean();
+        const { id } = await context.params;
+
+        const food = await Food.findById(id).lean();
 
         if (!food) {
             return NextResponse.json(
@@ -53,13 +55,14 @@ export async function GET(
 // PUT - Update a food
 export async function PUT(
     request: NextRequest,
-    { params }: { params: { id: string } }
+    context: { params: Promise<{ id: string }> }
 ) {
     try {
         const session = await requireAuth();
         await connectToDatabase();
+        const { id } = await context.params
 
-        const food = await Food.findById(params.id);
+        const food = await Food.findById(id);
 
         if (!food) {
             return NextResponse.json(
@@ -124,13 +127,14 @@ export async function PUT(
 // DELETE - Delete a food
 export async function DELETE(
     request: NextRequest,
-    { params }: { params: { id: string } }
+    context: { params: Promise<{ id: string }> }
 ) {
     try {
         const session = await requireAuth();
         await connectToDatabase();
 
-        const food = await Food.findById(params.id);
+        const { id } = await context.params
+        const food = await Food.findById(id);
 
         if (!food) {
             return NextResponse.json(
