@@ -1,6 +1,5 @@
 "use client";
 
-import { Progress } from "@/components/ui/progress";
 
 interface MacroDisplayProps {
     macros: {
@@ -30,17 +29,27 @@ export function MacroDisplay({ macros, calories, showPercentages = true }: Macro
                         {macros.carbs}g {showPercentages && `(${carbsPercent}%)`}
                     </span>
                 </div>
-                <Progress value={carbsPercent} className="h-2 bg-blue-100" indicatorClassName="bg-blue-500" />
+                <div className="relative h-2 w-full overflow-hidden rounded-full bg-blue-100">
+                    <div
+                        className="h-full bg-blue-500 transition-all"
+                        style={{ width: `${carbsPercent}%` }}
+                    />
+                </div>
             </div>
 
-            <div className="space-y-2"> 
+            <div className="space-y-2">
                 <div className="flex justify-between items-center">
                     <span className="text-sm font-medium text-green-700">Protein</span>
                     <span className="text-sm font-semibold">
                         {macros.protein}g {showPercentages && `(${proteinPercent}%)`}
                     </span>
                 </div>
-                <Progress value={proteinPercent} className="h-2 bg-green-100" indicatorClassName="bg-green-500" />
+                <div className="relative h-2 w-full overflow-hidden rounded-full bg-green-100">
+                    <div
+                        className="h-full bg-green-500 transition-all"
+                        style={{ width: `${proteinPercent}%` }}
+                    />
+                </div>
             </div>
 
             <div className="space-y-2">
@@ -50,7 +59,12 @@ export function MacroDisplay({ macros, calories, showPercentages = true }: Macro
                         {macros.fats}g {showPercentages && `(${fatsPercent}%)`}
                     </span>
                 </div>
-                <Progress value={fatsPercent} className="h-2 bg-yellow-100" indicatorClassName="bg-yellow-500" />
+                <div className="relative h-2 w-full overflow-hidden rounded-full bg-yellow-100">
+                    <div
+                        className="h-full bg-yellow-500 transition-all"
+                        style={{ width: `${fatsPercent}%` }}
+                    />
+                </div>
             </div>
         </div>
     );
