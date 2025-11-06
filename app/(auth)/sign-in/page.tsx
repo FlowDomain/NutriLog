@@ -48,19 +48,28 @@ export default function SignInPage() {
         setIsLoading(true);
 
         try {
-            const result = await signIn.email({
-                email: values.email,
-                password: values.password,
+            const res = await fetch("/api/auth/sign-in/email", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json",
+                },
+                body: JSON.stringify({
+                    email: values.email,
+                    password: values.password,
+                }),
+                credentials: "include", // ✅ ensures session cookie is saved
             });
 
-            if (result.error) {
-                setError(result.error.message || "Invalid email or password");
+            const result = await res.json();
+
+            if (!res.ok || result.error) {
+                setError(result.error?.message || "Invalid email or password");
             } else {
-                // Success! Redirect to callback URL
-                router.push(callbackUrl);
+                router.push(callbackUrl ?? "/");
                 router.refresh();
             }
         } catch (err) {
+            console.error(err);
             setError("An unexpected error occurred. Please try again.");
         } finally {
             setIsLoading(false);
