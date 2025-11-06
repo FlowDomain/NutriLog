@@ -48,35 +48,25 @@ export default function SignUpPage() {
         setIsLoading(true);
 
         try {
-            const res = await fetch("/api/auth/sign-up/email", {
-                method: "POST",
-                headers: {
-                    "Content-Type": "application/json",
-                },
-                body: JSON.stringify({
-                    name: values.name,
-                    email: values.email,
-                    password: values.password,
-                }),
-                credentials: "include", // ✅ IMPORTANT for session cookie
+            const result = await signUp.email({
+                name: values.name,
+                email: values.email,
+                password: values.password,
             });
 
-            const result = await res.json();
-
-            if (!res.ok || result.error) {
-                setError(result.error?.message || "Sign up failed");
+            if (result.error) {
+                setError(result.error.message || "Sign up failed");
             } else {
+                // Success! Redirect to dashboard
                 router.push("/dashboard");
                 router.refresh();
             }
         } catch (err) {
-            console.error(err);
             setError("An unexpected error occurred. Please try again.");
         } finally {
             setIsLoading(false);
         }
     }
-
 
     return (
 

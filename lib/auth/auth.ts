@@ -18,15 +18,6 @@ export const getAuth = async () => {
         secret: process.env.BETTER_AUTH_SECRET,
         baseURL: process.env.BETTER_AUTH_URL,
 
-        cors: {
-            origin: [
-                "http://localhost:3000",
-                process.env.NEXT_PUBLIC_APP_URL!,   // your deployed domain
-            ],
-            methods: ["GET", "POST", "OPTIONS"],
-            allowedHeaders: ["Content-Type", "Authorization"],
-            credentials: true,
-        },
         emailAndPassword: {
             enabled: true,
             disableSignUp: false,

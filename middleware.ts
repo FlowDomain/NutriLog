@@ -1,32 +1,27 @@
-import { auth } from "@/lib/auth/auth";
 import { NextResponse } from "next/server";
 import type { NextRequest } from "next/server";
 
 const publicPaths = ["/sign-in", "/sign-up", "/"];
+const authPaths = ["/sign-in", "/sign-up"];
 
 export async function middleware(request: NextRequest) {
   const { pathname } = request.nextUrl;
+  const sessionToken = request.cookies.get("better-auth.session_token")?.value;
 
-  // ✅ Proper typed call for Better Auth session lookup
-  const sessionResponse = await auth.api.getSession({
-    headers: request.headers,
-  });
-
-  const session = sessionResponse?.session; // ✅ this fixes TS error
-
-  const isPublic = publicPaths.some((path) => pathname.startsWith(path));
-  const isAuthPage = ["/sign-in", "/sign-up"].includes(pathname);
-
-  // Logged-in users should not see login/register pages
-  if (session && isAuthPage) {
-    return NextResponse.redirect(new URL("/dashboard", request.url));
+  // Allow public paths
+  if (publicPaths.some((path) => pathname.startsWith(path))) {
+    // If user is authenticated and tries to access auth pages, redirect to dashboard
+    if (sessionToken && authPaths.some((path) => pathname.startsWith(path))) {
+      return NextResponse.redirect(new URL("/dashboard", request.url));
+    }
+    return NextResponse.next();
   }
 
-  // Not logged in but trying to access protected route
-  if (!session && !isPublic) {
-    return NextResponse.redirect(
-      new URL(`/sign-in?callbackUrl=${pathname}`, request.url)
-    );
+  // Protect all other routes
+  if (!sessionToken) {
+    const signInUrl = new URL("/sign-in", request.url);
+    signInUrl.searchParams.set("callbackUrl", pathname);
+    return NextResponse.redirect(signInUrl);
   }
 
   return NextResponse.next();
