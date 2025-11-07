@@ -6,7 +6,10 @@ import Image from "next/image";
 export async function DashboardHeader() {
   const user = await getCurrentUser();
 
+  console.log("[HEADER] User:", user ? user.name : "No user"); // DEBUG
+
   if (!user) {
+    console.log("[HEADER] No user found in header"); // DEBUG
     return null;
   }
 

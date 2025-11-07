@@ -8,6 +8,8 @@ let authInstance: ReturnType<typeof betterAuth> | null = null;
 export const getAuth = async () => {
     if (authInstance) return authInstance;
 
+    console.log("[AUTH] Initializing Better-Auth..."); // DEBUG
+
     const mongoose = await connectToDatabase();
     const db = mongoose.connection.db;
 

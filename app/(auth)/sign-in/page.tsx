@@ -53,14 +53,20 @@ export default function SignInPage() {
                 password: values.password,
             });
 
+            console.log("[SIGN IN] Result:", result); // DEBUG
+
             if (result.error) {
+                console.log("[SIGN IN] Error:", result.error); // DEBUG
                 setError(result.error.message || "Invalid email or password");
             } else {
+
                 // SUCCESS - Add this debugging
                 console.log("Sign in successful, session:", result);
 
                 // Force a small delay before redirect
-                await new Promise(resolve => setTimeout(resolve, 500));
+                await new Promise(resolve => setTimeout(resolve, 1000));
+
+                console.log("[SIGN IN] Redirecting to:", callbackUrl); // DEBUG
                 // Success! Redirect to callback URL
                 router.push(callbackUrl);
                 router.refresh();

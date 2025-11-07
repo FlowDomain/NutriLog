@@ -7,7 +7,10 @@ export const getSession = cache(async () => {
     const cookieStore = await cookies();
     const sessionToken = cookieStore.get("better-auth.session_token")?.value;
 
+    console.log("[SESSION CHECK] Token exists:", !!sessionToken); // DEBUG
+
     if (!sessionToken) {
+        console.log("[SESSION CHECK] No session token found"); // DEBUG
         return null;
     }
 
@@ -18,8 +21,11 @@ export const getSession = cache(async () => {
             },
         });
 
+        console.log("[SESSION CHECK] Session data:", session ? "Valid" : "Invalid"); // DEBUG
+
         return session;
     } catch (error) {
+        console.error("[SESSION CHECK] Error:", error); // DEBUG
         return null;
     }
 });
