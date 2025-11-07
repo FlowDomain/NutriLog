@@ -66,6 +66,24 @@ export const getAuth = async () => {
                 },
             },
         },
+        advanced: {
+            cookiePrefix: "better-auth",
+            crossSubDomainCookies: {
+                enabled: true,
+            },
+            cookies: {
+                sessionToken: {
+                    name: "session_token",
+                    attributes: {
+                        sameSite: "lax", // Important for cross-origin
+                        secure: process.env.NODE_ENV === "production", // HTTPS only in prod
+                        httpOnly: true,
+                        path: "/",
+                        maxAge: 60 * 60 * 24 * 7, // 7 days
+                    },
+                },
+            },
+        },
         trustedOrigins: [
             process.env.NEXT_PUBLIC_APP_URL || "http://localhost:3000",
         ],
