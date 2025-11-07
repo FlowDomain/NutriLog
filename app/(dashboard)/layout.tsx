@@ -11,10 +11,10 @@ export default async function DashboardLayout({
 
     console.log("[DASHBOARD LAYOUT] User:", user ? "Logged in" : "Not logged in"); // DEBUG
 
-    if (!user) {
-        console.log("[DASHBOARD LAYOUT] No user - redirecting to sign-in"); // DEBUG
-        redirect("/sign-in");
-    }
+    // if (!user) {
+    //     console.log("[DASHBOARD LAYOUT] No user - redirecting to sign-in"); // DEBUG
+    //     redirect("/sign-in");
+    // }
 
     return (
         <div className="min-h-screen bg-background">
