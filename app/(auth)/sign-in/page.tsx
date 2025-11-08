@@ -55,21 +55,38 @@ export default function SignInPage() {
 
             console.log("[SIGN IN] Result:", result); // DEBUG
 
-            if (result.error) {
-                console.log("[SIGN IN] Error:", result.error); // DEBUG
-                setError(result.error.message || "Invalid email or password");
-            } else {
+            if (!result.error) {
+                console.log("[SIGN IN] Success!");
+                console.log("[SIGN IN] Checking cookies...");
 
-                // SUCCESS - Add this debugging
-                console.log("Sign in successful, session:", result);
+                // Get all cookies
+                const allCookies = document.cookie.split(';').map(c => {
+                    const [name, value] = c.trim().split('=');
+                    return { name, hasValue: !!value };
+                });
 
-                // Force a small delay before redirect
-                await new Promise(resolve => setTimeout(resolve, 1000));
+                console.log("[SIGN IN] All browser cookies:", allCookies);
 
-                console.log("[SIGN IN] Redirecting to:", callbackUrl); // DEBUG
-                // Success! Redirect to callback URL
-                router.push(callbackUrl);
-                router.refresh();
+                // Find session cookie
+                const sessionCookie = allCookies.find(c =>
+                    c.name.includes('session') ||
+                    c.name.includes('auth') ||
+                    c.name.includes('token')
+                );
+
+                console.log("[SIGN IN] Session cookie:", sessionCookie);
+
+                // Wait for cookie
+                await new Promise(resolve => setTimeout(resolve, 2000));
+
+                // Now call debug endpoint
+                console.log("[SIGN IN] Calling debug endpoint...");
+                const debugResponse = await fetch('/api/debug-cookies');
+                const debugData = await debugResponse.json();
+                console.log("[SIGN IN] Server sees cookies:", debugData);
+
+                // Redirect
+                window.location.href = callbackUrl;
             }
         } catch (err) {
             setError("An unexpected error occurred. Please try again.");
