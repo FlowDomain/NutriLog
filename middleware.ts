@@ -1,21 +1,18 @@
-import { NextResponse } from "next/server";
-import type { NextRequest } from "next/server";
+import { NextRequest, NextResponse } from "next/server";
+import { getSessionCookie } from "better-auth/cookies";
 
 export async function middleware(request: NextRequest) {
-  const { pathname } = request.nextUrl;
+	const sessionCookie = getSessionCookie(request);
 
-  // ONLY redirect away from auth pages if already logged in
-  if (pathname === "/sign-in" || pathname === "/sign-up") {
-    const sessionToken = request.cookies.get("better-auth.session_token")?.value;
-    if (sessionToken) {
-      return NextResponse.redirect(new URL("/dashboard", request.url));
-    }
-  }
+	if (!sessionCookie) {
+		return NextResponse.redirect(new URL("/", request.url));
+	}
 
-  // Allow everything else - let layout handle auth
-  return NextResponse.next();
+	return NextResponse.next();
 }
 
 export const config = {
-  matcher: ["/sign-in", "/sign-up"],
+	matcher: [
+        '/((?!api|_next/static|_next/image|favicon.ico|sign-in|sign-up|assets).*)',
+    ], 
 };
