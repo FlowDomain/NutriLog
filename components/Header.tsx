@@ -1,6 +1,7 @@
 import { getCurrentUser } from "@/lib/auth/session";
 import { UserMenu } from "./UserMenu";
 import Image from "next/image";
+import Link from "next/link";
 
 
 export async function DashboardHeader() {
@@ -21,9 +22,13 @@ export async function DashboardHeader() {
         </div>
         
         <div className="flex items-center space-x-4">
+          <div className="flex justify-around gap-5 text-sm font-medium">
+            <Link href="/foods">Foods</Link>
+            <Link href="/meals">Meals</Link>
+            <Link href="/analytics">Analytics</Link>
+          </div>
           <div className="hidden md:block">
             <p className="text-sm font-medium">Welcome, {user.name}!</p>
-            <p className="text-xs text-muted-foreground">{user.email}</p>
           </div>
           
           <UserMenu user={user} />
