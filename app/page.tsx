@@ -11,6 +11,7 @@ import {
   ArrowRight,
   CheckCircle2
 } from "lucide-react";
+import Image from "next/image";
 
 export default function LandingPage() {
   return (
@@ -19,8 +20,7 @@ export default function LandingPage() {
       <header className="container mx-auto px-4 py-6">
         <nav className="flex items-center justify-between">
           <div className="flex items-center gap-2">
-            <Apple className="h-8 w-8 text-primary" />
-            <span className="text-2xl font-bold">CaloriTrack</span>
+            <Image src="/Logo.png" alt="Logo" width={165} height={190} />
           </div>
           <div className="flex items-center gap-4">
             <Link href="/sign-in">
@@ -196,7 +196,7 @@ export default function LandingPage() {
       <section className="container mx-auto px-4 py-20">
         <div className="max-w-3xl mx-auto">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold mb-4">Why CaloriTrack?</h2>
+            <h2 className="text-3xl font-bold mb-4">Why NutriLog?</h2>
           </div>
 
           <div className="space-y-4">
@@ -264,13 +264,9 @@ export default function LandingPage() {
       {/* Footer */}
       <footer className="border-t py-8">
         <div className="container mx-auto px-4">
-          <div className="flex flex-col md:flex-row items-center justify-between gap-4">
-            <div className="flex items-center gap-2">
-              <Apple className="h-6 w-6 text-primary" />
-              <span className="font-semibold">CaloriTrack</span>
-            </div>
+          <div className="flex flex-col md:flex-row items-center justify-center gap-4">
             <p className="text-sm text-muted-foreground">
-              © 2025 CaloriTrack. Built with ❤️ for better nutrition.
+              © 2025 NutriLog. Built with ❤️ for better nutrition.
             </p>
           </div>
         </div>
