@@ -11,7 +11,7 @@ const poppins = Poppins({
 
 export const metadata: Metadata = {
   title: "NutriLog",
-  description: "",
+  description: "Track Your Nutrition, The Smart Way",
 };
 
 export const dynamic = 'force-dynamic'

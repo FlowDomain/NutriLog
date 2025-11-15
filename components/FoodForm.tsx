@@ -122,12 +122,12 @@ export function FoodForm({ initialData, onSubmit, onCancel, isLoading }: FoodFor
                     name="servingSize"
                     render={({ field }) => (
                         <FormItem>
-                            <FormLabel>Serving Size (grams) *</FormLabel>
+                            <FormLabel>Serving Size (grams/mL) *</FormLabel>
                             <FormControl>
                                 <Input type="number" placeholder="100" {...field} />
                             </FormControl>
                             <FormDescription>
-                                Base serving size in grams
+                                Base serving size in grams/mL
                             </FormDescription>
                             <FormMessage />
                         </FormItem>
