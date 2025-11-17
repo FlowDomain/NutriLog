@@ -13,7 +13,8 @@ import {
 } from "@/components/ui/dropdown-menu";
 import { Button } from "@/components/ui/button";
 import { Avatar, AvatarFallback } from "@/components/ui/avatar";
-import { User, Settings, LogOut } from "lucide-react";
+import { User, Settings, LogOut, LayoutDashboard, ForkKnifeCrossed, SoupIcon, BatteryLowIcon, BarChartBigIcon } from "lucide-react";
+import { toast } from "@/lib/toast";
 
 interface UserMenuProps {
     user: {
@@ -30,10 +31,13 @@ export function UserMenu({ user }: UserMenuProps) {
         setIsLoading(true);
         try {
             await signOut();
-            router.push("/sign-in");
-            router.refresh();
+            toast.success("Logged out successfully", "See you next time! 👋");
+            setTimeout(() => {
+                router.push("/sign-in");
+                router.refresh();
+            }, 1000);
         } catch (error) {
-            console.error("Logout error:", error);
+            toast.error("Logout failed", "Please try again");
         } finally {
             setIsLoading(false);
         }
@@ -65,6 +69,22 @@ export function UserMenu({ user }: UserMenuProps) {
                     </div>
                 </DropdownMenuLabel>
                 <DropdownMenuSeparator />
+                <DropdownMenuItem onClick={() => router.push("/dashboard")}>
+                    <LayoutDashboard className="mr-2 h-4 w-4 " />
+                    Dashboard
+                </DropdownMenuItem>
+                <DropdownMenuItem onClick={() => router.push("/foods")}>
+                    <ForkKnifeCrossed className="mr-2 h-4 w-4" />
+                    Foods
+                </DropdownMenuItem>
+                <DropdownMenuItem onClick={() => router.push("/meals")}>
+                    <SoupIcon className="mr-2 h-4 w-4" />
+                    Meals
+                </DropdownMenuItem>
+                <DropdownMenuItem onClick={() => router.push("/analytics")}>
+                    <BarChartBigIcon className="mr-2 h-4 w-4" />
+                    Analytics
+                </DropdownMenuItem>
                 <DropdownMenuItem onClick={() => router.push("/profile")}>
                     <User className="mr-2 h-4 w-4" />
                     Profile

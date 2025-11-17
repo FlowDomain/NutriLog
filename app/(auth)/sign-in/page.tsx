@@ -19,6 +19,7 @@ import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import Link from "next/link";
+import { toast } from "@/lib/toast";
 
 // Validation schema
 const signInSchema = z.object({
@@ -32,7 +33,6 @@ export default function SignInPage() {
     const router = useRouter();
     const searchParams = useSearchParams();
     const callbackUrl = searchParams.get("callbackUrl") || "/dashboard";
-    const [error, setError] = useState<string>("");
     const [isLoading, setIsLoading] = useState(false);
 
     const form = useForm<SignInFormValues>({
@@ -44,7 +44,6 @@ export default function SignInPage() {
     });
 
     async function onSubmit(values: SignInFormValues) {
-        setError("");
         setIsLoading(true);
 
         try {
@@ -55,43 +54,33 @@ export default function SignInPage() {
 
             console.log("[SIGN IN] Result:", result); // DEBUG
 
-            if (!result.error) {
-                console.log("[SIGN IN] Success!");
-                console.log("[SIGN IN] Checking cookies...");
-
-                // Get all cookies
-                const allCookies = document.cookie.split(';').map(c => {
-                    const [name, value] = c.trim().split('=');
-                    return { name, hasValue: !!value };
-                });
-
-                console.log("[SIGN IN] All browser cookies:", allCookies);
-
-                // Find session cookie
-                const sessionCookie = allCookies.find(c =>
-                    c.name.includes('session') ||
-                    c.name.includes('auth') ||
-                    c.name.includes('token')
-                );
-
-                console.log("[SIGN IN] Session cookie:", sessionCookie);
-
-                // Wait for cookie
-                await new Promise(resolve => setTimeout(resolve, 2000));
-
-                // Now call debug endpoint
-                console.log("[SIGN IN] Calling debug endpoint...");
-                const debugResponse = await fetch('/api/debug-cookies');
-                const debugData = await debugResponse.json();
-                console.log("[SIGN IN] Server sees cookies:", debugData);
-
-                // Redirect
-                window.location.href = callbackUrl;
+            if (result.error) {
+                // ✅ Error toast with specific message
+                if (result.error.message?.includes('credentials')) {
+                    toast.error("Invalid credentials", "Please check your email and password");
+                } else {
+                    toast.error("Login failed", result.error.message || "Please try again");
+                }
+                setIsLoading(false);
+                return;
             }
-        } catch (err) {
-            setError("An unexpected error occurred. Please try again.");
+
+            console.log("[SIGN IN] Success!");
+
+            // ✅ Success toast (no need to wait for name, just show generic message)
+            toast.success("Welcome back!", "NutriLog missed you.");
+
+            // Wait a bit for cookies to be set
+            await new Promise(resolve => setTimeout(resolve, 1000));
+
+            // Redirect
+            window.location.href = callbackUrl;
+        } catch (err: any) {
+            console.error("[SIGN IN] Error:", err);
+            // ✅ Error toast for unexpected errors
+            toast.error("Unexpected error", "Please try again or contact support");
         } finally {
-            setIsLoading(false);
+            setIsLoading(false)
         }
     }
 
@@ -137,7 +126,6 @@ export default function SignInPage() {
                         <Image src="/assets/icons/loader.svg" alt="loader" width={24} height={24} className="ml-2 animate-spin" />
                     )}
                 </Button>
-                {error && <p className="text-red-600 text-sm">{error}</p>}
 
                 <div className="body-2 flex justify-center">
                     <p className="text-light-100">

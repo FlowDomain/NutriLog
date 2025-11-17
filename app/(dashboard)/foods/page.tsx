@@ -17,6 +17,7 @@ import {
     AlertDialogHeader,
     AlertDialogTitle,
 } from "@/components/ui/alert-dialog";
+import { toast } from "@/lib/toast";
 
 export default function FoodsPage() {
     const router = useRouter();
@@ -34,6 +35,7 @@ export default function FoodsPage() {
             try {
                 await deleteFood(deleteId);
                 setDeleteId(null);
+                toast.success('Food deleted', 'The food has been removed')
             } catch (error) {
                 console.error("Delete failed:", error);
             }

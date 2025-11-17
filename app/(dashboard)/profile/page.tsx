@@ -55,10 +55,10 @@ export default function ProfilePage() {
     <div className="space-y-6 pr-5 pl-5">
       <div className="flex items-center justify-between">
         <div>
-          <h2 className="text-3xl font-bold tracking-tight">Profile</h2>
+          <h2 className="text-3xl font-bold tracking-tight text-blue ">Profile</h2>
           <p className="text-muted-foreground">Manage your personal information</p>
         </div>
-        <Button onClick={() => router.push("/profile/edit")}>
+        <Button onClick={() => router.push("/profile/edit")} className="bg-blue">
           <Edit className="mr-2 h-4 w-4" />
           Edit Profile
         </Button>
@@ -213,20 +213,20 @@ export default function ProfilePage() {
               <div>
                 <p className="text-sm text-muted-foreground mb-2">Macro Targets</p>
                 <div className="grid grid-cols-3 gap-2 text-center">
-                  <div className="rounded-lg bg-blue-50 p-3">
-                    <p className="text-xs text-muted-foreground">Carbs</p>
+                  <div className="rounded-lg bg-blue-100 p-3">
+                    <p className="text-sm text-muted-foreground">Carbs</p>
                     <p className="text-lg font-bold text-blue-600">
                       {profile.macroTargets.carbs}%
                     </p>
                   </div>
-                  <div className="rounded-lg bg-green-50 p-3">
-                    <p className="text-xs text-muted-foreground">Protein</p>
+                  <div className="rounded-lg bg-green-100 p-3">
+                    <p className="text-sm text-muted-foreground">Protein</p>
                     <p className="text-lg font-bold text-green-600">
                       {profile.macroTargets.protein}%
                     </p>
                   </div>
-                  <div className="rounded-lg bg-yellow-50 p-3">
-                    <p className="text-xs text-muted-foreground">Fats</p>
+                  <div className="rounded-lg bg-yellow-100 p-3">
+                    <p className="text-sm text-muted-foreground">Fats</p>
                     <p className="text-lg font-bold text-yellow-600">
                       {profile.macroTargets.fats}%
                     </p>

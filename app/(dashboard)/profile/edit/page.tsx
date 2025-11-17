@@ -1,6 +1,5 @@
 "use client"
 
-import { Alert, AlertDescription } from "@/components/ui/alert"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Form, FormControl, FormDescription, FormField, FormItem, FormLabel, FormMessage } from "@/components/ui/form"
@@ -8,6 +7,7 @@ import { Input } from "@/components/ui/input"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
 import { Tabs, TabsContent, TabsTrigger } from "@/components/ui/tabs"
 import { useProfile } from "@/hooks/useProfile"
+import { toast } from "@/lib/toast"
 import { calculateBMI, calculateRecommendedCalories, getBMICategory, getRecommendedMacros } from "@/lib/utils/calorieCalculator"
 import { zodResolver } from "@hookform/resolvers/zod"
 import { TabsList } from "@radix-ui/react-tabs"
@@ -38,8 +38,6 @@ export default function EditProfilePage() {
     const router = useRouter()
     const { profile, updateProfile, refetch } = useProfile() // Added refetch
     const [isLoading, setIsLoading] = useState(false)
-    const [error, setError] = useState<string | null>(null)
-    const [success, setSuccess] = useState(false)
 
     const form = useForm<ProfileFormValues>({
         resolver: zodResolver(profileSchema),
@@ -73,6 +71,13 @@ export default function EditProfilePage() {
 
     const watchedValues = form.watch()
 
+    const macroSum =
+        Number(watchedValues.macroTargets.carbs) +
+        Number(watchedValues.macroTargets.protein) +
+        Number(watchedValues.macroTargets.fats)
+
+    const macrosValid = Math.abs(macroSum - 100) < 0.1
+
     // CALCULATE RECOMMENDATIONS
     const recommendedCalories = calculateRecommendedCalories(
         watchedValues.weight,
@@ -91,69 +96,40 @@ export default function EditProfilePage() {
     const applyRecommendations = () => {
         form.setValue("dailyCalorieTarget", recommendedCalories)
         form.setValue("macroTargets", recommendedMacros)
+        toast.success("Recommendations applied", "Your targets have been updated")
     }
 
     const handleSubmit = async (values: ProfileFormValues) => {
-        // VALIDATE MACRO SUM
-        const macroSum = values.macroTargets.carbs + values.macroTargets.protein + values.macroTargets.fats
-        if (Math.abs(macroSum - 100) > 0.1) {
-            setError("Macro percentages must sum to 100%")
-            return
-        }
-
         setIsLoading(true)
-        setError(null)
-        setSuccess(false) // Reset success state
 
         try {
-            console.log('[EDIT PAGE] Submitting values:', values)
-            
+
             const result = await updateProfile(values)
-            
-            console.log('[EDIT PAGE] Update result:', result)
-            
-            setSuccess(true)
-            
+
+            toast.success("Profile updated successfully!", "Redirecting to profile page...")
             // Force a refetch to ensure we have the latest data
             await refetch()
-            
-            console.log('[EDIT PAGE] Profile refetched, redirecting...')
-            
+
             // Redirect after a short delay
             setTimeout(() => {
                 router.push("/profile")
                 router.refresh() // Force a refresh of the profile page
             }, 1500)
-            
+
         } catch (error: any) {
             console.error('[EDIT PAGE] Update error:', error)
-            setError(error.message || 'Failed to update profile')
-            setSuccess(false)
+            toast.error("Update failed", error.message || 'Failed to update profile')
         } finally {
             setIsLoading(false)
         }
     }
 
     return (
-        <div className="max-w-4xl mx-auto space-y-6 ">
+        <div className="max-w-4xl mx-auto space-y-6 pr-5 pl-5 ">
             <div>
-                <h2 className="text-3xl font-bold tracking-tight">Edit Profile</h2>
+                <h2 className="text-3xl font-bold tracking-tight text-blue">Edit Profile</h2>
                 <p className="text-muted-foreground">Update your personal information and nutrition targets</p>
             </div>
-
-            {error && (
-                <Alert variant="destructive">
-                    <AlertDescription>{error}</AlertDescription>
-                </Alert>
-            )}
-
-            {success && (
-                <Alert className="bg-green-50 border-green-200">
-                    <AlertDescription className="text-green-800">
-                        Profile updated successfully! Redirecting...
-                    </AlertDescription>
-                </Alert>
-            )}
 
 
             <Form {...form}>
@@ -311,7 +287,7 @@ export default function EditProfilePage() {
                                 </CardHeader>
                                 <CardContent className="space-y-4">
                                     <div>
-                                        <p className="text-sm text-blue-800 mb-2">Based on your stats, activity level, & goal:</p>
+                                        <p className="text-sm text-blue-800 mb-2">Based on your stats, activity level & goal:</p>
                                         <div className="grid gap-3 md:grid-cols-2">
                                             <div className="rounded-lg bg-white p-3">
                                                 <p className="text-sm text-muted-foreground">Calories</p>
@@ -366,7 +342,14 @@ export default function EditProfilePage() {
                                                 <FormItem>
                                                     <FormLabel>Carbs % *</FormLabel>
                                                     <FormControl>
-                                                        <Input type="number" placeholder="40" {...field} />
+                                                        <input
+                                                            type="number"
+                                                            min="0"
+                                                            max="100"
+                                                            step="1"
+                                                            {...form.register('macroTargets.carbs', { valueAsNumber: true })}
+                                                            className="w-full px-3 py-2 border rounded"
+                                                        />
                                                     </FormControl>
                                                     <FormMessage />
                                                 </FormItem>
@@ -377,7 +360,14 @@ export default function EditProfilePage() {
                                                 <FormItem>
                                                     <FormLabel>Protein % *</FormLabel>
                                                     <FormControl>
-                                                        <Input type="number" placeholder="30" {...field} />
+                                                        <input
+                                                            type="number"
+                                                            min="0"
+                                                            max="100"
+                                                            step="1"
+                                                            {...form.register('macroTargets.protein', { valueAsNumber: true })}
+                                                            className="w-full px-3 py-2 border rounded"
+                                                        />
                                                     </FormControl>
                                                     <FormMessage />
                                                 </FormItem>
@@ -388,7 +378,14 @@ export default function EditProfilePage() {
                                                 <FormItem>
                                                     <FormLabel>Fats % *</FormLabel>
                                                     <FormControl>
-                                                        <Input type="number" placeholder="30" {...field} />
+                                                        <input
+                                                            type="number"
+                                                            min="0"
+                                                            max="100"
+                                                            step="1"
+                                                            {...form.register('macroTargets.fats', { valueAsNumber: true })}
+                                                            className="w-full px-3 py-2 border rounded"
+                                                        />
                                                     </FormControl>
                                                     <FormMessage />
                                                 </FormItem>
@@ -397,15 +394,18 @@ export default function EditProfilePage() {
                                     </div>
 
                                     {/* MACRO SUM VALIDATION */}
-                                    <div className="rounded-lg bg-muted p-3">
-                                        <p className="text-sm">
-                                            Total: <span className="font-bold">
-                                                {watchedValues.macroTargets.carbs + watchedValues.macroTargets.protein + watchedValues.macroTargets.fats}%
-                                            </span>
-                                            {Math.abs((watchedValues.macroTargets.carbs + watchedValues.macroTargets.protein + watchedValues.macroTargets.fats) - 100) > 0.1 && (
-                                                <span className="text-red-600 ml-2">(Must equal 100%)</span>
-                                            )}
+                                    <div className={`p-3 rounded border-2 ${macrosValid
+                                        ? 'border-green-500 bg-green-100 text-green-800'
+                                        : 'border-red-500 bg-red-100 text-red-800'
+                                        }`}>
+                                        <p className="text-sm font-medium">
+                                            Total: {macroSum}% {macrosValid ? '✓' : '✗'}
                                         </p>
+                                        {!macrosValid && (
+                                            <p className="text-xs mt-1">
+                                                Must equal 100% (currently {macroSum > 100 ? 'over' : 'under'} by {Math.abs(100 - macroSum)}%)
+                                            </p>
+                                        )}
                                     </div>
                                 </CardContent>
                             </Card>
@@ -413,7 +413,7 @@ export default function EditProfilePage() {
                     </Tabs>
 
                     <div className="flex gap-4">
-                        <Button type="submit" disabled={isLoading} className="flex-1">
+                        <Button type="submit" disabled={isLoading} className="flex-1 bg-blue">
                             {isLoading ? "Saving..." : "Save Changes"}
                         </Button>
                         <Button type="button" variant="outline" onClick={() => router.push("/profile")}>

@@ -30,6 +30,7 @@ import { MacroDisplay } from "@/components/MacroDisplay";
 import { GradeIndicator } from "@/components/GradeIndicator";
 import { useMeals } from "@/hooks/useMeals";
 import { format } from "date-fns";
+import { toast } from "@/lib/toast";
 
 const mealFormSchema = z.object({
     name: z.string().min(1, "Meal name is required"),
@@ -58,8 +59,6 @@ export default function LogMealPage() {
     const { createMeal } = useMeals();
     const [selectedFoods, setSelectedFoods] = useState<SelectedFood[]>([]);
     const [isLoading, setIsLoading] = useState(false);
-    const [error, setError] = useState<string | null>(null);
-    const [gradePreview, setGradePreview] = useState<any>(null);
 
     const form = useForm<MealFormValues>({
         resolver: zodResolver(mealFormSchema),
@@ -84,12 +83,11 @@ export default function LogMealPage() {
 
     const handleSubmit = async (values: MealFormValues) => {
         if (selectedFoods.length === 0) {
-            setError("Please add at least one food item");
+            toast.warning("No foods selected", "Please add at least one food item to your meal");
             return;
         }
 
         setIsLoading(true);
-        setError(null);
 
         try {
             const mealData = {
@@ -101,14 +99,18 @@ export default function LogMealPage() {
             };
 
             const result = await createMeal(mealData);
-            setGradePreview(result.gradeResult);
+
+            toast.success(
+                "Meal logged successfully!",
+                `Grade: ${result.gradeResult?.grade || 'N/A'} • ${totalCalories} calories`
+            );
 
             // Show success and redirect after 2 seconds
             setTimeout(() => {
                 router.push("/meals");
             }, 2000);
         } catch (err: any) {
-            setError(err.message);
+            toast.error("Failed to log meal", err.message || "Please try again");
         } finally {
             setIsLoading(false);
         }
@@ -122,22 +124,6 @@ export default function LogMealPage() {
                     Add a new meal to track your nutrition
                 </p>
             </div>
-
-            {error && (
-                <Alert variant="destructive">
-                    <AlertDescription>{error}</AlertDescription>
-                </Alert>
-            )}
-
-            {gradePreview && (
-                <Alert className="bg-green-50 border-green-200">
-                    <AlertDescription className="flex items-center gap-2">
-                        <span>Meal logged successfully! </span>
-                        <GradeIndicator grade={gradePreview.grade} score={gradePreview.score} showScore />
-                        <span className="text-sm">{gradePreview.feedback}</span>
-                    </AlertDescription>
-                </Alert>
-            )}
 
             <div className="grid gap-6 lg:grid-cols-3">
                 {/* Main Form */}

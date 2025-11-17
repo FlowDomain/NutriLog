@@ -4,8 +4,8 @@ import { useState, useEffect } from "react";
 import { useRouter, useParams } from "next/navigation";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Alert, AlertDescription } from "@/components/ui/alert";
-import { use } from "react";
 import { FoodForm } from "@/components/FoodForm";
+import { toast } from "@/lib/toast";
 
 export default function EditFoodPage() {
     const router = useRouter();
@@ -15,7 +15,6 @@ export default function EditFoodPage() {
     const [food, setFood] = useState<any>(null);
     const [isLoading, setIsLoading] = useState(true);
     const [isSaving, setIsSaving] = useState(false);
-    const [error, setError] = useState<string | null>(null);
 
     useEffect(() => {
         fetchFood();
@@ -32,7 +31,11 @@ export default function EditFoodPage() {
 
             setFood(result.data);
         } catch (err: any) {
-            setError(err.message);
+            toast.error("Failed to load food", err.message || "Please try again");
+            // Optionally redirect back to foods list after error
+            setTimeout(() => {
+                router.push("/foods");
+            }, 2000);
         } finally {
             setIsLoading(false);
         }
@@ -40,7 +43,6 @@ export default function EditFoodPage() {
 
     const handleSubmit = async (data: any) => {
         setIsSaving(true);
-        setError(null);
 
         try {
             const response = await fetch(`/api/foods/${foodId}`, {
@@ -55,9 +57,19 @@ export default function EditFoodPage() {
                 throw new Error(result.error);
             }
 
-            router.push("/foods");
+            toast.success(
+                "Food updated successfully!",
+                `${data.name} has been updated`
+            );
+
+            // Redirect after short delay
+            setTimeout(() => {
+                router.push("/foods");
+                router.refresh();
+            }, 1000);
+
         } catch (err: any) {
-            setError(err.message);
+            toast.error("Failed to update food", err.message || "Please try again");
         } finally {
             setIsSaving(false);
         }
@@ -73,12 +85,14 @@ export default function EditFoodPage() {
         );
     }
 
-    if (error && !food) {
+    if (!food) {
         return (
             <div className="max-w-2xl mx-auto space-y-6">
-                <Alert variant="destructive">
-                    <AlertDescription>{error}</AlertDescription>
-                </Alert>
+                <div className="text-center py-12">
+                    <p className="text-muted-foreground">
+                        Food not found. Redirecting...
+                    </p>
+                </div>
             </div>
         );
     }
@@ -91,12 +105,6 @@ export default function EditFoodPage() {
                     Update food item details
                 </p>
             </div>
-
-            {error && (
-                <Alert variant="destructive">
-                    <AlertDescription>{error}</AlertDescription>
-                </Alert>
-            )}
 
             <Card>
                 <CardHeader>

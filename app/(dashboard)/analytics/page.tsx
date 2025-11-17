@@ -25,7 +25,7 @@ export default function AnalyticsPage() {
     if (isLoading) {
         return (
             <div className="space-y-6">
-                <h2 className="text-3xl font-bold tracking-tight" >Analytics</h2>
+                <h2 className="text-3xl font-bold tracking-tight text-red ">Analytics</h2>
                 <div className="text-center py-12">
                     <p className="text-muted-foreground">Loading analytics...</p>
                 </div>
@@ -37,7 +37,7 @@ export default function AnalyticsPage() {
     if (!data) {
         return (
             <div className="space-y-6">
-                <h2 className="text-3xl font-bold tracking-tight" >Analytics</h2>
+                <h2 className="text-3xl font-bold tracking-tight text-red" >Analytics</h2>
                 <Card>
                     <CardContent className="py-12 text-center">
                         <p className="text-muted-foreground">No data available yet. Start logging meals!</p>
@@ -51,7 +51,7 @@ export default function AnalyticsPage() {
         <div className="space-y-6 pr-5 pl-5">
             <div className="flex items-center justify-between">
                 <div>
-                    <h2 className="text-3xl font-bold tracking-tight">Analytics</h2>
+                    <h2 className="text-3xl font-bold tracking-tight text-red">Analytics</h2>
                     <p className="text-muted-foreground">
                         {format(new Date(data.period.startDate), "MMM d")}-{" "}
                         {format(new Date(data.period.endDate), "MMM d, yyyy")}

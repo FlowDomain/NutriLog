@@ -8,10 +8,8 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { useAnalytics } from "@/hooks/useAnalytics";
 import { useMeals } from "@/hooks/useMeals";
-import { getCurrentUser } from "@/lib/auth/session";
 import { format } from "date-fns";
 import { Award, Calendar, Flame, Plus, Target, TrendingUp } from "lucide-react";
-import { redirect } from "next/navigation";
 import { useRouter } from "next/navigation";
 
 export default function DashboardPage() {
@@ -57,12 +55,12 @@ export default function DashboardPage() {
         <div className="space-y-6 pr-5 pl-5">
             <div className="flex items-center justify-between">
                 <div>
-                    <h2 className="text-3xl font-bold tracking-tight">Dashboard</h2>
+                    <h2 className="text-3xl font-bold tracking-tight text-[#932152]">Dashboard</h2>
                     <p className="text-muted-foreground">
                         {format(new Date(), "EEEE, MMMM d, yyyy")}
                     </p>
                 </div>
-                <Button onClick={() => router.push("/meals/log")}>
+                <Button onClick={() => router.push("/meals/log")} className="bg-[#932152]">
                     <Plus className="mr-2 h-4 w-4" />
                     Log Meal
                 </Button>
@@ -133,7 +131,7 @@ export default function DashboardPage() {
                     <Card>
                         <CardContent className="py-12 text-center">
                             <p className="text-muted-foreground mb-4">No meals logged today</p>
-                            <Button onClick={() => router.push("/meals/log")}>
+                            <Button onClick={() => router.push("/meals/log")} className="bg-[#932152]">
                                 <Plus className="mr-2 h-4 w-4" />
                                 Log Your First Meal
                             </Button>

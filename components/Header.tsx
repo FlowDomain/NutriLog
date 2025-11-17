@@ -22,15 +22,15 @@ export async function DashboardHeader() {
         </div>
         
         <div className="flex items-center space-x-4">
-          <div className="flex justify-around gap-5 text-sm font-medium">
-            <Link href="/foods">Foods</Link>
-            <Link href="/meals">Meals</Link>
-            <Link href="/analytics">Analytics</Link>
+          <div className="flex justify-around gap-5 text-md font-semibold ">
+            <Link  href="/dashboard">Dashboard</Link>
+            <Link  href="/foods">Foods</Link>
+            <Link  href="/meals">Meals</Link>
+            <Link  href="/analytics">Analytics</Link>
           </div>
           <div className="hidden md:block">
-            <p className="text-sm font-medium">Welcome, {user.name}!</p>
+            <p className="text-md font-semibold text-[#896ffd]">Welcome, {user.name}!</p>
           </div>
-          
           <UserMenu user={user} />
         </div>
       </div>

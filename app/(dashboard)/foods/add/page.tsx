@@ -5,22 +5,22 @@ import { useRouter } from "next/navigation";
 import { FoodForm } from "@/components/FoodForm";
 import { useFoods } from "@/hooks/useFoods";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { toast } from "@/lib/toast";
 
 export default function AddFoodPage() {
     const router = useRouter();
     const { createFood } = useFoods();
     const [isLoading, setIsLoading] = useState(false);
-    const [error, setError] = useState<string | null>(null);
 
     const handleSubmit = async (data: any) => {
         setIsLoading(true);
-        setError(null);
 
         try {
             await createFood(data);
+            toast.success('Food added successfully', 'You can now use this food in your meals')
             router.push("/foods");
         } catch (err: any) {
-            setError(err.message);
+            toast.error("Failed to add food", err.message || "Please try again");
         } finally {
             setIsLoading(false);
         }
@@ -34,13 +34,6 @@ export default function AddFoodPage() {
                     Add a new food item to your menu.
                 </p>
             </div>
-
-            {error && (
-                <div className="bg-destructive/10 text-destructive p-4 rounded-lg">
-                    {error}
-                </div>
-            )}
-
             <Card>
                 <CardHeader>
                     <CardTitle>Food Details</CardTitle>

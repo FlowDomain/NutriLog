@@ -85,12 +85,12 @@ export default function MealsPage() {
         <div className="space-y-6 pr-5 pl-5">
             <div className="flex items-center justify-between">
                 <div>
-                    <h2 className="text-3xl font-bold tracking-tight">Meals</h2>
+                    <h2 className="text-3xl font-bold tracking-tight text-green">Meals</h2>
                     <p className="text-muted-foreground">
                         Track and manage your daily meals
                     </p>
                 </div>
-                <Button onClick={() => router.push("/meals/log")}>
+                <Button onClick={() => router.push("/meals/log")} className="bg-green">
                     <Plus className="mr-2 h-4 w-4" />
                     Log Meal
                 </Button>
@@ -156,7 +156,7 @@ export default function MealsPage() {
                     <p className="text-muted-foreground">
                         No meals logged yet. Start tracking your nutrition!
                     </p>
-                    <Button onClick={() => router.push("/meals/log")} className="mt-4">
+                    <Button onClick={() => router.push("/meals/log")} className="mt-4 bg-green">
                         Log Your First Meal
                     </Button>
                 </div>

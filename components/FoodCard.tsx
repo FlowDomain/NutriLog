@@ -77,15 +77,15 @@ export function FoodCard({ food, onEdit, onDelete, showActions = true }: FoodCar
                 <div>
                     <p className="text-sm font-medium mb-2">Macros</p>
                     <div className="grid grid-cols-3 gap-2">
-                        <div className="text-center p-2 rounded bg-blue-50">
+                        <div className="text-center p-2 rounded bg-blue-100">
                             <p className="text-xs text-muted-foreground">Carbs</p>
                             <p className="font-semibold">{food.macros.carbs}g</p>
                         </div>
-                        <div className="text-center p-2 rounded bg-green-50">
+                        <div className="text-center p-2 rounded bg-green-100">
                             <p className="text-xs text-muted-foreground">Protein</p>
                             <p className="font-semibold">{food.macros.protein}g</p>
                         </div>
-                        <div className="text-center p-2 rounded bg-yellow-50">
+                        <div className="text-center p-2 rounded bg-yellow-100">
                             <p className="text-xs text-muted-foreground">Fats</p>
                             <p className="font-semibold">{food.macros.fats}g</p>
                         </div>

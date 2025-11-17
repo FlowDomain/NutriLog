@@ -19,6 +19,7 @@ import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import Link from "next/link";
+import { toast } from "@/lib/toast";
 
 // Validation schema
 const signUpSchema = z.object({
@@ -31,7 +32,6 @@ type SignUpFormValues = z.infer<typeof signUpSchema>;
 
 export default function SignUpPage() {
     const router = useRouter();
-    const [error, setError] = useState<string>("");
     const [isLoading, setIsLoading] = useState(false);
 
     const form = useForm<SignUpFormValues>({
@@ -44,7 +44,6 @@ export default function SignUpPage() {
     });
 
     async function onSubmit(values: SignUpFormValues) {
-        setError("");
         setIsLoading(true);
 
         try {
@@ -55,14 +54,15 @@ export default function SignUpPage() {
             });
 
             if (result.error) {
-                setError(result.error.message || "Sign up failed");
+                toast.error("Sign Up failed", result.error.message || "Please try again");
             } else {
                 // Success! Redirect to dashboard
+                toast.success(`Welcome, ${values.name}!`, 'NutriLog is excited to have you on board.');
                 router.push("/dashboard");
                 router.refresh();
             }
         } catch (err) {
-            setError("An unexpected error occurred. Please try again.");
+            toast.error("Unexpected error", "Please try again or contact support");
         } finally {
             setIsLoading(false);
         }
@@ -128,9 +128,7 @@ export default function SignUpPage() {
                         <Image src="/assets/icons/loader.svg" alt="loader" width={24} height={24} className="ml-2 animate-spin" />
                     )}
                 </Button>
-                {error && <p className="text-red-600 text-sm">{error}</p>}
-
-
+                
                 <div className="body-2 flex justify-center">
                     <p className="text-light-100">
                         Already have an account?
