@@ -8,6 +8,7 @@ import { User, Edit, Calendar, TrendingUp, Target, Activity } from "lucide-react
 import { useRouter } from "next/navigation";
 import { calculateBMI, getBMICategory } from "@/lib/utils/calorieCalculator";
 import { format } from "date-fns";
+import { ProfilePageSkeleton } from "@/components/skeletons/PageSkeletons";
 
 export default function ProfilePage() {
   const router = useRouter();
@@ -15,19 +16,14 @@ export default function ProfilePage() {
 
   if (isLoading) {
     return (
-      <div className="space-y-6">
-        <h2 className="text-3xl font-bold tracking-tight">Profile</h2>
-        <div className="text-center py-12">
-          <p className="text-muted-foreground">Loading profile...</p>
-        </div>
-      </div>
+      <ProfilePageSkeleton />
     );
   }
 
   if (!profile) {
     return (
-      <div className="space-y-6">
-        <h2 className="text-3xl font-bold tracking-tight">Profile</h2>
+      <div className="space-y-6 pr-5 pl-5">
+        <h2 className="text-3xl font-bold tracking-tight text-blue">Profile</h2>
         <Card>
           <CardContent className="py-12 text-center">
             <p className="text-muted-foreground">Failed to load profile</p>
@@ -37,18 +33,18 @@ export default function ProfilePage() {
     );
   }
 
-  const bmi = profile.weight && profile.height 
-    ? calculateBMI(profile.weight, profile.height) 
+  const bmi = profile.weight && profile.height
+    ? calculateBMI(profile.weight, profile.height)
     : null;
-  
+
   const bmiCategory = bmi ? getBMICategory(bmi) : null;
 
-  const isProfileComplete = 
-    profile.age && 
-    profile.gender && 
-    profile.height && 
-    profile.weight && 
-    profile.activityLevel && 
+  const isProfileComplete =
+    profile.age &&
+    profile.gender &&
+    profile.height &&
+    profile.weight &&
+    profile.activityLevel &&
     profile.goal;
 
   return (
@@ -76,9 +72,9 @@ export default function ProfilePage() {
                 <p className="text-sm text-orange-700 mt-1">
                   Add your personal information to get personalized calorie recommendations and better insights.
                 </p>
-                <Button 
-                  variant="outline" 
-                  size="sm" 
+                <Button
+                  variant="outline"
+                  size="sm"
                   className="mt-3"
                   onClick={() => router.push("/profile/edit")}
                 >
@@ -159,7 +155,7 @@ export default function ProfilePage() {
                   <p className="text-2xl font-bold">{bmi}</p>
                   <Badge variant={
                     bmiCategory === "Normal weight" ? "default" :
-                    bmiCategory === "Overweight" ? "secondary" : "destructive"
+                      bmiCategory === "Overweight" ? "secondary" : "destructive"
                   }>
                     {bmiCategory}
                   </Badge>
@@ -205,7 +201,7 @@ export default function ProfilePage() {
             <div>
               <p className="text-sm text-muted-foreground">Daily Calorie Target</p>
               <p className="text-2xl font-bold">
-                {profile.dailyCalorieTarget || "Not set"} 
+                {profile.dailyCalorieTarget || "Not set"}
                 {profile.dailyCalorieTarget && " kcal"}
               </p>
             </div>

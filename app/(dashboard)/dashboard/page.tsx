@@ -3,6 +3,7 @@
 import { MacroDisplay } from "@/components/MacroDisplay";
 import { MealCard } from "@/components/MealCard";
 import { ProgressRing } from "@/components/ProgressRing";
+import { DashboardSkeleton } from "@/components/skeletons/PageSkeletons";
 import { StatCard } from "@/components/StatCard";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
@@ -42,12 +43,7 @@ export default function DashboardPage() {
 
     if (mealsLoading || analyticsLoading) {
         return (
-            <div className="space-y-6">
-                <h2 className="text-3xl font-bold tracking-tight">Dashboard</h2>
-                <div className="text-center py-12">
-                    <p className="text-muted-foreground">Loading dashboard...</p>
-                </div>
-            </div>
+            <DashboardSkeleton/>
         );
     }
 

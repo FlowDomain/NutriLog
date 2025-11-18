@@ -69,29 +69,26 @@ export function UserMenu({ user }: UserMenuProps) {
                     </div>
                 </DropdownMenuLabel>
                 <DropdownMenuSeparator />
-                <DropdownMenuItem onClick={() => router.push("/dashboard")}>
+
+                <DropdownMenuItem className="md:hidden" onClick={() => router.push("/dashboard")}>
                     <LayoutDashboard className="mr-2 h-4 w-4 " />
                     Dashboard
                 </DropdownMenuItem>
-                <DropdownMenuItem onClick={() => router.push("/foods")}>
+                <DropdownMenuItem className="md:hidden" onClick={() => router.push("/foods")}>
                     <ForkKnifeCrossed className="mr-2 h-4 w-4" />
                     Foods
                 </DropdownMenuItem>
-                <DropdownMenuItem onClick={() => router.push("/meals")}>
+                <DropdownMenuItem className="md:hidden" onClick={() => router.push("/meals")}>
                     <SoupIcon className="mr-2 h-4 w-4" />
                     Meals
                 </DropdownMenuItem>
-                <DropdownMenuItem onClick={() => router.push("/analytics")}>
+                <DropdownMenuItem className="md:hidden" onClick={() => router.push("/analytics")}>
                     <BarChartBigIcon className="mr-2 h-4 w-4" />
                     Analytics
                 </DropdownMenuItem>
                 <DropdownMenuItem onClick={() => router.push("/profile")}>
                     <User className="mr-2 h-4 w-4" />
                     Profile
-                </DropdownMenuItem>
-                <DropdownMenuItem onClick={() => router.push("/profile/settings")}>
-                    <Settings className="mr-2 h-4 w-4" />
-                    Settings
                 </DropdownMenuItem>
                 <DropdownMenuSeparator />
                 <DropdownMenuItem onClick={handleLogout} disabled={isLoading}>

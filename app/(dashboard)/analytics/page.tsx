@@ -4,6 +4,7 @@ import { CalorieChart } from "@/components/CalorieChart";
 import { GradeDistribution } from "@/components/GradeDistribution";
 import { MacroChart } from "@/components/MacroChart";
 import { MealTypeChart } from "@/components/MealTypeChart";
+import { AnalyticsPageSkeleton } from "@/components/skeletons/PageSkeletons";
 import { StatCard } from "@/components/StatCard";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
@@ -24,19 +25,14 @@ export default function AnalyticsPage() {
 
     if (isLoading) {
         return (
-            <div className="space-y-6">
-                <h2 className="text-3xl font-bold tracking-tight text-red ">Analytics</h2>
-                <div className="text-center py-12">
-                    <p className="text-muted-foreground">Loading analytics...</p>
-                </div>
-            </div>
+            <AnalyticsPageSkeleton/>
         )
     }
 
 
     if (!data) {
         return (
-            <div className="space-y-6">
+            <div className="space-y-6 pr-5 pl-5">
                 <h2 className="text-3xl font-bold tracking-tight text-red" >Analytics</h2>
                 <Card>
                     <CardContent className="py-12 text-center">

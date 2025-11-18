@@ -18,6 +18,7 @@ import {
     AlertDialogTitle,
 } from "@/components/ui/alert-dialog";
 import { toast } from "@/lib/toast";
+import { FoodsListSkeleton } from "@/components/skeletons/PageSkeletons";
 
 export default function FoodsPage() {
     const router = useRouter();
@@ -74,9 +75,7 @@ export default function FoodsPage() {
             </div>
 
             {isLoading ? (
-                <div className="text-center py-12">
-                    <p className="text-muted-foreground">Loading foods...</p>
-                </div>
+                <FoodsListSkeleton/>
             ) : filteredFoods.length === 0 ? (
                 <div className="text-center py-12">
                     <p className="text-muted-foreground">
@@ -106,7 +105,7 @@ export default function FoodsPage() {
                     </AlertDialogHeader>
                     <AlertDialogFooter>
                         <AlertDialogCancel>Cancel</AlertDialogCancel>
-                        <AlertDialogAction onClick={handleDelete}>Delete</AlertDialogAction>
+                        <AlertDialogAction className="bg-red-700" onClick={handleDelete}>Delete</AlertDialogAction>
                     </AlertDialogFooter>
                 </AlertDialogContent>
             </AlertDialog>

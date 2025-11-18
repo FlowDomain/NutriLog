@@ -6,6 +6,8 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Alert, AlertDescription } from "@/components/ui/alert";
 import { FoodForm } from "@/components/FoodForm";
 import { toast } from "@/lib/toast";
+import { Skeleton } from "@/components/ui/skeleton";
+import { FormSkeleton } from "@/components/skeletons/FormSkeleton";
 
 export default function EditFoodPage() {
     const router = useRouter();
@@ -78,9 +80,21 @@ export default function EditFoodPage() {
     if (isLoading) {
         return (
             <div className="max-w-2xl mx-auto space-y-6">
-                <div className="text-center py-12">
-                    <p className="text-muted-foreground">Loading food...</p>
+                {/* Header Skeleton */}
+                <div className="space-y-2">
+                    <Skeleton className="h-8 w-48" />
+                    <Skeleton className="h-4 w-64" />
                 </div>
+
+                {/* Form Card Skeleton */}
+                <Card>
+                    <CardHeader>
+                        <Skeleton className="h-6 w-32" />
+                    </CardHeader>
+                    <CardContent>
+                        <FormSkeleton fields={6} />
+                    </CardContent>
+                </Card>
             </div>
         );
     }

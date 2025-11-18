@@ -25,6 +25,7 @@ import {
     AlertDialogHeader,
     AlertDialogTitle,
 } from "@/components/ui/alert-dialog";
+import { MealsListSkeleton } from "@/components/skeletons/PageSkeletons";
 
 export default function MealsPage() {
     const router = useRouter();
@@ -148,9 +149,7 @@ export default function MealsPage() {
 
             {/* Meals List */}
             {isLoading ? (
-                <div className="text-center py-12">
-                    <p className="text-muted-foreground">Loading meals...</p>
-                </div>
+                <MealsListSkeleton/>
             ) : meals.length === 0 ? (
                 <div className="text-center py-12">
                     <p className="text-muted-foreground">
