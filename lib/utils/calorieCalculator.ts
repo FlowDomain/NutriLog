@@ -1,3 +1,5 @@
+import { roundToDecimal } from "./calculations";
+
 export type Gender = 'male' | 'female' | 'other';
 export type ActivityLevel = 'sedentary' | 'light' | 'moderate' | 'active' | 'very_active'
 export type Goal = 'lose_weight' | 'maintain' | 'gain_weight' | 'gain_muscle'
@@ -39,7 +41,7 @@ export function calculateBMR(
 }
 
 //  * Calculate TDEE (Total Daily Energy Expenditure)
-//  * BMR * Activity Level
+//  * BMR x Activity Level
 
 export function calculateTDEE(
     bmr: number,
@@ -89,8 +91,9 @@ export function getRecommendedMacros(goal: Goal): {
 // Calculate BMI
 
 export function calculateBMI(weight: number, height: number): number {
-    const heightInMeters = height / 100
-    return Math.round((weight / (heightInMeters * heightInMeters)) * 10) / 10
+    const heightInMeters = height / 100;
+    const bmi = weight / (heightInMeters * heightInMeters);
+    return roundToDecimal(bmi, 1);
 }
 
 // Get BMI category

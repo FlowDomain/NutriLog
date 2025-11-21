@@ -1,0 +1,6449 @@
+[
+  {
+    "name": "Aloo Paratha (Classic)",
+    "description": "Aloo Paratha (Classic) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 317.9,
+    "carbs_g": 50.4,
+    "protein_g": 23.0,
+    "fats_g": 2.7
+  },
+  {
+    "name": "Aloo Paratha (Home Style)",
+    "description": "Aloo Paratha (Home Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 440.9,
+    "carbs_g": 42.0,
+    "protein_g": 21.2,
+    "fats_g": 20.9
+  },
+  {
+    "name": "Aloo Paratha (Restaurant Style)",
+    "description": "Aloo Paratha (Restaurant Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 303.2,
+    "carbs_g": 12.5,
+    "protein_g": 20.1,
+    "fats_g": 19.2
+  },
+  {
+    "name": "Aloo Paratha (Low Oil)",
+    "description": "Aloo Paratha (Low Oil) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 313.2,
+    "carbs_g": 52.8,
+    "protein_g": 3.0,
+    "fats_g": 10.0
+  },
+  {
+    "name": "Aloo Paratha (High Protein)",
+    "description": "Aloo Paratha (High Protein) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 440.9,
+    "carbs_g": 58.4,
+    "protein_g": 12.9,
+    "fats_g": 17.3
+  },
+  {
+    "name": "Roti (Classic)",
+    "description": "Roti (Classic) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 376.2,
+    "carbs_g": 41.2,
+    "protein_g": 7.4,
+    "fats_g": 20.2
+  },
+  {
+    "name": "Roti (Home Style)",
+    "description": "Roti (Home Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 326.9,
+    "carbs_g": 14.4,
+    "protein_g": 12.2,
+    "fats_g": 24.5
+  },
+  {
+    "name": "Roti (Restaurant Style)",
+    "description": "Roti (Restaurant Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 389.3,
+    "carbs_g": 47.1,
+    "protein_g": 10.4,
+    "fats_g": 17.7
+  },
+  {
+    "name": "Roti (Low Oil)",
+    "description": "Roti (Low Oil) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 295.4,
+    "carbs_g": 44.1,
+    "protein_g": 23.9,
+    "fats_g": 2.6
+  },
+  {
+    "name": "Roti (High Protein)",
+    "description": "Roti (High Protein) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 211.1,
+    "carbs_g": 24.0,
+    "protein_g": 2.0,
+    "fats_g": 11.9
+  },
+  {
+    "name": "Idli (Classic)",
+    "description": "Idli (Classic) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 162.7,
+    "carbs_g": 20.5,
+    "protein_g": 7.8,
+    "fats_g": 5.5
+  },
+  {
+    "name": "Idli (Home Style)",
+    "description": "Idli (Home Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 173.6,
+    "carbs_g": 25.8,
+    "protein_g": 8.6,
+    "fats_g": 4.0
+  },
+  {
+    "name": "Idli (Restaurant Style)",
+    "description": "Idli (Restaurant Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 224.5,
+    "carbs_g": 30.3,
+    "protein_g": 13.0,
+    "fats_g": 5.7
+  },
+  {
+    "name": "Idli (Low Oil)",
+    "description": "Idli (Low Oil) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 403.5,
+    "carbs_g": 13.1,
+    "protein_g": 24.1,
+    "fats_g": 28.3
+  },
+  {
+    "name": "Idli (High Protein)",
+    "description": "Idli (High Protein) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 230.9,
+    "carbs_g": 22.0,
+    "protein_g": 15.7,
+    "fats_g": 8.9
+  },
+  {
+    "name": "Dosa (Classic)",
+    "description": "Dosa (Classic) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 451.2,
+    "carbs_g": 48.3,
+    "protein_g": 2.4,
+    "fats_g": 27.6
+  },
+  {
+    "name": "Dosa (Home Style)",
+    "description": "Dosa (Home Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 364.0,
+    "carbs_g": 18.3,
+    "protein_g": 9.7,
+    "fats_g": 28.0
+  },
+  {
+    "name": "Dosa (Restaurant Style)",
+    "description": "Dosa (Restaurant Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 212.1,
+    "carbs_g": 37.4,
+    "protein_g": 12.7,
+    "fats_g": 1.3
+  },
+  {
+    "name": "Dosa (Low Oil)",
+    "description": "Dosa (Low Oil) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 303.0,
+    "carbs_g": 17.1,
+    "protein_g": 22.2,
+    "fats_g": 16.2
+  },
+  {
+    "name": "Dosa (High Protein)",
+    "description": "Dosa (High Protein) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 460.7,
+    "carbs_g": 47.1,
+    "protein_g": 20.6,
+    "fats_g": 21.1
+  },
+  {
+    "name": "Vada (Classic)",
+    "description": "Vada (Classic) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 370.8,
+    "carbs_g": 26.5,
+    "protein_g": 11.3,
+    "fats_g": 24.4
+  },
+  {
+    "name": "Vada (Home Style)",
+    "description": "Vada (Home Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 285.6,
+    "carbs_g": 7.1,
+    "protein_g": 4.0,
+    "fats_g": 26.8
+  },
+  {
+    "name": "Vada (Restaurant Style)",
+    "description": "Vada (Restaurant Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 539.8,
+    "carbs_g": 58.7,
+    "protein_g": 24.5,
+    "fats_g": 23.0
+  },
+  {
+    "name": "Vada (Low Oil)",
+    "description": "Vada (Low Oil) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 251.1,
+    "carbs_g": 10.2,
+    "protein_g": 18.6,
+    "fats_g": 15.1
+  },
+  {
+    "name": "Vada (High Protein)",
+    "description": "Vada (High Protein) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 493.5,
+    "carbs_g": 51.0,
+    "protein_g": 9.6,
+    "fats_g": 27.9
+  },
+  {
+    "name": "Upma (Classic)",
+    "description": "Upma (Classic) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 355.6,
+    "carbs_g": 30.3,
+    "protein_g": 21.7,
+    "fats_g": 16.4
+  },
+  {
+    "name": "Upma (Home Style)",
+    "description": "Upma (Home Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 341.2,
+    "carbs_g": 22.2,
+    "protein_g": 21.7,
+    "fats_g": 18.4
+  },
+  {
+    "name": "Upma (Restaurant Style)",
+    "description": "Upma (Restaurant Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 343.2,
+    "carbs_g": 53.1,
+    "protein_g": 6.6,
+    "fats_g": 11.6
+  },
+  {
+    "name": "Upma (Low Oil)",
+    "description": "Upma (Low Oil) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 187.8,
+    "carbs_g": 12.4,
+    "protein_g": 16.1,
+    "fats_g": 8.2
+  },
+  {
+    "name": "Upma (High Protein)",
+    "description": "Upma (High Protein) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 312.6,
+    "carbs_g": 30.5,
+    "protein_g": 21.1,
+    "fats_g": 11.8
+  },
+  {
+    "name": "Poha (Classic)",
+    "description": "Poha (Classic) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 462.4,
+    "carbs_g": 37.5,
+    "protein_g": 22.3,
+    "fats_g": 24.8
+  },
+  {
+    "name": "Poha (Home Style)",
+    "description": "Poha (Home Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 177.5,
+    "carbs_g": 9.2,
+    "protein_g": 16.5,
+    "fats_g": 8.3
+  },
+  {
+    "name": "Poha (Restaurant Style)",
+    "description": "Poha (Restaurant Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 461.4,
+    "carbs_g": 29.3,
+    "protein_g": 20.8,
+    "fats_g": 29.0
+  },
+  {
+    "name": "Poha (Low Oil)",
+    "description": "Poha (Low Oil) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 300.4,
+    "carbs_g": 46.0,
+    "protein_g": 12.0,
+    "fats_g": 7.6
+  },
+  {
+    "name": "Poha (High Protein)",
+    "description": "Poha (High Protein) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 255.9,
+    "carbs_g": 4.7,
+    "protein_g": 21.7,
+    "fats_g": 16.7
+  },
+  {
+    "name": "Chole (Classic)",
+    "description": "Chole (Classic) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 469.0,
+    "carbs_g": 59.9,
+    "protein_g": 18.2,
+    "fats_g": 17.4
+  },
+  {
+    "name": "Chole (Home Style)",
+    "description": "Chole (Home Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 404.5,
+    "carbs_g": 52.5,
+    "protein_g": 11.5,
+    "fats_g": 16.5
+  },
+  {
+    "name": "Chole (Restaurant Style)",
+    "description": "Chole (Restaurant Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 367.4,
+    "carbs_g": 53.1,
+    "protein_g": 6.8,
+    "fats_g": 14.2
+  },
+  {
+    "name": "Chole (Low Oil)",
+    "description": "Chole (Low Oil) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 323.2,
+    "carbs_g": 47.0,
+    "protein_g": 23.0,
+    "fats_g": 4.8
+  },
+  {
+    "name": "Chole (High Protein)",
+    "description": "Chole (High Protein) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 298.6,
+    "carbs_g": 24.1,
+    "protein_g": 5.1,
+    "fats_g": 20.2
+  },
+  {
+    "name": "Rajma (Classic)",
+    "description": "Rajma (Classic) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 349.6,
+    "carbs_g": 18.8,
+    "protein_g": 10.1,
+    "fats_g": 26.0
+  },
+  {
+    "name": "Rajma (Home Style)",
+    "description": "Rajma (Home Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 394.8,
+    "carbs_g": 39.6,
+    "protein_g": 3.3,
+    "fats_g": 24.8
+  },
+  {
+    "name": "Rajma (Restaurant Style)",
+    "description": "Rajma (Restaurant Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 227.0,
+    "carbs_g": 15.6,
+    "protein_g": 24.5,
+    "fats_g": 7.4
+  },
+  {
+    "name": "Rajma (Low Oil)",
+    "description": "Rajma (Low Oil) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 455.3,
+    "carbs_g": 57.7,
+    "protein_g": 14.5,
+    "fats_g": 18.5
+  },
+  {
+    "name": "Rajma (High Protein)",
+    "description": "Rajma (High Protein) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 313.0,
+    "carbs_g": 21.3,
+    "protein_g": 16.0,
+    "fats_g": 18.2
+  },
+  {
+    "name": "Dal Tadka (Classic)",
+    "description": "Dal Tadka (Classic) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 306.0,
+    "carbs_g": 27.9,
+    "protein_g": 19.8,
+    "fats_g": 12.8
+  },
+  {
+    "name": "Dal Tadka (Home Style)",
+    "description": "Dal Tadka (Home Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 443.8,
+    "carbs_g": 46.3,
+    "protein_g": 16.5,
+    "fats_g": 21.4
+  },
+  {
+    "name": "Dal Tadka (Restaurant Style)",
+    "description": "Dal Tadka (Restaurant Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 464.6,
+    "carbs_g": 58.6,
+    "protein_g": 19.3,
+    "fats_g": 17.0
+  },
+  {
+    "name": "Dal Tadka (Low Oil)",
+    "description": "Dal Tadka (Low Oil) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 308.4,
+    "carbs_g": 34.4,
+    "protein_g": 11.2,
+    "fats_g": 14.0
+  },
+  {
+    "name": "Dal Tadka (High Protein)",
+    "description": "Dal Tadka (High Protein) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 373.6,
+    "carbs_g": 43.7,
+    "protein_g": 21.8,
+    "fats_g": 12.4
+  },
+  {
+    "name": "Dal Fry (Classic)",
+    "description": "Dal Fry (Classic) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 141.4,
+    "carbs_g": 10.3,
+    "protein_g": 5.7,
+    "fats_g": 8.6
+  },
+  {
+    "name": "Dal Fry (Home Style)",
+    "description": "Dal Fry (Home Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 233.3,
+    "carbs_g": 8.0,
+    "protein_g": 23.1,
+    "fats_g": 12.1
+  },
+  {
+    "name": "Dal Fry (Restaurant Style)",
+    "description": "Dal Fry (Restaurant Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 303.5,
+    "carbs_g": 58.2,
+    "protein_g": 14.3,
+    "fats_g": 1.5
+  },
+  {
+    "name": "Dal Fry (Low Oil)",
+    "description": "Dal Fry (Low Oil) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 243.0,
+    "carbs_g": 13.2,
+    "protein_g": 15.6,
+    "fats_g": 14.2
+  },
+  {
+    "name": "Dal Fry (High Protein)",
+    "description": "Dal Fry (High Protein) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 292.1,
+    "carbs_g": 42.3,
+    "protein_g": 4.4,
+    "fats_g": 11.7
+  },
+  {
+    "name": "Paneer Butter Masala (Classic)",
+    "description": "Paneer Butter Masala (Classic) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 456.4,
+    "carbs_g": 31.8,
+    "protein_g": 18.4,
+    "fats_g": 28.4
+  },
+  {
+    "name": "Paneer Butter Masala (Home Style)",
+    "description": "Paneer Butter Masala (Home Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 367.2,
+    "carbs_g": 18.2,
+    "protein_g": 13.3,
+    "fats_g": 26.8
+  },
+  {
+    "name": "Paneer Butter Masala (Restaurant Style)",
+    "description": "Paneer Butter Masala (Restaurant Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 200.0,
+    "carbs_g": 20.7,
+    "protein_g": 6.8,
+    "fats_g": 10.0
+  },
+  {
+    "name": "Paneer Butter Masala (Low Oil)",
+    "description": "Paneer Butter Masala (Low Oil) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 384.3,
+    "carbs_g": 38.9,
+    "protein_g": 20.5,
+    "fats_g": 16.3
+  },
+  {
+    "name": "Paneer Butter Masala (High Protein)",
+    "description": "Paneer Butter Masala (High Protein) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 278.1,
+    "carbs_g": 28.6,
+    "protein_g": 4.7,
+    "fats_g": 16.1
+  },
+  {
+    "name": "Palak Paneer (Classic)",
+    "description": "Palak Paneer (Classic) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 164.2,
+    "carbs_g": 11.6,
+    "protein_g": 24.5,
+    "fats_g": 2.2
+  },
+  {
+    "name": "Palak Paneer (Home Style)",
+    "description": "Palak Paneer (Home Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 324.8,
+    "carbs_g": 20.5,
+    "protein_g": 2.2,
+    "fats_g": 26.0
+  },
+  {
+    "name": "Palak Paneer (Restaurant Style)",
+    "description": "Palak Paneer (Restaurant Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 137.6,
+    "carbs_g": 13.5,
+    "protein_g": 9.2,
+    "fats_g": 5.2
+  },
+  {
+    "name": "Palak Paneer (Low Oil)",
+    "description": "Palak Paneer (Low Oil) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 320.3,
+    "carbs_g": 42.6,
+    "protein_g": 15.2,
+    "fats_g": 9.9
+  },
+  {
+    "name": "Palak Paneer (High Protein)",
+    "description": "Palak Paneer (High Protein) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 422.7,
+    "carbs_g": 37.3,
+    "protein_g": 21.8,
+    "fats_g": 20.7
+  },
+  {
+    "name": "Shahi Paneer (Classic)",
+    "description": "Shahi Paneer (Classic) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 180.2,
+    "carbs_g": 16.4,
+    "protein_g": 5.7,
+    "fats_g": 10.2
+  },
+  {
+    "name": "Shahi Paneer (Home Style)",
+    "description": "Shahi Paneer (Home Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 320.1,
+    "carbs_g": 47.3,
+    "protein_g": 19.0,
+    "fats_g": 6.1
+  },
+  {
+    "name": "Shahi Paneer (Restaurant Style)",
+    "description": "Shahi Paneer (Restaurant Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 291.8,
+    "carbs_g": 35.7,
+    "protein_g": 10.7,
+    "fats_g": 11.8
+  },
+  {
+    "name": "Shahi Paneer (Low Oil)",
+    "description": "Shahi Paneer (Low Oil) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 262.9,
+    "carbs_g": 29.0,
+    "protein_g": 7.7,
+    "fats_g": 12.9
+  },
+  {
+    "name": "Shahi Paneer (High Protein)",
+    "description": "Shahi Paneer (High Protein) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 165.0,
+    "carbs_g": 9.9,
+    "protein_g": 9.3,
+    "fats_g": 9.8
+  },
+  {
+    "name": "Kadhai Paneer (Classic)",
+    "description": "Kadhai Paneer (Classic) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 192.5,
+    "carbs_g": 17.3,
+    "protein_g": 9.0,
+    "fats_g": 9.7
+  },
+  {
+    "name": "Kadhai Paneer (Home Style)",
+    "description": "Kadhai Paneer (Home Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 302.1,
+    "carbs_g": 16.4,
+    "protein_g": 14.8,
+    "fats_g": 19.7
+  },
+  {
+    "name": "Kadhai Paneer (Restaurant Style)",
+    "description": "Kadhai Paneer (Restaurant Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 186.4,
+    "carbs_g": 22.8,
+    "protein_g": 4.9,
+    "fats_g": 8.4
+  },
+  {
+    "name": "Kadhai Paneer (Low Oil)",
+    "description": "Kadhai Paneer (Low Oil) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 425.4,
+    "carbs_g": 57.5,
+    "protein_g": 9.7,
+    "fats_g": 17.4
+  },
+  {
+    "name": "Kadhai Paneer (High Protein)",
+    "description": "Kadhai Paneer (High Protein) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 341.9,
+    "carbs_g": 39.3,
+    "protein_g": 3.2,
+    "fats_g": 19.1
+  },
+  {
+    "name": "Chicken Curry (Classic)",
+    "description": "Chicken Curry (Classic) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 218.6,
+    "carbs_g": 6.7,
+    "protein_g": 21.4,
+    "fats_g": 11.8
+  },
+  {
+    "name": "Chicken Curry (Home Style)",
+    "description": "Chicken Curry (Home Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 339.1,
+    "carbs_g": 20.5,
+    "protein_g": 3.3,
+    "fats_g": 27.1
+  },
+  {
+    "name": "Chicken Curry (Restaurant Style)",
+    "description": "Chicken Curry (Restaurant Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 251.6,
+    "carbs_g": 40.7,
+    "protein_g": 4.2,
+    "fats_g": 8.0
+  },
+  {
+    "name": "Chicken Curry (Low Oil)",
+    "description": "Chicken Curry (Low Oil) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 231.6,
+    "carbs_g": 5.3,
+    "protein_g": 6.7,
+    "fats_g": 20.4
+  },
+  {
+    "name": "Chicken Curry (High Protein)",
+    "description": "Chicken Curry (High Protein) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 316.2,
+    "carbs_g": 50.8,
+    "protein_g": 22.4,
+    "fats_g": 2.6
+  },
+  {
+    "name": "Butter Chicken (Classic)",
+    "description": "Butter Chicken (Classic) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 309.2,
+    "carbs_g": 32.8,
+    "protein_g": 8.5,
+    "fats_g": 16.0
+  },
+  {
+    "name": "Butter Chicken (Home Style)",
+    "description": "Butter Chicken (Home Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 334.1,
+    "carbs_g": 28.2,
+    "protein_g": 11.9,
+    "fats_g": 19.3
+  },
+  {
+    "name": "Butter Chicken (Restaurant Style)",
+    "description": "Butter Chicken (Restaurant Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 253.6,
+    "carbs_g": 6.7,
+    "protein_g": 21.6,
+    "fats_g": 15.6
+  },
+  {
+    "name": "Butter Chicken (Low Oil)",
+    "description": "Butter Chicken (Low Oil) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 474.7,
+    "carbs_g": 55.2,
+    "protein_g": 7.9,
+    "fats_g": 24.7
+  },
+  {
+    "name": "Butter Chicken (High Protein)",
+    "description": "Butter Chicken (High Protein) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 334.0,
+    "carbs_g": 47.5,
+    "protein_g": 18.9,
+    "fats_g": 7.6
+  },
+  {
+    "name": "Chicken Tikka (Classic)",
+    "description": "Chicken Tikka (Classic) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 238.3,
+    "carbs_g": 37.1,
+    "protein_g": 20.0,
+    "fats_g": 1.1
+  },
+  {
+    "name": "Chicken Tikka (Home Style)",
+    "description": "Chicken Tikka (Home Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 335.9,
+    "carbs_g": 15.2,
+    "protein_g": 20.4,
+    "fats_g": 21.5
+  },
+  {
+    "name": "Chicken Tikka (Restaurant Style)",
+    "description": "Chicken Tikka (Restaurant Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 418.3,
+    "carbs_g": 36.6,
+    "protein_g": 16.0,
+    "fats_g": 23.1
+  },
+  {
+    "name": "Chicken Tikka (Low Oil)",
+    "description": "Chicken Tikka (Low Oil) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 375.4,
+    "carbs_g": 29.2,
+    "protein_g": 5.7,
+    "fats_g": 26.2
+  },
+  {
+    "name": "Chicken Tikka (High Protein)",
+    "description": "Chicken Tikka (High Protein) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 234.0,
+    "carbs_g": 4.6,
+    "protein_g": 8.9,
+    "fats_g": 20.0
+  },
+  {
+    "name": "Tandoori Chicken (Classic)",
+    "description": "Tandoori Chicken (Classic) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 195.4,
+    "carbs_g": 3.0,
+    "protein_g": 20.2,
+    "fats_g": 11.4
+  },
+  {
+    "name": "Tandoori Chicken (Home Style)",
+    "description": "Tandoori Chicken (Home Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 325.9,
+    "carbs_g": 15.4,
+    "protein_g": 14.1,
+    "fats_g": 23.1
+  },
+  {
+    "name": "Tandoori Chicken (Restaurant Style)",
+    "description": "Tandoori Chicken (Restaurant Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 286.1,
+    "carbs_g": 25.8,
+    "protein_g": 2.3,
+    "fats_g": 19.3
+  },
+  {
+    "name": "Tandoori Chicken (Low Oil)",
+    "description": "Tandoori Chicken (Low Oil) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 331.1,
+    "carbs_g": 20.4,
+    "protein_g": 16.7,
+    "fats_g": 20.3
+  },
+  {
+    "name": "Tandoori Chicken (High Protein)",
+    "description": "Tandoori Chicken (High Protein) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 218.1,
+    "carbs_g": 14.5,
+    "protein_g": 2.0,
+    "fats_g": 16.9
+  },
+  {
+    "name": "Fish Curry (Classic)",
+    "description": "Fish Curry (Classic) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 187.2,
+    "carbs_g": 12.3,
+    "protein_g": 17.4,
+    "fats_g": 7.6
+  },
+  {
+    "name": "Fish Curry (Home Style)",
+    "description": "Fish Curry (Home Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 485.0,
+    "carbs_g": 57.8,
+    "protein_g": 4.5,
+    "fats_g": 26.2
+  },
+  {
+    "name": "Fish Curry (Restaurant Style)",
+    "description": "Fish Curry (Restaurant Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 170.6,
+    "carbs_g": 18.1,
+    "protein_g": 12.4,
+    "fats_g": 5.4
+  },
+  {
+    "name": "Fish Curry (Low Oil)",
+    "description": "Fish Curry (Low Oil) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 273.0,
+    "carbs_g": 19.5,
+    "protein_g": 20.4,
+    "fats_g": 12.6
+  },
+  {
+    "name": "Fish Curry (High Protein)",
+    "description": "Fish Curry (High Protein) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 376.7,
+    "carbs_g": 57.8,
+    "protein_g": 2.4,
+    "fats_g": 15.1
+  },
+  {
+    "name": "Mutton Curry (Classic)",
+    "description": "Mutton Curry (Classic) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 206.5,
+    "carbs_g": 10.7,
+    "protein_g": 2.9,
+    "fats_g": 16.9
+  },
+  {
+    "name": "Mutton Curry (Home Style)",
+    "description": "Mutton Curry (Home Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 453.5,
+    "carbs_g": 59.5,
+    "protein_g": 7.3,
+    "fats_g": 20.7
+  },
+  {
+    "name": "Mutton Curry (Restaurant Style)",
+    "description": "Mutton Curry (Restaurant Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 290.3,
+    "carbs_g": 34.0,
+    "protein_g": 13.6,
+    "fats_g": 11.1
+  },
+  {
+    "name": "Mutton Curry (Low Oil)",
+    "description": "Mutton Curry (Low Oil) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 199.9,
+    "carbs_g": 24.9,
+    "protein_g": 10.0,
+    "fats_g": 6.7
+  },
+  {
+    "name": "Mutton Curry (High Protein)",
+    "description": "Mutton Curry (High Protein) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 295.9,
+    "carbs_g": 6.8,
+    "protein_g": 16.1,
+    "fats_g": 22.7
+  },
+  {
+    "name": "Veg Biryani (Classic)",
+    "description": "Veg Biryani (Classic) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 396.5,
+    "carbs_g": 21.5,
+    "protein_g": 21.6,
+    "fats_g": 24.9
+  },
+  {
+    "name": "Veg Biryani (Home Style)",
+    "description": "Veg Biryani (Home Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 329.9,
+    "carbs_g": 7.2,
+    "protein_g": 13.4,
+    "fats_g": 27.5
+  },
+  {
+    "name": "Veg Biryani (Restaurant Style)",
+    "description": "Veg Biryani (Restaurant Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 231.5,
+    "carbs_g": 18.3,
+    "protein_g": 6.5,
+    "fats_g": 14.7
+  },
+  {
+    "name": "Veg Biryani (Low Oil)",
+    "description": "Veg Biryani (Low Oil) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 336.2,
+    "carbs_g": 33.0,
+    "protein_g": 19.1,
+    "fats_g": 14.2
+  },
+  {
+    "name": "Veg Biryani (High Protein)",
+    "description": "Veg Biryani (High Protein) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 352.0,
+    "carbs_g": 36.0,
+    "protein_g": 14.2,
+    "fats_g": 16.8
+  },
+  {
+    "name": "Chicken Biryani (Classic)",
+    "description": "Chicken Biryani (Classic) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 283.1,
+    "carbs_g": 52.3,
+    "protein_g": 6.1,
+    "fats_g": 5.5
+  },
+  {
+    "name": "Chicken Biryani (Home Style)",
+    "description": "Chicken Biryani (Home Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 376.4,
+    "carbs_g": 28.8,
+    "protein_g": 14.9,
+    "fats_g": 22.4
+  },
+  {
+    "name": "Chicken Biryani (Restaurant Style)",
+    "description": "Chicken Biryani (Restaurant Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 115.3,
+    "carbs_g": 10.8,
+    "protein_g": 13.3,
+    "fats_g": 2.1
+  },
+  {
+    "name": "Chicken Biryani (Low Oil)",
+    "description": "Chicken Biryani (Low Oil) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 253.2,
+    "carbs_g": 29.5,
+    "protein_g": 15.8,
+    "fats_g": 8.0
+  },
+  {
+    "name": "Chicken Biryani (High Protein)",
+    "description": "Chicken Biryani (High Protein) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 194.4,
+    "carbs_g": 38.6,
+    "protein_g": 5.5,
+    "fats_g": 2.0
+  },
+  {
+    "name": "Mutton Biryani (Classic)",
+    "description": "Mutton Biryani (Classic) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 321.6,
+    "carbs_g": 23.4,
+    "protein_g": 19.2,
+    "fats_g": 16.8
+  },
+  {
+    "name": "Mutton Biryani (Home Style)",
+    "description": "Mutton Biryani (Home Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 283.7,
+    "carbs_g": 30.1,
+    "protein_g": 3.7,
+    "fats_g": 16.5
+  },
+  {
+    "name": "Mutton Biryani (Restaurant Style)",
+    "description": "Mutton Biryani (Restaurant Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 212.8,
+    "carbs_g": 38.9,
+    "protein_g": 3.5,
+    "fats_g": 4.8
+  },
+  {
+    "name": "Mutton Biryani (Low Oil)",
+    "description": "Mutton Biryani (Low Oil) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 284.6,
+    "carbs_g": 3.4,
+    "protein_g": 19.6,
+    "fats_g": 21.4
+  },
+  {
+    "name": "Mutton Biryani (High Protein)",
+    "description": "Mutton Biryani (High Protein) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 443.9,
+    "carbs_g": 47.3,
+    "protein_g": 22.5,
+    "fats_g": 18.3
+  },
+  {
+    "name": "Jeera Rice (Classic)",
+    "description": "Jeera Rice (Classic) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 408.9,
+    "carbs_g": 46.7,
+    "protein_g": 18.4,
+    "fats_g": 16.5
+  },
+  {
+    "name": "Jeera Rice (Home Style)",
+    "description": "Jeera Rice (Home Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 270.6,
+    "carbs_g": 26.5,
+    "protein_g": 7.4,
+    "fats_g": 15.0
+  },
+  {
+    "name": "Jeera Rice (Restaurant Style)",
+    "description": "Jeera Rice (Restaurant Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 274.0,
+    "carbs_g": 5.1,
+    "protein_g": 3.1,
+    "fats_g": 26.8
+  },
+  {
+    "name": "Jeera Rice (Low Oil)",
+    "description": "Jeera Rice (Low Oil) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 207.9,
+    "carbs_g": 19.7,
+    "protein_g": 24.4,
+    "fats_g": 3.5
+  },
+  {
+    "name": "Jeera Rice (High Protein)",
+    "description": "Jeera Rice (High Protein) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 260.5,
+    "carbs_g": 54.6,
+    "protein_g": 3.1,
+    "fats_g": 3.3
+  },
+  {
+    "name": "Plain Rice (Classic)",
+    "description": "Plain Rice (Classic) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 437.7,
+    "carbs_g": 23.4,
+    "protein_g": 21.0,
+    "fats_g": 28.9
+  },
+  {
+    "name": "Plain Rice (Home Style)",
+    "description": "Plain Rice (Home Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 259.7,
+    "carbs_g": 7.4,
+    "protein_g": 5.1,
+    "fats_g": 23.3
+  },
+  {
+    "name": "Plain Rice (Restaurant Style)",
+    "description": "Plain Rice (Restaurant Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 189.7,
+    "carbs_g": 13.6,
+    "protein_g": 23.7,
+    "fats_g": 4.5
+  },
+  {
+    "name": "Plain Rice (Low Oil)",
+    "description": "Plain Rice (Low Oil) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 534.3,
+    "carbs_g": 59.9,
+    "protein_g": 14.5,
+    "fats_g": 26.3
+  },
+  {
+    "name": "Plain Rice (High Protein)",
+    "description": "Plain Rice (High Protein) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 448.0,
+    "carbs_g": 55.1,
+    "protein_g": 8.3,
+    "fats_g": 21.6
+  },
+  {
+    "name": "Curd (Classic)",
+    "description": "Curd (Classic) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 427.9,
+    "carbs_g": 40.3,
+    "protein_g": 8.4,
+    "fats_g": 25.9
+  },
+  {
+    "name": "Curd (Home Style)",
+    "description": "Curd (Home Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 155.2,
+    "carbs_g": 28.1,
+    "protein_g": 5.3,
+    "fats_g": 2.4
+  },
+  {
+    "name": "Curd (Restaurant Style)",
+    "description": "Curd (Restaurant Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 261.9,
+    "carbs_g": 16.5,
+    "protein_g": 14.1,
+    "fats_g": 15.5
+  },
+  {
+    "name": "Curd (Low Oil)",
+    "description": "Curd (Low Oil) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 102.5,
+    "carbs_g": 7.1,
+    "protein_g": 15.6,
+    "fats_g": 1.3
+  },
+  {
+    "name": "Curd (High Protein)",
+    "description": "Curd (High Protein) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 204.4,
+    "carbs_g": 19.9,
+    "protein_g": 5.1,
+    "fats_g": 11.6
+  },
+  {
+    "name": "Rasam (Classic)",
+    "description": "Rasam (Classic) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 424.2,
+    "carbs_g": 22.3,
+    "protein_g": 16.7,
+    "fats_g": 29.8
+  },
+  {
+    "name": "Rasam (Home Style)",
+    "description": "Rasam (Home Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 340.9,
+    "carbs_g": 19.1,
+    "protein_g": 14.6,
+    "fats_g": 22.9
+  },
+  {
+    "name": "Rasam (Restaurant Style)",
+    "description": "Rasam (Restaurant Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 371.5,
+    "carbs_g": 55.5,
+    "protein_g": 25.0,
+    "fats_g": 5.5
+  },
+  {
+    "name": "Rasam (Low Oil)",
+    "description": "Rasam (Low Oil) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 337.1,
+    "carbs_g": 15.0,
+    "protein_g": 4.7,
+    "fats_g": 28.7
+  },
+  {
+    "name": "Rasam (High Protein)",
+    "description": "Rasam (High Protein) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 321.1,
+    "carbs_g": 28.5,
+    "protein_g": 17.8,
+    "fats_g": 15.1
+  },
+  {
+    "name": "Sambar (Classic)",
+    "description": "Sambar (Classic) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 171.9,
+    "carbs_g": 5.7,
+    "protein_g": 22.2,
+    "fats_g": 6.7
+  },
+  {
+    "name": "Sambar (Home Style)",
+    "description": "Sambar (Home Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 475.2,
+    "carbs_g": 35.6,
+    "protein_g": 21.1,
+    "fats_g": 27.6
+  },
+  {
+    "name": "Sambar (Restaurant Style)",
+    "description": "Sambar (Restaurant Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 255.8,
+    "carbs_g": 23.6,
+    "protein_g": 10.2,
+    "fats_g": 13.4
+  },
+  {
+    "name": "Sambar (Low Oil)",
+    "description": "Sambar (Low Oil) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 379.2,
+    "carbs_g": 42.9,
+    "protein_g": 2.4,
+    "fats_g": 22.0
+  },
+  {
+    "name": "Sambar (High Protein)",
+    "description": "Sambar (High Protein) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 302.0,
+    "carbs_g": 29.2,
+    "protein_g": 15.7,
+    "fats_g": 13.6
+  },
+  {
+    "name": "Pav Bhaji (Classic)",
+    "description": "Pav Bhaji (Classic) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 436.6,
+    "carbs_g": 46.5,
+    "protein_g": 16.3,
+    "fats_g": 20.6
+  },
+  {
+    "name": "Pav Bhaji (Home Style)",
+    "description": "Pav Bhaji (Home Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 105.7,
+    "carbs_g": 10.7,
+    "protein_g": 7.4,
+    "fats_g": 3.7
+  },
+  {
+    "name": "Pav Bhaji (Restaurant Style)",
+    "description": "Pav Bhaji (Restaurant Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 401.8,
+    "carbs_g": 49.4,
+    "protein_g": 11.9,
+    "fats_g": 17.4
+  },
+  {
+    "name": "Pav Bhaji (Low Oil)",
+    "description": "Pav Bhaji (Low Oil) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 523.6,
+    "carbs_g": 54.7,
+    "protein_g": 15.0,
+    "fats_g": 27.2
+  },
+  {
+    "name": "Pav Bhaji (High Protein)",
+    "description": "Pav Bhaji (High Protein) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 299.4,
+    "carbs_g": 4.8,
+    "protein_g": 19.2,
+    "fats_g": 22.6
+  },
+  {
+    "name": "Misal Pav (Classic)",
+    "description": "Misal Pav (Classic) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 311.8,
+    "carbs_g": 54.3,
+    "protein_g": 19.6,
+    "fats_g": 1.8
+  },
+  {
+    "name": "Misal Pav (Home Style)",
+    "description": "Misal Pav (Home Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 403.9,
+    "carbs_g": 26.2,
+    "protein_g": 11.1,
+    "fats_g": 28.3
+  },
+  {
+    "name": "Misal Pav (Restaurant Style)",
+    "description": "Misal Pav (Restaurant Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 177.3,
+    "carbs_g": 10.2,
+    "protein_g": 7.8,
+    "fats_g": 11.7
+  },
+  {
+    "name": "Misal Pav (Low Oil)",
+    "description": "Misal Pav (Low Oil) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 199.6,
+    "carbs_g": 8.5,
+    "protein_g": 18.9,
+    "fats_g": 10.0
+  },
+  {
+    "name": "Misal Pav (High Protein)",
+    "description": "Misal Pav (High Protein) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 511.5,
+    "carbs_g": 49.5,
+    "protein_g": 13.8,
+    "fats_g": 28.7
+  },
+  {
+    "name": "Vada Pav (Classic)",
+    "description": "Vada Pav (Classic) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 285.3,
+    "carbs_g": 29.3,
+    "protein_g": 7.6,
+    "fats_g": 15.3
+  },
+  {
+    "name": "Vada Pav (Home Style)",
+    "description": "Vada Pav (Home Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 308.9,
+    "carbs_g": 40.8,
+    "protein_g": 24.5,
+    "fats_g": 5.3
+  },
+  {
+    "name": "Vada Pav (Restaurant Style)",
+    "description": "Vada Pav (Restaurant Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 334.4,
+    "carbs_g": 34.0,
+    "protein_g": 15.4,
+    "fats_g": 15.2
+  },
+  {
+    "name": "Vada Pav (Low Oil)",
+    "description": "Vada Pav (Low Oil) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 153.2,
+    "carbs_g": 21.8,
+    "protein_g": 12.0,
+    "fats_g": 2.0
+  },
+  {
+    "name": "Vada Pav (High Protein)",
+    "description": "Vada Pav (High Protein) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 129.0,
+    "carbs_g": 16.9,
+    "protein_g": 6.8,
+    "fats_g": 3.8
+  },
+  {
+    "name": "Puri (Classic)",
+    "description": "Puri (Classic) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 376.7,
+    "carbs_g": 51.0,
+    "protein_g": 7.4,
+    "fats_g": 15.9
+  },
+  {
+    "name": "Puri (Home Style)",
+    "description": "Puri (Home Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 338.2,
+    "carbs_g": 15.1,
+    "protein_g": 17.7,
+    "fats_g": 23.0
+  },
+  {
+    "name": "Puri (Restaurant Style)",
+    "description": "Puri (Restaurant Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 402.1,
+    "carbs_g": 40.3,
+    "protein_g": 4.2,
+    "fats_g": 24.9
+  },
+  {
+    "name": "Puri (Low Oil)",
+    "description": "Puri (Low Oil) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 298.3,
+    "carbs_g": 10.0,
+    "protein_g": 15.3,
+    "fats_g": 21.9
+  },
+  {
+    "name": "Puri (High Protein)",
+    "description": "Puri (High Protein) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 391.0,
+    "carbs_g": 59.4,
+    "protein_g": 17.2,
+    "fats_g": 9.4
+  },
+  {
+    "name": "Chole Bhature (Classic)",
+    "description": "Chole Bhature (Classic) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 436.5,
+    "carbs_g": 42.6,
+    "protein_g": 3.3,
+    "fats_g": 28.1
+  },
+  {
+    "name": "Chole Bhature (Home Style)",
+    "description": "Chole Bhature (Home Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 517.6,
+    "carbs_g": 48.9,
+    "protein_g": 24.7,
+    "fats_g": 24.8
+  },
+  {
+    "name": "Chole Bhature (Restaurant Style)",
+    "description": "Chole Bhature (Restaurant Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 383.4,
+    "carbs_g": 24.7,
+    "protein_g": 5.0,
+    "fats_g": 29.4
+  },
+  {
+    "name": "Chole Bhature (Low Oil)",
+    "description": "Chole Bhature (Low Oil) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 314.5,
+    "carbs_g": 46.6,
+    "protein_g": 16.5,
+    "fats_g": 6.9
+  },
+  {
+    "name": "Chole Bhature (High Protein)",
+    "description": "Chole Bhature (High Protein) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 483.0,
+    "carbs_g": 46.4,
+    "protein_g": 16.3,
+    "fats_g": 25.8
+  },
+  {
+    "name": "Kadhi (Classic)",
+    "description": "Kadhi (Classic) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 329.6,
+    "carbs_g": 23.2,
+    "protein_g": 16.9,
+    "fats_g": 18.8
+  },
+  {
+    "name": "Kadhi (Home Style)",
+    "description": "Kadhi (Home Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 525.8,
+    "carbs_g": 59.3,
+    "protein_g": 21.3,
+    "fats_g": 22.6
+  },
+  {
+    "name": "Kadhi (Restaurant Style)",
+    "description": "Kadhi (Restaurant Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 301.1,
+    "carbs_g": 20.3,
+    "protein_g": 24.6,
+    "fats_g": 13.5
+  },
+  {
+    "name": "Kadhi (Low Oil)",
+    "description": "Kadhi (Low Oil) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 191.6,
+    "carbs_g": 12.2,
+    "protein_g": 6.9,
+    "fats_g": 12.8
+  },
+  {
+    "name": "Kadhi (High Protein)",
+    "description": "Kadhi (High Protein) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 362.8,
+    "carbs_g": 53.6,
+    "protein_g": 24.5,
+    "fats_g": 5.6
+  },
+  {
+    "name": "Khichdi (Classic)",
+    "description": "Khichdi (Classic) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 555.0,
+    "carbs_g": 53.7,
+    "protein_g": 22.5,
+    "fats_g": 27.8
+  },
+  {
+    "name": "Khichdi (Home Style)",
+    "description": "Khichdi (Home Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 227.2,
+    "carbs_g": 14.8,
+    "protein_g": 23.1,
+    "fats_g": 8.4
+  },
+  {
+    "name": "Khichdi (Restaurant Style)",
+    "description": "Khichdi (Restaurant Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 315.6,
+    "carbs_g": 19.8,
+    "protein_g": 21.3,
+    "fats_g": 16.8
+  },
+  {
+    "name": "Khichdi (Low Oil)",
+    "description": "Khichdi (Low Oil) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 511.3,
+    "carbs_g": 50.9,
+    "protein_g": 23.6,
+    "fats_g": 23.7
+  },
+  {
+    "name": "Khichdi (High Protein)",
+    "description": "Khichdi (High Protein) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 504.7,
+    "carbs_g": 55.6,
+    "protein_g": 8.7,
+    "fats_g": 27.5
+  },
+  {
+    "name": "Thepla (Classic)",
+    "description": "Thepla (Classic) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 283.3,
+    "carbs_g": 20.1,
+    "protein_g": 19.0,
+    "fats_g": 14.1
+  },
+  {
+    "name": "Thepla (Home Style)",
+    "description": "Thepla (Home Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 179.4,
+    "carbs_g": 7.7,
+    "protein_g": 6.1,
+    "fats_g": 13.8
+  },
+  {
+    "name": "Thepla (Restaurant Style)",
+    "description": "Thepla (Restaurant Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 304.2,
+    "carbs_g": 16.8,
+    "protein_g": 19.2,
+    "fats_g": 17.8
+  },
+  {
+    "name": "Thepla (Low Oil)",
+    "description": "Thepla (Low Oil) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 417.3,
+    "carbs_g": 50.8,
+    "protein_g": 8.3,
+    "fats_g": 20.1
+  },
+  {
+    "name": "Thepla (High Protein)",
+    "description": "Thepla (High Protein) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 370.3,
+    "carbs_g": 45.8,
+    "protein_g": 18.2,
+    "fats_g": 12.7
+  },
+  {
+    "name": "Dhokla (Classic)",
+    "description": "Dhokla (Classic) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 386.0,
+    "carbs_g": 20.5,
+    "protein_g": 21.1,
+    "fats_g": 24.4
+  },
+  {
+    "name": "Dhokla (Home Style)",
+    "description": "Dhokla (Home Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 372.9,
+    "carbs_g": 32.1,
+    "protein_g": 2.4,
+    "fats_g": 26.1
+  },
+  {
+    "name": "Dhokla (Restaurant Style)",
+    "description": "Dhokla (Restaurant Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 273.8,
+    "carbs_g": 19.7,
+    "protein_g": 12.3,
+    "fats_g": 16.2
+  },
+  {
+    "name": "Dhokla (Low Oil)",
+    "description": "Dhokla (Low Oil) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 471.7,
+    "carbs_g": 49.5,
+    "protein_g": 18.7,
+    "fats_g": 22.1
+  },
+  {
+    "name": "Dhokla (High Protein)",
+    "description": "Dhokla (High Protein) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 439.2,
+    "carbs_g": 48.3,
+    "protein_g": 10.2,
+    "fats_g": 22.8
+  },
+  {
+    "name": "Khandvi (Classic)",
+    "description": "Khandvi (Classic) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 203.7,
+    "carbs_g": 40.1,
+    "protein_g": 6.1,
+    "fats_g": 2.1
+  },
+  {
+    "name": "Khandvi (Home Style)",
+    "description": "Khandvi (Home Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 426.2,
+    "carbs_g": 37.8,
+    "protein_g": 4.4,
+    "fats_g": 28.6
+  },
+  {
+    "name": "Khandvi (Restaurant Style)",
+    "description": "Khandvi (Restaurant Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 226.4,
+    "carbs_g": 26.8,
+    "protein_g": 16.3,
+    "fats_g": 6.0
+  },
+  {
+    "name": "Khandvi (Low Oil)",
+    "description": "Khandvi (Low Oil) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 296.0,
+    "carbs_g": 27.0,
+    "protein_g": 11.9,
+    "fats_g": 15.6
+  },
+  {
+    "name": "Khandvi (High Protein)",
+    "description": "Khandvi (High Protein) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 340.8,
+    "carbs_g": 32.8,
+    "protein_g": 18.2,
+    "fats_g": 15.2
+  },
+  {
+    "name": "Pani Puri (Classic)",
+    "description": "Pani Puri (Classic) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 291.2,
+    "carbs_g": 20.2,
+    "protein_g": 4.9,
+    "fats_g": 21.2
+  },
+  {
+    "name": "Pani Puri (Home Style)",
+    "description": "Pani Puri (Home Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 453.9,
+    "carbs_g": 34.7,
+    "protein_g": 18.7,
+    "fats_g": 26.7
+  },
+  {
+    "name": "Pani Puri (Restaurant Style)",
+    "description": "Pani Puri (Restaurant Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 195.6,
+    "carbs_g": 33.8,
+    "protein_g": 11.5,
+    "fats_g": 1.6
+  },
+  {
+    "name": "Pani Puri (Low Oil)",
+    "description": "Pani Puri (Low Oil) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 486.9,
+    "carbs_g": 50.6,
+    "protein_g": 17.8,
+    "fats_g": 23.7
+  },
+  {
+    "name": "Pani Puri (High Protein)",
+    "description": "Pani Puri (High Protein) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 376.9,
+    "carbs_g": 36.9,
+    "protein_g": 21.1,
+    "fats_g": 16.1
+  },
+  {
+    "name": "Bhel Puri (Classic)",
+    "description": "Bhel Puri (Classic) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 345.8,
+    "carbs_g": 58.1,
+    "protein_g": 9.0,
+    "fats_g": 8.6
+  },
+  {
+    "name": "Bhel Puri (Home Style)",
+    "description": "Bhel Puri (Home Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 162.2,
+    "carbs_g": 12.6,
+    "protein_g": 19.4,
+    "fats_g": 3.8
+  },
+  {
+    "name": "Bhel Puri (Restaurant Style)",
+    "description": "Bhel Puri (Restaurant Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 238.7,
+    "carbs_g": 6.1,
+    "protein_g": 4.3,
+    "fats_g": 21.9
+  },
+  {
+    "name": "Bhel Puri (Low Oil)",
+    "description": "Bhel Puri (Low Oil) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 290.6,
+    "carbs_g": 36.4,
+    "protein_g": 11.5,
+    "fats_g": 11.0
+  },
+  {
+    "name": "Bhel Puri (High Protein)",
+    "description": "Bhel Puri (High Protein) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 485.1,
+    "carbs_g": 43.2,
+    "protein_g": 20.7,
+    "fats_g": 25.5
+  },
+  {
+    "name": "Sev Puri (Classic)",
+    "description": "Sev Puri (Classic) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 233.6,
+    "carbs_g": 6.0,
+    "protein_g": 13.7,
+    "fats_g": 17.2
+  },
+  {
+    "name": "Sev Puri (Home Style)",
+    "description": "Sev Puri (Home Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 321.3,
+    "carbs_g": 41.5,
+    "protein_g": 21.5,
+    "fats_g": 7.7
+  },
+  {
+    "name": "Sev Puri (Restaurant Style)",
+    "description": "Sev Puri (Restaurant Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 424.8,
+    "carbs_g": 28.7,
+    "protein_g": 21.7,
+    "fats_g": 24.8
+  },
+  {
+    "name": "Sev Puri (Low Oil)",
+    "description": "Sev Puri (Low Oil) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 323.4,
+    "carbs_g": 24.9,
+    "protein_g": 11.4,
+    "fats_g": 19.8
+  },
+  {
+    "name": "Sev Puri (High Protein)",
+    "description": "Sev Puri (High Protein) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 154.9,
+    "carbs_g": 7.2,
+    "protein_g": 9.7,
+    "fats_g": 9.7
+  },
+  {
+    "name": "Sheera (Classic)",
+    "description": "Sheera (Classic) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 246.8,
+    "carbs_g": 18.5,
+    "protein_g": 11.7,
+    "fats_g": 14.0
+  },
+  {
+    "name": "Sheera (Home Style)",
+    "description": "Sheera (Home Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 454.6,
+    "carbs_g": 40.7,
+    "protein_g": 16.7,
+    "fats_g": 25.0
+  },
+  {
+    "name": "Sheera (Restaurant Style)",
+    "description": "Sheera (Restaurant Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 406.5,
+    "carbs_g": 35.2,
+    "protein_g": 2.3,
+    "fats_g": 28.5
+  },
+  {
+    "name": "Sheera (Low Oil)",
+    "description": "Sheera (Low Oil) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 293.4,
+    "carbs_g": 31.7,
+    "protein_g": 7.0,
+    "fats_g": 15.4
+  },
+  {
+    "name": "Sheera (High Protein)",
+    "description": "Sheera (High Protein) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 315.7,
+    "carbs_g": 30.6,
+    "protein_g": 8.5,
+    "fats_g": 17.7
+  },
+  {
+    "name": "Halwa (Classic)",
+    "description": "Halwa (Classic) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 401.6,
+    "carbs_g": 28.3,
+    "protein_g": 19.0,
+    "fats_g": 23.6
+  },
+  {
+    "name": "Halwa (Home Style)",
+    "description": "Halwa (Home Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 302.8,
+    "carbs_g": 8.9,
+    "protein_g": 16.4,
+    "fats_g": 22.4
+  },
+  {
+    "name": "Halwa (Restaurant Style)",
+    "description": "Halwa (Restaurant Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 312.1,
+    "carbs_g": 42.4,
+    "protein_g": 3.0,
+    "fats_g": 14.5
+  },
+  {
+    "name": "Halwa (Low Oil)",
+    "description": "Halwa (Low Oil) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 526.2,
+    "carbs_g": 59.6,
+    "protein_g": 22.0,
+    "fats_g": 22.2
+  },
+  {
+    "name": "Halwa (High Protein)",
+    "description": "Halwa (High Protein) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 245.8,
+    "carbs_g": 36.8,
+    "protein_g": 22.4,
+    "fats_g": 1.0
+  },
+  {
+    "name": "Gulab Jamun (Classic)",
+    "description": "Gulab Jamun (Classic) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 331.0,
+    "carbs_g": 54.2,
+    "protein_g": 16.4,
+    "fats_g": 5.4
+  },
+  {
+    "name": "Gulab Jamun (Home Style)",
+    "description": "Gulab Jamun (Home Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 401.1,
+    "carbs_g": 35.8,
+    "protein_g": 3.5,
+    "fats_g": 27.1
+  },
+  {
+    "name": "Gulab Jamun (Restaurant Style)",
+    "description": "Gulab Jamun (Restaurant Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 192.7,
+    "carbs_g": 16.0,
+    "protein_g": 21.6,
+    "fats_g": 4.7
+  },
+  {
+    "name": "Gulab Jamun (Low Oil)",
+    "description": "Gulab Jamun (Low Oil) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 418.7,
+    "carbs_g": 53.3,
+    "protein_g": 24.6,
+    "fats_g": 11.9
+  },
+  {
+    "name": "Gulab Jamun (High Protein)",
+    "description": "Gulab Jamun (High Protein) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 206.8,
+    "carbs_g": 14.5,
+    "protein_g": 18.3,
+    "fats_g": 8.4
+  },
+  {
+    "name": "Rasgulla (Classic)",
+    "description": "Rasgulla (Classic) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 228.5,
+    "carbs_g": 26.3,
+    "protein_g": 24.3,
+    "fats_g": 2.9
+  },
+  {
+    "name": "Rasgulla (Home Style)",
+    "description": "Rasgulla (Home Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 428.0,
+    "carbs_g": 43.4,
+    "protein_g": 21.3,
+    "fats_g": 18.8
+  },
+  {
+    "name": "Rasgulla (Restaurant Style)",
+    "description": "Rasgulla (Restaurant Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 264.6,
+    "carbs_g": 41.3,
+    "protein_g": 6.4,
+    "fats_g": 8.2
+  },
+  {
+    "name": "Rasgulla (Low Oil)",
+    "description": "Rasgulla (Low Oil) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 131.8,
+    "carbs_g": 6.6,
+    "protein_g": 14.2,
+    "fats_g": 5.4
+  },
+  {
+    "name": "Rasgulla (High Protein)",
+    "description": "Rasgulla (High Protein) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 527.9,
+    "carbs_g": 43.8,
+    "protein_g": 21.8,
+    "fats_g": 29.5
+  },
+  {
+    "name": "Jalebi (Classic)",
+    "description": "Jalebi (Classic) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 365.7,
+    "carbs_g": 41.0,
+    "protein_g": 2.5,
+    "fats_g": 21.3
+  },
+  {
+    "name": "Jalebi (Home Style)",
+    "description": "Jalebi (Home Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 553.8,
+    "carbs_g": 58.4,
+    "protein_g": 19.3,
+    "fats_g": 27.0
+  },
+  {
+    "name": "Jalebi (Restaurant Style)",
+    "description": "Jalebi (Restaurant Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 217.7,
+    "carbs_g": 24.8,
+    "protein_g": 23.1,
+    "fats_g": 2.9
+  },
+  {
+    "name": "Jalebi (Low Oil)",
+    "description": "Jalebi (Low Oil) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 447.6,
+    "carbs_g": 52.7,
+    "protein_g": 8.8,
+    "fats_g": 22.4
+  },
+  {
+    "name": "Jalebi (High Protein)",
+    "description": "Jalebi (High Protein) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 382.2,
+    "carbs_g": 47.4,
+    "protein_g": 9.0,
+    "fats_g": 17.4
+  },
+  {
+    "name": "Kheer (Classic)",
+    "description": "Kheer (Classic) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 330.1,
+    "carbs_g": 12.1,
+    "protein_g": 24.3,
+    "fats_g": 20.5
+  },
+  {
+    "name": "Kheer (Home Style)",
+    "description": "Kheer (Home Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 257.5,
+    "carbs_g": 55.9,
+    "protein_g": 6.0,
+    "fats_g": 1.1
+  },
+  {
+    "name": "Kheer (Restaurant Style)",
+    "description": "Kheer (Restaurant Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 266.2,
+    "carbs_g": 13.4,
+    "protein_g": 5.9,
+    "fats_g": 21.0
+  },
+  {
+    "name": "Kheer (Low Oil)",
+    "description": "Kheer (Low Oil) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 471.4,
+    "carbs_g": 56.4,
+    "protein_g": 17.8,
+    "fats_g": 19.4
+  },
+  {
+    "name": "Kheer (High Protein)",
+    "description": "Kheer (High Protein) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 456.3,
+    "carbs_g": 33.5,
+    "protein_g": 16.0,
+    "fats_g": 28.7
+  },
+  {
+    "name": "Paneer Tikka (Classic)",
+    "description": "Paneer Tikka (Classic) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 308.0,
+    "carbs_g": 31.8,
+    "protein_g": 24.5,
+    "fats_g": 9.2
+  },
+  {
+    "name": "Paneer Tikka (Home Style)",
+    "description": "Paneer Tikka (Home Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 411.6,
+    "carbs_g": 29.5,
+    "protein_g": 23.9,
+    "fats_g": 22.0
+  },
+  {
+    "name": "Paneer Tikka (Restaurant Style)",
+    "description": "Paneer Tikka (Restaurant Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 362.8,
+    "carbs_g": 55.3,
+    "protein_g": 19.2,
+    "fats_g": 7.2
+  },
+  {
+    "name": "Paneer Tikka (Low Oil)",
+    "description": "Paneer Tikka (Low Oil) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 379.4,
+    "carbs_g": 23.4,
+    "protein_g": 16.1,
+    "fats_g": 24.6
+  },
+  {
+    "name": "Paneer Tikka (High Protein)",
+    "description": "Paneer Tikka (High Protein) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 348.6,
+    "carbs_g": 48.1,
+    "protein_g": 5.3,
+    "fats_g": 15.0
+  },
+  {
+    "name": "Bhindi Fry (Classic)",
+    "description": "Bhindi Fry (Classic) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 169.0,
+    "carbs_g": 17.6,
+    "protein_g": 22.4,
+    "fats_g": 1.0
+  },
+  {
+    "name": "Bhindi Fry (Home Style)",
+    "description": "Bhindi Fry (Home Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 172.0,
+    "carbs_g": 18.0,
+    "protein_g": 12.4,
+    "fats_g": 5.6
+  },
+  {
+    "name": "Bhindi Fry (Restaurant Style)",
+    "description": "Bhindi Fry (Restaurant Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 342.8,
+    "carbs_g": 26.7,
+    "protein_g": 12.2,
+    "fats_g": 20.8
+  },
+  {
+    "name": "Bhindi Fry (Low Oil)",
+    "description": "Bhindi Fry (Low Oil) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 442.8,
+    "carbs_g": 28.2,
+    "protein_g": 20.4,
+    "fats_g": 27.6
+  },
+  {
+    "name": "Bhindi Fry (High Protein)",
+    "description": "Bhindi Fry (High Protein) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 454.7,
+    "carbs_g": 41.8,
+    "protein_g": 18.1,
+    "fats_g": 23.9
+  },
+  {
+    "name": "Aloo Gobi (Classic)",
+    "description": "Aloo Gobi (Classic) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 396.2,
+    "carbs_g": 27.7,
+    "protein_g": 4.3,
+    "fats_g": 29.8
+  },
+  {
+    "name": "Aloo Gobi (Home Style)",
+    "description": "Aloo Gobi (Home Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 495.6,
+    "carbs_g": 51.5,
+    "protein_g": 8.5,
+    "fats_g": 28.4
+  },
+  {
+    "name": "Aloo Gobi (Restaurant Style)",
+    "description": "Aloo Gobi (Restaurant Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 177.2,
+    "carbs_g": 13.3,
+    "protein_g": 24.7,
+    "fats_g": 2.8
+  },
+  {
+    "name": "Aloo Gobi (Low Oil)",
+    "description": "Aloo Gobi (Low Oil) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 279.0,
+    "carbs_g": 24.3,
+    "protein_g": 7.2,
+    "fats_g": 17.0
+  },
+  {
+    "name": "Aloo Gobi (High Protein)",
+    "description": "Aloo Gobi (High Protein) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 344.7,
+    "carbs_g": 44.4,
+    "protein_g": 24.0,
+    "fats_g": 7.9
+  },
+  {
+    "name": "Mix Veg (Classic)",
+    "description": "Mix Veg (Classic) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 239.4,
+    "carbs_g": 42.5,
+    "protein_g": 3.4,
+    "fats_g": 6.2
+  },
+  {
+    "name": "Mix Veg (Home Style)",
+    "description": "Mix Veg (Home Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 197.6,
+    "carbs_g": 24.1,
+    "protein_g": 9.1,
+    "fats_g": 7.2
+  },
+  {
+    "name": "Mix Veg (Restaurant Style)",
+    "description": "Mix Veg (Restaurant Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 265.9,
+    "carbs_g": 21.1,
+    "protein_g": 6.0,
+    "fats_g": 17.5
+  },
+  {
+    "name": "Mix Veg (Low Oil)",
+    "description": "Mix Veg (Low Oil) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 352.0,
+    "carbs_g": 22.1,
+    "protein_g": 6.5,
+    "fats_g": 26.4
+  },
+  {
+    "name": "Mix Veg (High Protein)",
+    "description": "Mix Veg (High Protein) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 300.9,
+    "carbs_g": 30.3,
+    "protein_g": 14.1,
+    "fats_g": 13.7
+  },
+  {
+    "name": "Veg Pulao (Classic)",
+    "description": "Veg Pulao (Classic) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 163.5,
+    "carbs_g": 6.0,
+    "protein_g": 17.1,
+    "fats_g": 7.9
+  },
+  {
+    "name": "Veg Pulao (Home Style)",
+    "description": "Veg Pulao (Home Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 553.9,
+    "carbs_g": 55.3,
+    "protein_g": 17.7,
+    "fats_g": 29.1
+  },
+  {
+    "name": "Veg Pulao (Restaurant Style)",
+    "description": "Veg Pulao (Restaurant Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 368.4,
+    "carbs_g": 59.7,
+    "protein_g": 10.8,
+    "fats_g": 9.6
+  },
+  {
+    "name": "Veg Pulao (Low Oil)",
+    "description": "Veg Pulao (Low Oil) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 332.7,
+    "carbs_g": 59.0,
+    "protein_g": 10.9,
+    "fats_g": 5.9
+  },
+  {
+    "name": "Veg Pulao (High Protein)",
+    "description": "Veg Pulao (High Protein) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 488.1,
+    "carbs_g": 58.3,
+    "protein_g": 24.8,
+    "fats_g": 17.3
+  },
+  {
+    "name": "Egg Curry (Classic)",
+    "description": "Egg Curry (Classic) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 285.1,
+    "carbs_g": 11.0,
+    "protein_g": 4.7,
+    "fats_g": 24.7
+  },
+  {
+    "name": "Egg Curry (Home Style)",
+    "description": "Egg Curry (Home Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 74.4,
+    "carbs_g": 10.7,
+    "protein_g": 5.2,
+    "fats_g": 1.2
+  },
+  {
+    "name": "Egg Curry (Restaurant Style)",
+    "description": "Egg Curry (Restaurant Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 292.8,
+    "carbs_g": 22.2,
+    "protein_g": 16.8,
+    "fats_g": 15.2
+  },
+  {
+    "name": "Egg Curry (Low Oil)",
+    "description": "Egg Curry (Low Oil) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 445.2,
+    "carbs_g": 27.6,
+    "protein_g": 16.2,
+    "fats_g": 30.0
+  },
+  {
+    "name": "Egg Curry (High Protein)",
+    "description": "Egg Curry (High Protein) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 445.8,
+    "carbs_g": 45.2,
+    "protein_g": 24.4,
+    "fats_g": 18.6
+  },
+  {
+    "name": "Egg Bhurji (Classic)",
+    "description": "Egg Bhurji (Classic) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 190.8,
+    "carbs_g": 26.2,
+    "protein_g": 14.3,
+    "fats_g": 3.2
+  },
+  {
+    "name": "Egg Bhurji (Home Style)",
+    "description": "Egg Bhurji (Home Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 461.2,
+    "carbs_g": 42.5,
+    "protein_g": 17.9,
+    "fats_g": 24.4
+  },
+  {
+    "name": "Egg Bhurji (Restaurant Style)",
+    "description": "Egg Bhurji (Restaurant Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 363.4,
+    "carbs_g": 42.7,
+    "protein_g": 9.9,
+    "fats_g": 17.0
+  },
+  {
+    "name": "Egg Bhurji (Low Oil)",
+    "description": "Egg Bhurji (Low Oil) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 285.7,
+    "carbs_g": 33.8,
+    "protein_g": 12.2,
+    "fats_g": 11.3
+  },
+  {
+    "name": "Egg Bhurji (High Protein)",
+    "description": "Egg Bhurji (High Protein) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 437.1,
+    "carbs_g": 55.1,
+    "protein_g": 6.7,
+    "fats_g": 21.1
+  },
+  {
+    "name": "Masala Omelette (Classic)",
+    "description": "Masala Omelette (Classic) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 272.5,
+    "carbs_g": 11.3,
+    "protein_g": 11.6,
+    "fats_g": 20.1
+  },
+  {
+    "name": "Masala Omelette (Home Style)",
+    "description": "Masala Omelette (Home Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 489.3,
+    "carbs_g": 39.8,
+    "protein_g": 22.0,
+    "fats_g": 26.9
+  },
+  {
+    "name": "Masala Omelette (Restaurant Style)",
+    "description": "Masala Omelette (Restaurant Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 470.4,
+    "carbs_g": 38.7,
+    "protein_g": 17.7,
+    "fats_g": 27.2
+  },
+  {
+    "name": "Masala Omelette (Low Oil)",
+    "description": "Masala Omelette (Low Oil) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 181.9,
+    "carbs_g": 15.7,
+    "protein_g": 15.6,
+    "fats_g": 6.3
+  },
+  {
+    "name": "Masala Omelette (High Protein)",
+    "description": "Masala Omelette (High Protein) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 373.5,
+    "carbs_g": 5.4,
+    "protein_g": 21.6,
+    "fats_g": 29.5
+  },
+  {
+    "name": "Sabudana Khichdi (Classic)",
+    "description": "Sabudana Khichdi (Classic) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 235.3,
+    "carbs_g": 10.9,
+    "protein_g": 21.6,
+    "fats_g": 11.7
+  },
+  {
+    "name": "Sabudana Khichdi (Home Style)",
+    "description": "Sabudana Khichdi (Home Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 231.7,
+    "carbs_g": 3.0,
+    "protein_g": 14.2,
+    "fats_g": 18.1
+  },
+  {
+    "name": "Sabudana Khichdi (Restaurant Style)",
+    "description": "Sabudana Khichdi (Restaurant Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 290.1,
+    "carbs_g": 6.9,
+    "protein_g": 15.9,
+    "fats_g": 22.1
+  },
+  {
+    "name": "Sabudana Khichdi (Low Oil)",
+    "description": "Sabudana Khichdi (Low Oil) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 113.2,
+    "carbs_g": 10.3,
+    "protein_g": 10.8,
+    "fats_g": 3.2
+  },
+  {
+    "name": "Sabudana Khichdi (High Protein)",
+    "description": "Sabudana Khichdi (High Protein) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 508.5,
+    "carbs_g": 48.9,
+    "protein_g": 19.5,
+    "fats_g": 26.1
+  },
+  {
+    "name": "Dalia (Classic)",
+    "description": "Dalia (Classic) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 275.4,
+    "carbs_g": 12.0,
+    "protein_g": 3.3,
+    "fats_g": 23.8
+  },
+  {
+    "name": "Dalia (Home Style)",
+    "description": "Dalia (Home Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 462.1,
+    "carbs_g": 55.4,
+    "protein_g": 21.2,
+    "fats_g": 17.3
+  },
+  {
+    "name": "Dalia (Restaurant Style)",
+    "description": "Dalia (Restaurant Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 356.1,
+    "carbs_g": 48.4,
+    "protein_g": 15.2,
+    "fats_g": 11.3
+  },
+  {
+    "name": "Dalia (Low Oil)",
+    "description": "Dalia (Low Oil) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 376.7,
+    "carbs_g": 52.8,
+    "protein_g": 2.0,
+    "fats_g": 17.5
+  },
+  {
+    "name": "Dalia (High Protein)",
+    "description": "Dalia (High Protein) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 253.9,
+    "carbs_g": 26.3,
+    "protein_g": 5.9,
+    "fats_g": 13.9
+  },
+  {
+    "name": "Moong Dal (Classic)",
+    "description": "Moong Dal (Classic) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 206.5,
+    "carbs_g": 40.6,
+    "protein_g": 8.1,
+    "fats_g": 1.3
+  },
+  {
+    "name": "Moong Dal (Home Style)",
+    "description": "Moong Dal (Home Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 523.8,
+    "carbs_g": 47.7,
+    "protein_g": 20.7,
+    "fats_g": 27.8
+  },
+  {
+    "name": "Moong Dal (Restaurant Style)",
+    "description": "Moong Dal (Restaurant Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 402.7,
+    "carbs_g": 42.8,
+    "protein_g": 23.0,
+    "fats_g": 15.5
+  },
+  {
+    "name": "Moong Dal (Low Oil)",
+    "description": "Moong Dal (Low Oil) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 241.7,
+    "carbs_g": 4.5,
+    "protein_g": 17.9,
+    "fats_g": 16.9
+  },
+  {
+    "name": "Moong Dal (High Protein)",
+    "description": "Moong Dal (High Protein) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 288.7,
+    "carbs_g": 49.2,
+    "protein_g": 16.9,
+    "fats_g": 2.7
+  },
+  {
+    "name": "Masoor Dal (Classic)",
+    "description": "Masoor Dal (Classic) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 422.5,
+    "carbs_g": 33.5,
+    "protein_g": 10.7,
+    "fats_g": 27.3
+  },
+  {
+    "name": "Masoor Dal (Home Style)",
+    "description": "Masoor Dal (Home Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 312.3,
+    "carbs_g": 35.3,
+    "protein_g": 23.2,
+    "fats_g": 8.7
+  },
+  {
+    "name": "Masoor Dal (Restaurant Style)",
+    "description": "Masoor Dal (Restaurant Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 318.4,
+    "carbs_g": 36.9,
+    "protein_g": 8.5,
+    "fats_g": 15.2
+  },
+  {
+    "name": "Masoor Dal (Low Oil)",
+    "description": "Masoor Dal (Low Oil) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 351.0,
+    "carbs_g": 27.7,
+    "protein_g": 8.3,
+    "fats_g": 23.0
+  },
+  {
+    "name": "Masoor Dal (High Protein)",
+    "description": "Masoor Dal (High Protein) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 224.4,
+    "carbs_g": 11.8,
+    "protein_g": 16.4,
+    "fats_g": 12.4
+  },
+  {
+    "name": "Urad Dal (Classic)",
+    "description": "Urad Dal (Classic) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 380.8,
+    "carbs_g": 6.9,
+    "protein_g": 23.5,
+    "fats_g": 28.8
+  },
+  {
+    "name": "Urad Dal (Home Style)",
+    "description": "Urad Dal (Home Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 432.8,
+    "carbs_g": 32.3,
+    "protein_g": 17.4,
+    "fats_g": 26.0
+  },
+  {
+    "name": "Urad Dal (Restaurant Style)",
+    "description": "Urad Dal (Restaurant Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 233.6,
+    "carbs_g": 8.2,
+    "protein_g": 13.3,
+    "fats_g": 16.4
+  },
+  {
+    "name": "Urad Dal (Low Oil)",
+    "description": "Urad Dal (Low Oil) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 369.9,
+    "carbs_g": 53.9,
+    "protein_g": 5.5,
+    "fats_g": 14.7
+  },
+  {
+    "name": "Urad Dal (High Protein)",
+    "description": "Urad Dal (High Protein) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 387.3,
+    "carbs_g": 22.1,
+    "protein_g": 25.0,
+    "fats_g": 22.1
+  },
+  {
+    "name": "Chana Dal (Classic)",
+    "description": "Chana Dal (Classic) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 213.2,
+    "carbs_g": 24.2,
+    "protein_g": 16.5,
+    "fats_g": 5.6
+  },
+  {
+    "name": "Chana Dal (Home Style)",
+    "description": "Chana Dal (Home Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 321.0,
+    "carbs_g": 30.8,
+    "protein_g": 4.9,
+    "fats_g": 19.8
+  },
+  {
+    "name": "Chana Dal (Restaurant Style)",
+    "description": "Chana Dal (Restaurant Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 482.6,
+    "carbs_g": 40.7,
+    "protein_g": 14.7,
+    "fats_g": 29.0
+  },
+  {
+    "name": "Chana Dal (Low Oil)",
+    "description": "Chana Dal (Low Oil) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 287.7,
+    "carbs_g": 35.5,
+    "protein_g": 20.0,
+    "fats_g": 7.3
+  },
+  {
+    "name": "Chana Dal (High Protein)",
+    "description": "Chana Dal (High Protein) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 286.5,
+    "carbs_g": 32.7,
+    "protein_g": 16.2,
+    "fats_g": 10.1
+  },
+  {
+    "name": "Kaju Curry (Classic)",
+    "description": "Kaju Curry (Classic) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 315.8,
+    "carbs_g": 41.1,
+    "protein_g": 6.8,
+    "fats_g": 13.8
+  },
+  {
+    "name": "Kaju Curry (Home Style)",
+    "description": "Kaju Curry (Home Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 254.6,
+    "carbs_g": 45.1,
+    "protein_g": 10.9,
+    "fats_g": 3.4
+  },
+  {
+    "name": "Kaju Curry (Restaurant Style)",
+    "description": "Kaju Curry (Restaurant Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 527.1,
+    "carbs_g": 42.3,
+    "protein_g": 23.1,
+    "fats_g": 29.5
+  },
+  {
+    "name": "Kaju Curry (Low Oil)",
+    "description": "Kaju Curry (Low Oil) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 266.0,
+    "carbs_g": 5.2,
+    "protein_g": 19.9,
+    "fats_g": 18.4
+  },
+  {
+    "name": "Kaju Curry (High Protein)",
+    "description": "Kaju Curry (High Protein) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 373.1,
+    "carbs_g": 26.2,
+    "protein_g": 21.4,
+    "fats_g": 20.3
+  },
+  {
+    "name": "Methi Malai Paneer (Classic)",
+    "description": "Methi Malai Paneer (Classic) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 331.0,
+    "carbs_g": 17.2,
+    "protein_g": 21.0,
+    "fats_g": 19.8
+  },
+  {
+    "name": "Methi Malai Paneer (Home Style)",
+    "description": "Methi Malai Paneer (Home Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 300.2,
+    "carbs_g": 14.4,
+    "protein_g": 4.4,
+    "fats_g": 25.0
+  },
+  {
+    "name": "Methi Malai Paneer (Restaurant Style)",
+    "description": "Methi Malai Paneer (Restaurant Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 246.8,
+    "carbs_g": 19.8,
+    "protein_g": 5.0,
+    "fats_g": 16.4
+  },
+  {
+    "name": "Methi Malai Paneer (Low Oil)",
+    "description": "Methi Malai Paneer (Low Oil) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 317.9,
+    "carbs_g": 51.3,
+    "protein_g": 9.5,
+    "fats_g": 8.3
+  },
+  {
+    "name": "Methi Malai Paneer (High Protein)",
+    "description": "Methi Malai Paneer (High Protein) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 242.3,
+    "carbs_g": 18.2,
+    "protein_g": 8.4,
+    "fats_g": 15.1
+  },
+  {
+    "name": "Veg Korma (Classic)",
+    "description": "Veg Korma (Classic) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 360.3,
+    "carbs_g": 49.7,
+    "protein_g": 13.6,
+    "fats_g": 11.9
+  },
+  {
+    "name": "Veg Korma (Home Style)",
+    "description": "Veg Korma (Home Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 291.2,
+    "carbs_g": 46.9,
+    "protein_g": 4.3,
+    "fats_g": 9.6
+  },
+  {
+    "name": "Veg Korma (Restaurant Style)",
+    "description": "Veg Korma (Restaurant Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 192.4,
+    "carbs_g": 8.9,
+    "protein_g": 20.3,
+    "fats_g": 8.4
+  },
+  {
+    "name": "Veg Korma (Low Oil)",
+    "description": "Veg Korma (Low Oil) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 396.0,
+    "carbs_g": 15.2,
+    "protein_g": 17.2,
+    "fats_g": 29.6
+  },
+  {
+    "name": "Veg Korma (High Protein)",
+    "description": "Veg Korma (High Protein) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 381.4,
+    "carbs_g": 14.9,
+    "protein_g": 17.0,
+    "fats_g": 28.2
+  },
+  {
+    "name": "Malai Kofta (Classic)",
+    "description": "Malai Kofta (Classic) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 363.9,
+    "carbs_g": 55.5,
+    "protein_g": 4.2,
+    "fats_g": 13.9
+  },
+  {
+    "name": "Malai Kofta (Home Style)",
+    "description": "Malai Kofta (Home Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 155.8,
+    "carbs_g": 9.4,
+    "protein_g": 2.1,
+    "fats_g": 12.2
+  },
+  {
+    "name": "Malai Kofta (Restaurant Style)",
+    "description": "Malai Kofta (Restaurant Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 238.9,
+    "carbs_g": 32.8,
+    "protein_g": 21.3,
+    "fats_g": 2.5
+  },
+  {
+    "name": "Malai Kofta (Low Oil)",
+    "description": "Malai Kofta (Low Oil) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 378.0,
+    "carbs_g": 57.7,
+    "protein_g": 5.3,
+    "fats_g": 14.0
+  },
+  {
+    "name": "Malai Kofta (High Protein)",
+    "description": "Malai Kofta (High Protein) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 486.1,
+    "carbs_g": 39.9,
+    "protein_g": 23.8,
+    "fats_g": 25.7
+  },
+  {
+    "name": "Veg Fried Rice (Classic)",
+    "description": "Veg Fried Rice (Classic) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 329.5,
+    "carbs_g": 51.5,
+    "protein_g": 21.2,
+    "fats_g": 4.3
+  },
+  {
+    "name": "Veg Fried Rice (Home Style)",
+    "description": "Veg Fried Rice (Home Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 168.5,
+    "carbs_g": 19.9,
+    "protein_g": 7.6,
+    "fats_g": 6.5
+  },
+  {
+    "name": "Veg Fried Rice (Restaurant Style)",
+    "description": "Veg Fried Rice (Restaurant Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 358.9,
+    "carbs_g": 16.1,
+    "protein_g": 10.4,
+    "fats_g": 28.1
+  },
+  {
+    "name": "Veg Fried Rice (Low Oil)",
+    "description": "Veg Fried Rice (Low Oil) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 377.1,
+    "carbs_g": 44.7,
+    "protein_g": 21.0,
+    "fats_g": 12.7
+  },
+  {
+    "name": "Veg Fried Rice (High Protein)",
+    "description": "Veg Fried Rice (High Protein) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 391.7,
+    "carbs_g": 41.5,
+    "protein_g": 10.3,
+    "fats_g": 20.5
+  },
+  {
+    "name": "Egg Fried Rice (Classic)",
+    "description": "Egg Fried Rice (Classic) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 322.6,
+    "carbs_g": 15.6,
+    "protein_g": 5.2,
+    "fats_g": 26.6
+  },
+  {
+    "name": "Egg Fried Rice (Home Style)",
+    "description": "Egg Fried Rice (Home Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 416.8,
+    "carbs_g": 32.0,
+    "protein_g": 20.0,
+    "fats_g": 23.2
+  },
+  {
+    "name": "Egg Fried Rice (Restaurant Style)",
+    "description": "Egg Fried Rice (Restaurant Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 313.6,
+    "carbs_g": 19.8,
+    "protein_g": 18.1,
+    "fats_g": 18.0
+  },
+  {
+    "name": "Egg Fried Rice (Low Oil)",
+    "description": "Egg Fried Rice (Low Oil) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 435.3,
+    "carbs_g": 50.2,
+    "protein_g": 17.9,
+    "fats_g": 18.1
+  },
+  {
+    "name": "Egg Fried Rice (High Protein)",
+    "description": "Egg Fried Rice (High Protein) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 136.1,
+    "carbs_g": 5.0,
+    "protein_g": 8.1,
+    "fats_g": 9.3
+  },
+  {
+    "name": "Chicken Fried Rice (Classic)",
+    "description": "Chicken Fried Rice (Classic) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 471.7,
+    "carbs_g": 45.8,
+    "protein_g": 7.1,
+    "fats_g": 28.9
+  },
+  {
+    "name": "Chicken Fried Rice (Home Style)",
+    "description": "Chicken Fried Rice (Home Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 442.3,
+    "carbs_g": 59.0,
+    "protein_g": 11.3,
+    "fats_g": 17.9
+  },
+  {
+    "name": "Chicken Fried Rice (Restaurant Style)",
+    "description": "Chicken Fried Rice (Restaurant Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 468.1,
+    "carbs_g": 39.8,
+    "protein_g": 11.3,
+    "fats_g": 29.3
+  },
+  {
+    "name": "Chicken Fried Rice (Low Oil)",
+    "description": "Chicken Fried Rice (Low Oil) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 400.1,
+    "carbs_g": 43.9,
+    "protein_g": 19.9,
+    "fats_g": 16.1
+  },
+  {
+    "name": "Chicken Fried Rice (High Protein)",
+    "description": "Chicken Fried Rice (High Protein) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 507.1,
+    "carbs_g": 59.6,
+    "protein_g": 2.6,
+    "fats_g": 28.7
+  },
+  {
+    "name": "Fish Fry (Classic)",
+    "description": "Fish Fry (Classic) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 429.2,
+    "carbs_g": 37.1,
+    "protein_g": 23.4,
+    "fats_g": 20.8
+  },
+  {
+    "name": "Fish Fry (Home Style)",
+    "description": "Fish Fry (Home Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 372.1,
+    "carbs_g": 18.6,
+    "protein_g": 12.1,
+    "fats_g": 27.7
+  },
+  {
+    "name": "Fish Fry (Restaurant Style)",
+    "description": "Fish Fry (Restaurant Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 286.2,
+    "carbs_g": 35.5,
+    "protein_g": 16.7,
+    "fats_g": 8.6
+  },
+  {
+    "name": "Fish Fry (Low Oil)",
+    "description": "Fish Fry (Low Oil) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 340.2,
+    "carbs_g": 4.5,
+    "protein_g": 19.8,
+    "fats_g": 27.0
+  },
+  {
+    "name": "Fish Fry (High Protein)",
+    "description": "Fish Fry (High Protein) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 234.4,
+    "carbs_g": 24.0,
+    "protein_g": 12.1,
+    "fats_g": 10.0
+  },
+  {
+    "name": "Veg Momos (Classic)",
+    "description": "Veg Momos (Classic) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 273.4,
+    "carbs_g": 52.5,
+    "protein_g": 10.0,
+    "fats_g": 2.6
+  },
+  {
+    "name": "Veg Momos (Home Style)",
+    "description": "Veg Momos (Home Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 279.7,
+    "carbs_g": 6.8,
+    "protein_g": 18.8,
+    "fats_g": 19.7
+  },
+  {
+    "name": "Veg Momos (Restaurant Style)",
+    "description": "Veg Momos (Restaurant Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 169.1,
+    "carbs_g": 6.1,
+    "protein_g": 3.1,
+    "fats_g": 14.7
+  },
+  {
+    "name": "Veg Momos (Low Oil)",
+    "description": "Veg Momos (Low Oil) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 227.4,
+    "carbs_g": 35.9,
+    "protein_g": 6.1,
+    "fats_g": 6.6
+  },
+  {
+    "name": "Veg Momos (High Protein)",
+    "description": "Veg Momos (High Protein) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 190.1,
+    "carbs_g": 8.3,
+    "protein_g": 10.2,
+    "fats_g": 12.9
+  },
+  {
+    "name": "Chicken Momos (Classic)",
+    "description": "Chicken Momos (Classic) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 347.4,
+    "carbs_g": 33.4,
+    "protein_g": 21.5,
+    "fats_g": 14.2
+  },
+  {
+    "name": "Chicken Momos (Home Style)",
+    "description": "Chicken Momos (Home Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 329.0,
+    "carbs_g": 51.4,
+    "protein_g": 17.8,
+    "fats_g": 5.8
+  },
+  {
+    "name": "Chicken Momos (Restaurant Style)",
+    "description": "Chicken Momos (Restaurant Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 296.1,
+    "carbs_g": 10.4,
+    "protein_g": 14.8,
+    "fats_g": 21.7
+  },
+  {
+    "name": "Chicken Momos (Low Oil)",
+    "description": "Chicken Momos (Low Oil) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 395.8,
+    "carbs_g": 27.3,
+    "protein_g": 15.4,
+    "fats_g": 25.0
+  },
+  {
+    "name": "Chicken Momos (High Protein)",
+    "description": "Chicken Momos (High Protein) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 244.6,
+    "carbs_g": 27.5,
+    "protein_g": 15.2,
+    "fats_g": 8.2
+  },
+  {
+    "name": "Chilli Paneer (Classic)",
+    "description": "Chilli Paneer (Classic) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 301.8,
+    "carbs_g": 4.5,
+    "protein_g": 24.6,
+    "fats_g": 20.6
+  },
+  {
+    "name": "Chilli Paneer (Home Style)",
+    "description": "Chilli Paneer (Home Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 410.9,
+    "carbs_g": 43.5,
+    "protein_g": 16.7,
+    "fats_g": 18.9
+  },
+  {
+    "name": "Chilli Paneer (Restaurant Style)",
+    "description": "Chilli Paneer (Restaurant Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 349.4,
+    "carbs_g": 31.0,
+    "protein_g": 22.6,
+    "fats_g": 15.0
+  },
+  {
+    "name": "Chilli Paneer (Low Oil)",
+    "description": "Chilli Paneer (Low Oil) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 380.6,
+    "carbs_g": 19.2,
+    "protein_g": 8.9,
+    "fats_g": 29.8
+  },
+  {
+    "name": "Chilli Paneer (High Protein)",
+    "description": "Chilli Paneer (High Protein) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 320.0,
+    "carbs_g": 18.5,
+    "protein_g": 16.5,
+    "fats_g": 20.0
+  },
+  {
+    "name": "Chilli Chicken (Classic)",
+    "description": "Chilli Chicken (Classic) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 237.8,
+    "carbs_g": 27.3,
+    "protein_g": 10.1,
+    "fats_g": 9.8
+  },
+  {
+    "name": "Chilli Chicken (Home Style)",
+    "description": "Chilli Chicken (Home Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 296.3,
+    "carbs_g": 27.8,
+    "protein_g": 21.3,
+    "fats_g": 11.1
+  },
+  {
+    "name": "Chilli Chicken (Restaurant Style)",
+    "description": "Chilli Chicken (Restaurant Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 266.7,
+    "carbs_g": 37.5,
+    "protein_g": 20.4,
+    "fats_g": 3.9
+  },
+  {
+    "name": "Chilli Chicken (Low Oil)",
+    "description": "Chilli Chicken (Low Oil) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 376.1,
+    "carbs_g": 26.1,
+    "protein_g": 15.5,
+    "fats_g": 23.3
+  },
+  {
+    "name": "Chilli Chicken (High Protein)",
+    "description": "Chilli Chicken (High Protein) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 509.3,
+    "carbs_g": 44.8,
+    "protein_g": 23.8,
+    "fats_g": 26.1
+  },
+  {
+    "name": "Hakka Noodles (Classic)",
+    "description": "Hakka Noodles (Classic) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 327.8,
+    "carbs_g": 50.0,
+    "protein_g": 7.2,
+    "fats_g": 11.0
+  },
+  {
+    "name": "Hakka Noodles (Home Style)",
+    "description": "Hakka Noodles (Home Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 331.4,
+    "carbs_g": 38.8,
+    "protein_g": 16.6,
+    "fats_g": 12.2
+  },
+  {
+    "name": "Hakka Noodles (Restaurant Style)",
+    "description": "Hakka Noodles (Restaurant Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 115.3,
+    "carbs_g": 10.4,
+    "protein_g": 11.9,
+    "fats_g": 2.9
+  },
+  {
+    "name": "Hakka Noodles (Low Oil)",
+    "description": "Hakka Noodles (Low Oil) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 262.5,
+    "carbs_g": 13.2,
+    "protein_g": 10.8,
+    "fats_g": 18.5
+  },
+  {
+    "name": "Hakka Noodles (High Protein)",
+    "description": "Hakka Noodles (High Protein) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 298.5,
+    "carbs_g": 9.5,
+    "protein_g": 21.7,
+    "fats_g": 19.3
+  },
+  {
+    "name": "Veg Noodles (Classic)",
+    "description": "Veg Noodles (Classic) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 159.4,
+    "carbs_g": 22.4,
+    "protein_g": 6.2,
+    "fats_g": 5.0
+  },
+  {
+    "name": "Veg Noodles (Home Style)",
+    "description": "Veg Noodles (Home Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 326.2,
+    "carbs_g": 16.4,
+    "protein_g": 4.4,
+    "fats_g": 27.0
+  },
+  {
+    "name": "Veg Noodles (Restaurant Style)",
+    "description": "Veg Noodles (Restaurant Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 219.7,
+    "carbs_g": 18.2,
+    "protein_g": 6.8,
+    "fats_g": 13.3
+  },
+  {
+    "name": "Veg Noodles (Low Oil)",
+    "description": "Veg Noodles (Low Oil) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 221.2,
+    "carbs_g": 25.9,
+    "protein_g": 23.1,
+    "fats_g": 2.8
+  },
+  {
+    "name": "Veg Noodles (High Protein)",
+    "description": "Veg Noodles (High Protein) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 330.6,
+    "carbs_g": 42.2,
+    "protein_g": 18.4,
+    "fats_g": 9.8
+  },
+  {
+    "name": "Chicken Noodles (Classic)",
+    "description": "Chicken Noodles (Classic) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 312.8,
+    "carbs_g": 22.6,
+    "protein_g": 16.0,
+    "fats_g": 17.6
+  },
+  {
+    "name": "Chicken Noodles (Home Style)",
+    "description": "Chicken Noodles (Home Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 342.2,
+    "carbs_g": 44.7,
+    "protein_g": 24.2,
+    "fats_g": 7.4
+  },
+  {
+    "name": "Chicken Noodles (Restaurant Style)",
+    "description": "Chicken Noodles (Restaurant Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 283.2,
+    "carbs_g": 29.1,
+    "protein_g": 23.7,
+    "fats_g": 8.0
+  },
+  {
+    "name": "Chicken Noodles (Low Oil)",
+    "description": "Chicken Noodles (Low Oil) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 553.8,
+    "carbs_g": 55.7,
+    "protein_g": 22.0,
+    "fats_g": 27.0
+  },
+  {
+    "name": "Chicken Noodles (High Protein)",
+    "description": "Chicken Noodles (High Protein) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 228.1,
+    "carbs_g": 7.4,
+    "protein_g": 21.5,
+    "fats_g": 12.5
+  },
+  {
+    "name": "Schezwan Rice (Classic)",
+    "description": "Schezwan Rice (Classic) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 254.3,
+    "carbs_g": 9.4,
+    "protein_g": 16.6,
+    "fats_g": 16.7
+  },
+  {
+    "name": "Schezwan Rice (Home Style)",
+    "description": "Schezwan Rice (Home Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 235.8,
+    "carbs_g": 32.7,
+    "protein_g": 5.1,
+    "fats_g": 9.4
+  },
+  {
+    "name": "Schezwan Rice (Restaurant Style)",
+    "description": "Schezwan Rice (Restaurant Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 473.8,
+    "carbs_g": 53.6,
+    "protein_g": 18.5,
+    "fats_g": 20.6
+  },
+  {
+    "name": "Schezwan Rice (Low Oil)",
+    "description": "Schezwan Rice (Low Oil) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 314.7,
+    "carbs_g": 16.6,
+    "protein_g": 20.0,
+    "fats_g": 18.7
+  },
+  {
+    "name": "Schezwan Rice (High Protein)",
+    "description": "Schezwan Rice (High Protein) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 418.1,
+    "carbs_g": 52.1,
+    "protein_g": 7.2,
+    "fats_g": 20.1
+  },
+  {
+    "name": "Schezwan Noodles (Classic)",
+    "description": "Schezwan Noodles (Classic) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 430.0,
+    "carbs_g": 40.5,
+    "protein_g": 4.0,
+    "fats_g": 28.0
+  },
+  {
+    "name": "Schezwan Noodles (Home Style)",
+    "description": "Schezwan Noodles (Home Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 200.3,
+    "carbs_g": 21.1,
+    "protein_g": 6.7,
+    "fats_g": 9.9
+  },
+  {
+    "name": "Schezwan Noodles (Restaurant Style)",
+    "description": "Schezwan Noodles (Restaurant Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 277.4,
+    "carbs_g": 6.6,
+    "protein_g": 18.2,
+    "fats_g": 19.8
+  },
+  {
+    "name": "Schezwan Noodles (Low Oil)",
+    "description": "Schezwan Noodles (Low Oil) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 170.9,
+    "carbs_g": 28.8,
+    "protein_g": 9.2,
+    "fats_g": 2.1
+  },
+  {
+    "name": "Schezwan Noodles (High Protein)",
+    "description": "Schezwan Noodles (High Protein) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 399.0,
+    "carbs_g": 29.3,
+    "protein_g": 15.1,
+    "fats_g": 24.6
+  },
+  {
+    "name": "Puttu (Classic)",
+    "description": "Puttu (Classic) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 431.7,
+    "carbs_g": 53.8,
+    "protein_g": 23.3,
+    "fats_g": 13.7
+  },
+  {
+    "name": "Puttu (Home Style)",
+    "description": "Puttu (Home Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 169.8,
+    "carbs_g": 32.7,
+    "protein_g": 3.0,
+    "fats_g": 3.0
+  },
+  {
+    "name": "Puttu (Restaurant Style)",
+    "description": "Puttu (Restaurant Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 350.7,
+    "carbs_g": 17.2,
+    "protein_g": 8.6,
+    "fats_g": 27.5
+  },
+  {
+    "name": "Puttu (Low Oil)",
+    "description": "Puttu (Low Oil) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 339.6,
+    "carbs_g": 58.9,
+    "protein_g": 21.5,
+    "fats_g": 2.0
+  },
+  {
+    "name": "Puttu (High Protein)",
+    "description": "Puttu (High Protein) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 322.5,
+    "carbs_g": 8.9,
+    "protein_g": 18.4,
+    "fats_g": 23.7
+  },
+  {
+    "name": "Appam (Classic)",
+    "description": "Appam (Classic) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 295.0,
+    "carbs_g": 33.3,
+    "protein_g": 15.7,
+    "fats_g": 11.0
+  },
+  {
+    "name": "Appam (Home Style)",
+    "description": "Appam (Home Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 256.0,
+    "carbs_g": 10.3,
+    "protein_g": 22.2,
+    "fats_g": 14.0
+  },
+  {
+    "name": "Appam (Restaurant Style)",
+    "description": "Appam (Restaurant Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 387.6,
+    "carbs_g": 44.8,
+    "protein_g": 7.1,
+    "fats_g": 20.0
+  },
+  {
+    "name": "Appam (Low Oil)",
+    "description": "Appam (Low Oil) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 348.7,
+    "carbs_g": 41.7,
+    "protein_g": 4.3,
+    "fats_g": 18.3
+  },
+  {
+    "name": "Appam (High Protein)",
+    "description": "Appam (High Protein) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 357.4,
+    "carbs_g": 50.3,
+    "protein_g": 24.2,
+    "fats_g": 6.6
+  },
+  {
+    "name": "Idiyappam (Classic)",
+    "description": "Idiyappam (Classic) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 300.6,
+    "carbs_g": 20.3,
+    "protein_g": 23.8,
+    "fats_g": 13.8
+  },
+  {
+    "name": "Idiyappam (Home Style)",
+    "description": "Idiyappam (Home Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 112.6,
+    "carbs_g": 16.7,
+    "protein_g": 6.5,
+    "fats_g": 2.2
+  },
+  {
+    "name": "Idiyappam (Restaurant Style)",
+    "description": "Idiyappam (Restaurant Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 313.6,
+    "carbs_g": 38.7,
+    "protein_g": 21.7,
+    "fats_g": 8.0
+  },
+  {
+    "name": "Idiyappam (Low Oil)",
+    "description": "Idiyappam (Low Oil) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 237.8,
+    "carbs_g": 37.4,
+    "protein_g": 19.8,
+    "fats_g": 1.0
+  },
+  {
+    "name": "Idiyappam (High Protein)",
+    "description": "Idiyappam (High Protein) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 408.8,
+    "carbs_g": 43.6,
+    "protein_g": 17.2,
+    "fats_g": 18.4
+  },
+  {
+    "name": "Bhatura (Classic)",
+    "description": "Bhatura (Classic) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 426.1,
+    "carbs_g": 36.8,
+    "protein_g": 22.7,
+    "fats_g": 20.9
+  },
+  {
+    "name": "Bhatura (Home Style)",
+    "description": "Bhatura (Home Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 217.1,
+    "carbs_g": 20.0,
+    "protein_g": 3.0,
+    "fats_g": 13.9
+  },
+  {
+    "name": "Bhatura (Restaurant Style)",
+    "description": "Bhatura (Restaurant Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 359.7,
+    "carbs_g": 7.9,
+    "protein_g": 23.3,
+    "fats_g": 26.1
+  },
+  {
+    "name": "Bhatura (Low Oil)",
+    "description": "Bhatura (Low Oil) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 118.5,
+    "carbs_g": 8.7,
+    "protein_g": 2.7,
+    "fats_g": 8.1
+  },
+  {
+    "name": "Bhatura (High Protein)",
+    "description": "Bhatura (High Protein) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 304.2,
+    "carbs_g": 53.8,
+    "protein_g": 19.1,
+    "fats_g": 1.4
+  },
+  {
+    "name": "Kulcha (Classic)",
+    "description": "Kulcha (Classic) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 362.2,
+    "carbs_g": 53.7,
+    "protein_g": 8.5,
+    "fats_g": 12.6
+  },
+  {
+    "name": "Kulcha (Home Style)",
+    "description": "Kulcha (Home Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 387.3,
+    "carbs_g": 39.3,
+    "protein_g": 6.0,
+    "fats_g": 22.9
+  },
+  {
+    "name": "Kulcha (Restaurant Style)",
+    "description": "Kulcha (Restaurant Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 243.6,
+    "carbs_g": 17.6,
+    "protein_g": 13.6,
+    "fats_g": 13.2
+  },
+  {
+    "name": "Kulcha (Low Oil)",
+    "description": "Kulcha (Low Oil) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 425.2,
+    "carbs_g": 44.1,
+    "protein_g": 9.1,
+    "fats_g": 23.6
+  },
+  {
+    "name": "Kulcha (High Protein)",
+    "description": "Kulcha (High Protein) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 416.8,
+    "carbs_g": 57.1,
+    "protein_g": 10.2,
+    "fats_g": 16.4
+  },
+  {
+    "name": "Naan (Classic)",
+    "description": "Naan (Classic) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 371.9,
+    "carbs_g": 39.4,
+    "protein_g": 15.1,
+    "fats_g": 17.1
+  },
+  {
+    "name": "Naan (Home Style)",
+    "description": "Naan (Home Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 195.2,
+    "carbs_g": 34.3,
+    "protein_g": 4.6,
+    "fats_g": 4.4
+  },
+  {
+    "name": "Naan (Restaurant Style)",
+    "description": "Naan (Restaurant Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 255.4,
+    "carbs_g": 33.1,
+    "protein_g": 14.1,
+    "fats_g": 7.4
+  },
+  {
+    "name": "Naan (Low Oil)",
+    "description": "Naan (Low Oil) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 457.5,
+    "carbs_g": 52.2,
+    "protein_g": 9.3,
+    "fats_g": 23.5
+  },
+  {
+    "name": "Naan (High Protein)",
+    "description": "Naan (High Protein) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 390.0,
+    "carbs_g": 41.4,
+    "protein_g": 6.6,
+    "fats_g": 22.0
+  },
+  {
+    "name": "Garlic Naan (Classic)",
+    "description": "Garlic Naan (Classic) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 241.5,
+    "carbs_g": 38.1,
+    "protein_g": 12.6,
+    "fats_g": 4.3
+  },
+  {
+    "name": "Garlic Naan (Home Style)",
+    "description": "Garlic Naan (Home Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 468.1,
+    "carbs_g": 49.8,
+    "protein_g": 9.4,
+    "fats_g": 25.7
+  },
+  {
+    "name": "Garlic Naan (Restaurant Style)",
+    "description": "Garlic Naan (Restaurant Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 540.5,
+    "carbs_g": 51.8,
+    "protein_g": 19.2,
+    "fats_g": 28.5
+  },
+  {
+    "name": "Garlic Naan (Low Oil)",
+    "description": "Garlic Naan (Low Oil) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 234.0,
+    "carbs_g": 31.9,
+    "protein_g": 15.8,
+    "fats_g": 4.8
+  },
+  {
+    "name": "Garlic Naan (High Protein)",
+    "description": "Garlic Naan (High Protein) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 421.5,
+    "carbs_g": 39.9,
+    "protein_g": 21.6,
+    "fats_g": 19.5
+  },
+  {
+    "name": "Butter Naan (Classic)",
+    "description": "Butter Naan (Classic) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 192.1,
+    "carbs_g": 21.8,
+    "protein_g": 16.1,
+    "fats_g": 4.5
+  },
+  {
+    "name": "Butter Naan (Home Style)",
+    "description": "Butter Naan (Home Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 345.7,
+    "carbs_g": 7.2,
+    "protein_g": 13.3,
+    "fats_g": 29.3
+  },
+  {
+    "name": "Butter Naan (Restaurant Style)",
+    "description": "Butter Naan (Restaurant Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 180.5,
+    "carbs_g": 12.1,
+    "protein_g": 11.2,
+    "fats_g": 9.7
+  },
+  {
+    "name": "Butter Naan (Low Oil)",
+    "description": "Butter Naan (Low Oil) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 291.8,
+    "carbs_g": 28.6,
+    "protein_g": 2.5,
+    "fats_g": 18.6
+  },
+  {
+    "name": "Butter Naan (High Protein)",
+    "description": "Butter Naan (High Protein) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 378.0,
+    "carbs_g": 18.6,
+    "protein_g": 15.6,
+    "fats_g": 26.8
+  },
+  {
+    "name": "Aloo Sabzi (Classic)",
+    "description": "Aloo Sabzi (Classic) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 318.1,
+    "carbs_g": 34.7,
+    "protein_g": 6.8,
+    "fats_g": 16.9
+  },
+  {
+    "name": "Aloo Sabzi (Home Style)",
+    "description": "Aloo Sabzi (Home Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 262.1,
+    "carbs_g": 45.1,
+    "protein_g": 16.6,
+    "fats_g": 1.7
+  },
+  {
+    "name": "Aloo Sabzi (Restaurant Style)",
+    "description": "Aloo Sabzi (Restaurant Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 215.9,
+    "carbs_g": 28.5,
+    "protein_g": 19.4,
+    "fats_g": 2.7
+  },
+  {
+    "name": "Aloo Sabzi (Low Oil)",
+    "description": "Aloo Sabzi (Low Oil) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 312.3,
+    "carbs_g": 24.4,
+    "protein_g": 15.2,
+    "fats_g": 17.1
+  },
+  {
+    "name": "Aloo Sabzi (High Protein)",
+    "description": "Aloo Sabzi (High Protein) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 102.5,
+    "carbs_g": 5.6,
+    "protein_g": 3.6,
+    "fats_g": 7.3
+  },
+  {
+    "name": "Paneer Bhurji (Classic)",
+    "description": "Paneer Bhurji (Classic) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 223.4,
+    "carbs_g": 11.2,
+    "protein_g": 17.2,
+    "fats_g": 12.2
+  },
+  {
+    "name": "Paneer Bhurji (Home Style)",
+    "description": "Paneer Bhurji (Home Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 347.1,
+    "carbs_g": 53.3,
+    "protein_g": 23.8,
+    "fats_g": 4.3
+  },
+  {
+    "name": "Paneer Bhurji (Restaurant Style)",
+    "description": "Paneer Bhurji (Restaurant Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 286.1,
+    "carbs_g": 39.9,
+    "protein_g": 16.1,
+    "fats_g": 6.9
+  },
+  {
+    "name": "Paneer Bhurji (Low Oil)",
+    "description": "Paneer Bhurji (Low Oil) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 374.8,
+    "carbs_g": 40.3,
+    "protein_g": 22.8,
+    "fats_g": 13.6
+  },
+  {
+    "name": "Paneer Bhurji (High Protein)",
+    "description": "Paneer Bhurji (High Protein) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 402.8,
+    "carbs_g": 31.3,
+    "protein_g": 3.7,
+    "fats_g": 29.2
+  },
+  {
+    "name": "Egg Roll (Classic)",
+    "description": "Egg Roll (Classic) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 369.7,
+    "carbs_g": 43.3,
+    "protein_g": 22.8,
+    "fats_g": 11.7
+  },
+  {
+    "name": "Egg Roll (Home Style)",
+    "description": "Egg Roll (Home Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 475.2,
+    "carbs_g": 57.0,
+    "protein_g": 21.3,
+    "fats_g": 18.0
+  },
+  {
+    "name": "Egg Roll (Restaurant Style)",
+    "description": "Egg Roll (Restaurant Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 264.4,
+    "carbs_g": 26.1,
+    "protein_g": 5.8,
+    "fats_g": 15.2
+  },
+  {
+    "name": "Egg Roll (Low Oil)",
+    "description": "Egg Roll (Low Oil) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 451.5,
+    "carbs_g": 32.5,
+    "protein_g": 23.0,
+    "fats_g": 25.5
+  },
+  {
+    "name": "Egg Roll (High Protein)",
+    "description": "Egg Roll (High Protein) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 302.5,
+    "carbs_g": 43.9,
+    "protein_g": 24.3,
+    "fats_g": 3.3
+  },
+  {
+    "name": "Chicken Roll (Classic)",
+    "description": "Chicken Roll (Classic) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 326.2,
+    "carbs_g": 10.1,
+    "protein_g": 7.1,
+    "fats_g": 28.6
+  },
+  {
+    "name": "Chicken Roll (Home Style)",
+    "description": "Chicken Roll (Home Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 181.3,
+    "carbs_g": 27.8,
+    "protein_g": 7.4,
+    "fats_g": 4.5
+  },
+  {
+    "name": "Chicken Roll (Restaurant Style)",
+    "description": "Chicken Roll (Restaurant Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 197.5,
+    "carbs_g": 33.7,
+    "protein_g": 11.4,
+    "fats_g": 1.9
+  },
+  {
+    "name": "Chicken Roll (Low Oil)",
+    "description": "Chicken Roll (Low Oil) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 379.4,
+    "carbs_g": 3.3,
+    "protein_g": 24.5,
+    "fats_g": 29.8
+  },
+  {
+    "name": "Chicken Roll (High Protein)",
+    "description": "Chicken Roll (High Protein) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 362.6,
+    "carbs_g": 53.3,
+    "protein_g": 22.5,
+    "fats_g": 6.6
+  },
+  {
+    "name": "Mutton Roll (Classic)",
+    "description": "Mutton Roll (Classic) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 203.4,
+    "carbs_g": 11.1,
+    "protein_g": 20.4,
+    "fats_g": 8.6
+  },
+  {
+    "name": "Mutton Roll (Home Style)",
+    "description": "Mutton Roll (Home Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 435.4,
+    "carbs_g": 55.8,
+    "protein_g": 17.5,
+    "fats_g": 15.8
+  },
+  {
+    "name": "Mutton Roll (Restaurant Style)",
+    "description": "Mutton Roll (Restaurant Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 302.8,
+    "carbs_g": 33.9,
+    "protein_g": 14.8,
+    "fats_g": 12.0
+  },
+  {
+    "name": "Mutton Roll (Low Oil)",
+    "description": "Mutton Roll (Low Oil) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 359.6,
+    "carbs_g": 10.4,
+    "protein_g": 16.5,
+    "fats_g": 28.0
+  },
+  {
+    "name": "Mutton Roll (High Protein)",
+    "description": "Mutton Roll (High Protein) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 422.1,
+    "carbs_g": 55.3,
+    "protein_g": 9.5,
+    "fats_g": 18.1
+  },
+  {
+    "name": "Chapati (Classic)",
+    "description": "Chapati (Classic) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 271.7,
+    "carbs_g": 46.9,
+    "protein_g": 13.6,
+    "fats_g": 3.3
+  },
+  {
+    "name": "Chapati (Home Style)",
+    "description": "Chapati (Home Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 394.9,
+    "carbs_g": 46.0,
+    "protein_g": 2.1,
+    "fats_g": 22.5
+  },
+  {
+    "name": "Chapati (Restaurant Style)",
+    "description": "Chapati (Restaurant Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 304.5,
+    "carbs_g": 21.5,
+    "protein_g": 10.3,
+    "fats_g": 19.7
+  },
+  {
+    "name": "Chapati (Low Oil)",
+    "description": "Chapati (Low Oil) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 377.5,
+    "carbs_g": 39.7,
+    "protein_g": 6.3,
+    "fats_g": 21.5
+  },
+  {
+    "name": "Chapati (High Protein)",
+    "description": "Chapati (High Protein) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 248.3,
+    "carbs_g": 13.9,
+    "protein_g": 4.3,
+    "fats_g": 19.5
+  },
+  {
+    "name": "Tawa Roti (Classic)",
+    "description": "Tawa Roti (Classic) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 222.8,
+    "carbs_g": 25.0,
+    "protein_g": 15.4,
+    "fats_g": 6.8
+  },
+  {
+    "name": "Tawa Roti (Home Style)",
+    "description": "Tawa Roti (Home Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 313.3,
+    "carbs_g": 9.2,
+    "protein_g": 14.9,
+    "fats_g": 24.1
+  },
+  {
+    "name": "Tawa Roti (Restaurant Style)",
+    "description": "Tawa Roti (Restaurant Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 293.1,
+    "carbs_g": 35.3,
+    "protein_g": 21.1,
+    "fats_g": 7.5
+  },
+  {
+    "name": "Tawa Roti (Low Oil)",
+    "description": "Tawa Roti (Low Oil) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 322.3,
+    "carbs_g": 12.7,
+    "protein_g": 18.6,
+    "fats_g": 21.9
+  },
+  {
+    "name": "Tawa Roti (High Protein)",
+    "description": "Tawa Roti (High Protein) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 483.1,
+    "carbs_g": 43.9,
+    "protein_g": 11.4,
+    "fats_g": 29.1
+  },
+  {
+    "name": "Vegetable Soup (Classic)",
+    "description": "Vegetable Soup (Classic) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 420.4,
+    "carbs_g": 51.1,
+    "protein_g": 20.7,
+    "fats_g": 14.8
+  },
+  {
+    "name": "Vegetable Soup (Home Style)",
+    "description": "Vegetable Soup (Home Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 332.3,
+    "carbs_g": 18.0,
+    "protein_g": 3.2,
+    "fats_g": 27.5
+  },
+  {
+    "name": "Vegetable Soup (Restaurant Style)",
+    "description": "Vegetable Soup (Restaurant Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 414.9,
+    "carbs_g": 59.6,
+    "protein_g": 4.3,
+    "fats_g": 17.7
+  },
+  {
+    "name": "Vegetable Soup (Low Oil)",
+    "description": "Vegetable Soup (Low Oil) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 300.9,
+    "carbs_g": 24.6,
+    "protein_g": 11.7,
+    "fats_g": 17.3
+  },
+  {
+    "name": "Vegetable Soup (High Protein)",
+    "description": "Vegetable Soup (High Protein) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 403.0,
+    "carbs_g": 48.0,
+    "protein_g": 5.5,
+    "fats_g": 21.0
+  },
+  {
+    "name": "Tomato Soup (Classic)",
+    "description": "Tomato Soup (Classic) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 514.8,
+    "carbs_g": 54.1,
+    "protein_g": 12.5,
+    "fats_g": 27.6
+  },
+  {
+    "name": "Tomato Soup (Home Style)",
+    "description": "Tomato Soup (Home Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 372.8,
+    "carbs_g": 31.5,
+    "protein_g": 3.2,
+    "fats_g": 26.0
+  },
+  {
+    "name": "Tomato Soup (Restaurant Style)",
+    "description": "Tomato Soup (Restaurant Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 342.2,
+    "carbs_g": 32.3,
+    "protein_g": 18.6,
+    "fats_g": 15.4
+  },
+  {
+    "name": "Tomato Soup (Low Oil)",
+    "description": "Tomato Soup (Low Oil) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 266.0,
+    "carbs_g": 5.7,
+    "protein_g": 6.8,
+    "fats_g": 24.0
+  },
+  {
+    "name": "Tomato Soup (High Protein)",
+    "description": "Tomato Soup (High Protein) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 324.7,
+    "carbs_g": 42.6,
+    "protein_g": 3.7,
+    "fats_g": 15.5
+  },
+  {
+    "name": "Sweet Corn Soup (Classic)",
+    "description": "Sweet Corn Soup (Classic) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 160.7,
+    "carbs_g": 31.3,
+    "protein_g": 5.5,
+    "fats_g": 1.5
+  },
+  {
+    "name": "Sweet Corn Soup (Home Style)",
+    "description": "Sweet Corn Soup (Home Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 283.5,
+    "carbs_g": 42.1,
+    "protein_g": 7.4,
+    "fats_g": 9.5
+  },
+  {
+    "name": "Sweet Corn Soup (Restaurant Style)",
+    "description": "Sweet Corn Soup (Restaurant Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 245.1,
+    "carbs_g": 8.1,
+    "protein_g": 16.5,
+    "fats_g": 16.3
+  },
+  {
+    "name": "Sweet Corn Soup (Low Oil)",
+    "description": "Sweet Corn Soup (Low Oil) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 360.9,
+    "carbs_g": 22.7,
+    "protein_g": 16.0,
+    "fats_g": 22.9
+  },
+  {
+    "name": "Sweet Corn Soup (High Protein)",
+    "description": "Sweet Corn Soup (High Protein) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 146.9,
+    "carbs_g": 13.5,
+    "protein_g": 17.6,
+    "fats_g": 2.5
+  },
+  {
+    "name": "Manchurian (Classic)",
+    "description": "Manchurian (Classic) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 234.7,
+    "carbs_g": 29.8,
+    "protein_g": 11.1,
+    "fats_g": 7.9
+  },
+  {
+    "name": "Manchurian (Home Style)",
+    "description": "Manchurian (Home Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 342.5,
+    "carbs_g": 36.7,
+    "protein_g": 15.4,
+    "fats_g": 14.9
+  },
+  {
+    "name": "Manchurian (Restaurant Style)",
+    "description": "Manchurian (Restaurant Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 162.8,
+    "carbs_g": 22.6,
+    "protein_g": 5.5,
+    "fats_g": 5.6
+  },
+  {
+    "name": "Manchurian (Low Oil)",
+    "description": "Manchurian (Low Oil) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 180.0,
+    "carbs_g": 17.0,
+    "protein_g": 13.6,
+    "fats_g": 6.4
+  },
+  {
+    "name": "Manchurian (High Protein)",
+    "description": "Manchurian (High Protein) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 311.7,
+    "carbs_g": 49.7,
+    "protein_g": 19.9,
+    "fats_g": 3.7
+  },
+  {
+    "name": "Paneer Manchurian (Classic)",
+    "description": "Paneer Manchurian (Classic) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 292.3,
+    "carbs_g": 21.1,
+    "protein_g": 23.4,
+    "fats_g": 12.7
+  },
+  {
+    "name": "Paneer Manchurian (Home Style)",
+    "description": "Paneer Manchurian (Home Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 382.7,
+    "carbs_g": 32.1,
+    "protein_g": 3.5,
+    "fats_g": 26.7
+  },
+  {
+    "name": "Paneer Manchurian (Restaurant Style)",
+    "description": "Paneer Manchurian (Restaurant Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 263.9,
+    "carbs_g": 24.5,
+    "protein_g": 3.9,
+    "fats_g": 16.7
+  },
+  {
+    "name": "Paneer Manchurian (Low Oil)",
+    "description": "Paneer Manchurian (Low Oil) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 166.5,
+    "carbs_g": 23.5,
+    "protein_g": 5.3,
+    "fats_g": 5.7
+  },
+  {
+    "name": "Paneer Manchurian (High Protein)",
+    "description": "Paneer Manchurian (High Protein) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 228.7,
+    "carbs_g": 9.4,
+    "protein_g": 4.8,
+    "fats_g": 19.1
+  },
+  {
+    "name": "Chicken Manchurian (Classic)",
+    "description": "Chicken Manchurian (Classic) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 525.9,
+    "carbs_g": 41.2,
+    "protein_g": 23.9,
+    "fats_g": 29.5
+  },
+  {
+    "name": "Chicken Manchurian (Home Style)",
+    "description": "Chicken Manchurian (Home Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 331.8,
+    "carbs_g": 28.3,
+    "protein_g": 5.6,
+    "fats_g": 21.8
+  },
+  {
+    "name": "Chicken Manchurian (Restaurant Style)",
+    "description": "Chicken Manchurian (Restaurant Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 386.2,
+    "carbs_g": 19.1,
+    "protein_g": 18.5,
+    "fats_g": 26.2
+  },
+  {
+    "name": "Chicken Manchurian (Low Oil)",
+    "description": "Chicken Manchurian (Low Oil) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 355.5,
+    "carbs_g": 17.7,
+    "protein_g": 10.2,
+    "fats_g": 27.1
+  },
+  {
+    "name": "Chicken Manchurian (High Protein)",
+    "description": "Chicken Manchurian (High Protein) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 342.3,
+    "carbs_g": 57.7,
+    "protein_g": 14.6,
+    "fats_g": 5.9
+  },
+  {
+    "name": "Pesarattu (Classic)",
+    "description": "Pesarattu (Classic) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 326.5,
+    "carbs_g": 47.8,
+    "protein_g": 3.0,
+    "fats_g": 13.7
+  },
+  {
+    "name": "Pesarattu (Home Style)",
+    "description": "Pesarattu (Home Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 356.9,
+    "carbs_g": 8.1,
+    "protein_g": 15.2,
+    "fats_g": 29.3
+  },
+  {
+    "name": "Pesarattu (Restaurant Style)",
+    "description": "Pesarattu (Restaurant Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 318.7,
+    "carbs_g": 24.2,
+    "protein_g": 5.3,
+    "fats_g": 22.3
+  },
+  {
+    "name": "Pesarattu (Low Oil)",
+    "description": "Pesarattu (Low Oil) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 188.9,
+    "carbs_g": 10.6,
+    "protein_g": 6.7,
+    "fats_g": 13.3
+  },
+  {
+    "name": "Pesarattu (High Protein)",
+    "description": "Pesarattu (High Protein) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 389.9,
+    "carbs_g": 48.3,
+    "protein_g": 10.7,
+    "fats_g": 17.1
+  },
+  {
+    "name": "Medu Vada (Classic)",
+    "description": "Medu Vada (Classic) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 377.9,
+    "carbs_g": 10.7,
+    "protein_g": 19.2,
+    "fats_g": 28.7
+  },
+  {
+    "name": "Medu Vada (Home Style)",
+    "description": "Medu Vada (Home Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 364.0,
+    "carbs_g": 34.6,
+    "protein_g": 18.6,
+    "fats_g": 16.8
+  },
+  {
+    "name": "Medu Vada (Restaurant Style)",
+    "description": "Medu Vada (Restaurant Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 283.4,
+    "carbs_g": 23.8,
+    "protein_g": 15.1,
+    "fats_g": 14.2
+  },
+  {
+    "name": "Medu Vada (Low Oil)",
+    "description": "Medu Vada (Low Oil) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 415.8,
+    "carbs_g": 56.7,
+    "protein_g": 10.8,
+    "fats_g": 16.2
+  },
+  {
+    "name": "Medu Vada (High Protein)",
+    "description": "Medu Vada (High Protein) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 365.9,
+    "carbs_g": 51.2,
+    "protein_g": 15.3,
+    "fats_g": 11.1
+  },
+  {
+    "name": "Rava Dosa (Classic)",
+    "description": "Rava Dosa (Classic) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 502.5,
+    "carbs_g": 48.3,
+    "protein_g": 11.4,
+    "fats_g": 29.3
+  },
+  {
+    "name": "Rava Dosa (Home Style)",
+    "description": "Rava Dosa (Home Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 414.5,
+    "carbs_g": 54.4,
+    "protein_g": 11.2,
+    "fats_g": 16.9
+  },
+  {
+    "name": "Rava Dosa (Restaurant Style)",
+    "description": "Rava Dosa (Restaurant Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 298.9,
+    "carbs_g": 5.9,
+    "protein_g": 10.1,
+    "fats_g": 26.1
+  },
+  {
+    "name": "Rava Dosa (Low Oil)",
+    "description": "Rava Dosa (Low Oil) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 243.4,
+    "carbs_g": 6.0,
+    "protein_g": 12.1,
+    "fats_g": 19.0
+  },
+  {
+    "name": "Rava Dosa (High Protein)",
+    "description": "Rava Dosa (High Protein) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 535.7,
+    "carbs_g": 50.6,
+    "protein_g": 19.2,
+    "fats_g": 28.5
+  },
+  {
+    "name": "Masala Dosa (Classic)",
+    "description": "Masala Dosa (Classic) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 509.3,
+    "carbs_g": 46.6,
+    "protein_g": 22.0,
+    "fats_g": 26.1
+  },
+  {
+    "name": "Masala Dosa (Home Style)",
+    "description": "Masala Dosa (Home Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 422.4,
+    "carbs_g": 38.6,
+    "protein_g": 10.3,
+    "fats_g": 25.2
+  },
+  {
+    "name": "Masala Dosa (Restaurant Style)",
+    "description": "Masala Dosa (Restaurant Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 250.0,
+    "carbs_g": 18.1,
+    "protein_g": 6.6,
+    "fats_g": 16.8
+  },
+  {
+    "name": "Masala Dosa (Low Oil)",
+    "description": "Masala Dosa (Low Oil) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 259.7,
+    "carbs_g": 23.9,
+    "protein_g": 11.1,
+    "fats_g": 13.3
+  },
+  {
+    "name": "Masala Dosa (High Protein)",
+    "description": "Masala Dosa (High Protein) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 299.7,
+    "carbs_g": 23.0,
+    "protein_g": 10.3,
+    "fats_g": 18.5
+  },
+  {
+    "name": "Onion Uttapam (Classic)",
+    "description": "Onion Uttapam (Classic) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 518.5,
+    "carbs_g": 52.4,
+    "protein_g": 23.0,
+    "fats_g": 24.1
+  },
+  {
+    "name": "Onion Uttapam (Home Style)",
+    "description": "Onion Uttapam (Home Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 378.7,
+    "carbs_g": 48.7,
+    "protein_g": 21.0,
+    "fats_g": 11.1
+  },
+  {
+    "name": "Onion Uttapam (Restaurant Style)",
+    "description": "Onion Uttapam (Restaurant Style) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 250.5,
+    "carbs_g": 43.6,
+    "protein_g": 10.7,
+    "fats_g": 3.7
+  },
+  {
+    "name": "Onion Uttapam (Low Oil)",
+    "description": "Onion Uttapam (Low Oil) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 166.0,
+    "carbs_g": 15.1,
+    "protein_g": 12.0,
+    "fats_g": 6.4
+  },
+  {
+    "name": "Onion Uttapam (High Protein)",
+    "description": "Onion Uttapam (High Protein) prepared in a traditional or regional Indian style.",
+    "serving_size_g": 100,
+    "calories": 302.9,
+    "carbs_g": 52.4,
+    "protein_g": 19.5,
+    "fats_g": 1.7
+  },
+  {
+    "name": "Aloo Tikki",
+    "description": "Aloo Tikki per 100g.",
+    "serving_size_g": 100,
+    "calories": 322.1,
+    "carbs_g": 45.6,
+    "protein_g": 3.2,
+    "fats_g": 14.1,
+    "category": "street_food",
+    "tags": [
+      "street",
+      "street_food"
+    ]
+  },
+  {
+    "name": "Samosa",
+    "description": "Samosa per 100g.",
+    "serving_size_g": 100,
+    "calories": 330.2,
+    "carbs_g": 28.9,
+    "protein_g": 8.2,
+    "fats_g": 20.2,
+    "category": "street_food",
+    "tags": [
+      "street",
+      "street_food"
+    ]
+  },
+  {
+    "name": "Kachori",
+    "description": "Kachori per 100g.",
+    "serving_size_g": 100,
+    "calories": 383.9,
+    "carbs_g": 55.7,
+    "protein_g": 3.6,
+    "fats_g": 16.3,
+    "category": "street_food",
+    "tags": [
+      "street",
+      "street_food"
+    ]
+  },
+  {
+    "name": "Bread Pakoda",
+    "description": "Bread Pakoda per 100g.",
+    "serving_size_g": 100,
+    "calories": 261.2,
+    "carbs_g": 21.2,
+    "protein_g": 4.5,
+    "fats_g": 17.6,
+    "category": "street_food",
+    "tags": [
+      "street",
+      "street_food"
+    ]
+  },
+  {
+    "name": "Vada Pav",
+    "description": "Vada Pav per 100g.",
+    "serving_size_g": 100,
+    "calories": 279.3,
+    "carbs_g": 21.1,
+    "protein_g": 4.4,
+    "fats_g": 19.7,
+    "category": "street_food",
+    "tags": [
+      "street",
+      "street_food"
+    ]
+  },
+  {
+    "name": "Dabeli",
+    "description": "Dabeli per 100g.",
+    "serving_size_g": 100,
+    "calories": 354.4,
+    "carbs_g": 41.8,
+    "protein_g": 4.5,
+    "fats_g": 18.8,
+    "category": "street_food",
+    "tags": [
+      "street",
+      "street_food"
+    ]
+  },
+  {
+    "name": "Corn Chaat",
+    "description": "Corn Chaat per 100g.",
+    "serving_size_g": 100,
+    "calories": 420.5,
+    "carbs_g": 52.4,
+    "protein_g": 3.0,
+    "fats_g": 22.1,
+    "category": "street_food",
+    "tags": [
+      "street",
+      "street_food"
+    ]
+  },
+  {
+    "name": "Papdi Chaat",
+    "description": "Papdi Chaat per 100g.",
+    "serving_size_g": 100,
+    "calories": 323.9,
+    "carbs_g": 47.9,
+    "protein_g": 5.4,
+    "fats_g": 12.3,
+    "category": "street_food",
+    "tags": [
+      "street",
+      "street_food"
+    ]
+  },
+  {
+    "name": "Dahi Bhalla",
+    "description": "Dahi Bhalla per 100g.",
+    "serving_size_g": 100,
+    "calories": 357.4,
+    "carbs_g": 58.3,
+    "protein_g": 5.4,
+    "fats_g": 11.4,
+    "category": "street_food",
+    "tags": [
+      "street",
+      "street_food"
+    ]
+  },
+  {
+    "name": "Aloo Chaat",
+    "description": "Aloo Chaat per 100g.",
+    "serving_size_g": 100,
+    "calories": 303.1,
+    "carbs_g": 23.9,
+    "protein_g": 8.9,
+    "fats_g": 19.1,
+    "category": "street_food",
+    "tags": [
+      "street",
+      "street_food"
+    ]
+  },
+  {
+    "name": "Spring Roll",
+    "description": "Spring Roll per 100g.",
+    "serving_size_g": 100,
+    "calories": 403.6,
+    "carbs_g": 52.3,
+    "protein_g": 8.1,
+    "fats_g": 18.0,
+    "category": "street_food",
+    "tags": [
+      "street",
+      "street_food"
+    ]
+  },
+  {
+    "name": "Momos (Fried)",
+    "description": "Momos (Fried) per 100g.",
+    "serving_size_g": 100,
+    "calories": 422.7,
+    "carbs_g": 58.9,
+    "protein_g": 5.6,
+    "fats_g": 18.3,
+    "category": "street_food",
+    "tags": [
+      "street",
+      "street_food"
+    ]
+  },
+  {
+    "name": "Momos (Tandoori)",
+    "description": "Momos (Tandoori) per 100g.",
+    "serving_size_g": 100,
+    "calories": 448.1,
+    "carbs_g": 53.2,
+    "protein_g": 7.3,
+    "fats_g": 22.9,
+    "category": "street_food",
+    "tags": [
+      "street",
+      "street_food"
+    ]
+  },
+  {
+    "name": "Moong Dal Namkeen",
+    "description": "Moong Dal Namkeen per 100g.",
+    "serving_size_g": 100,
+    "calories": 321.9,
+    "carbs_g": 47.3,
+    "protein_g": 8.2,
+    "fats_g": 11.1,
+    "category": "snack",
+    "tags": [
+      "snack",
+      "snack"
+    ]
+  },
+  {
+    "name": "Aloo Bhujia",
+    "description": "Aloo Bhujia per 100g.",
+    "serving_size_g": 100,
+    "calories": 278.0,
+    "carbs_g": 36.8,
+    "protein_g": 5.7,
+    "fats_g": 12.0,
+    "category": "snack",
+    "tags": [
+      "snack",
+      "snack"
+    ]
+  },
+  {
+    "name": "Sev Mixture",
+    "description": "Sev Mixture per 100g.",
+    "serving_size_g": 100,
+    "calories": 318.5,
+    "carbs_g": 37.0,
+    "protein_g": 4.6,
+    "fats_g": 16.9,
+    "category": "snack",
+    "tags": [
+      "snack",
+      "snack"
+    ]
+  },
+  {
+    "name": "Banana Chips",
+    "description": "Banana Chips per 100g.",
+    "serving_size_g": 100,
+    "calories": 394.9,
+    "carbs_g": 49.1,
+    "protein_g": 6.2,
+    "fats_g": 19.3,
+    "category": "snack",
+    "tags": [
+      "snack",
+      "snack"
+    ]
+  },
+  {
+    "name": "Masala Peanuts",
+    "description": "Masala Peanuts per 100g.",
+    "serving_size_g": 100,
+    "calories": 468.2,
+    "carbs_g": 36.3,
+    "protein_g": 5.6,
+    "fats_g": 33.4,
+    "category": "snack",
+    "tags": [
+      "snack",
+      "snack"
+    ]
+  },
+  {
+    "name": "Kurkure",
+    "description": "Kurkure per 100g.",
+    "serving_size_g": 100,
+    "calories": 357.1,
+    "carbs_g": 49.4,
+    "protein_g": 7.7,
+    "fats_g": 14.3,
+    "category": "snack",
+    "tags": [
+      "snack",
+      "snack"
+    ]
+  },
+  {
+    "name": "Bingo Mad Angles",
+    "description": "Bingo Mad Angles per 100g.",
+    "serving_size_g": 100,
+    "calories": 403.1,
+    "carbs_g": 51.9,
+    "protein_g": 5.0,
+    "fats_g": 19.5,
+    "category": "snack",
+    "tags": [
+      "snack",
+      "snack"
+    ]
+  },
+  {
+    "name": "Lays Masala",
+    "description": "Lays Masala per 100g.",
+    "serving_size_g": 100,
+    "calories": 485.1,
+    "carbs_g": 59.7,
+    "protein_g": 7.8,
+    "fats_g": 23.9,
+    "category": "snack",
+    "tags": [
+      "snack",
+      "snack"
+    ]
+  },
+  {
+    "name": "Haldiram Bhujia",
+    "description": "Haldiram Bhujia per 100g.",
+    "serving_size_g": 100,
+    "calories": 503.0,
+    "carbs_g": 50.5,
+    "protein_g": 9.1,
+    "fats_g": 29.4,
+    "category": "snack",
+    "tags": [
+      "snack",
+      "snack"
+    ]
+  },
+  {
+    "name": "Aloo Puri",
+    "description": "Aloo Puri per 100g.",
+    "serving_size_g": 100,
+    "calories": 197.9,
+    "carbs_g": 25.7,
+    "protein_g": 3.3,
+    "fats_g": 9.1,
+    "category": "breakfast",
+    "tags": [
+      "breakfast",
+      "breakfast"
+    ]
+  },
+  {
+    "name": "Stuffed Paratha - Paneer",
+    "description": "Stuffed Paratha - Paneer per 100g.",
+    "serving_size_g": 100,
+    "calories": 282.1,
+    "carbs_g": 26.7,
+    "protein_g": 4.9,
+    "fats_g": 17.3,
+    "category": "breakfast",
+    "tags": [
+      "breakfast",
+      "breakfast"
+    ]
+  },
+  {
+    "name": "Stuffed Paratha - Gobi",
+    "description": "Stuffed Paratha - Gobi per 100g.",
+    "serving_size_g": 100,
+    "calories": 312.3,
+    "carbs_g": 41.9,
+    "protein_g": 5.8,
+    "fats_g": 13.5,
+    "category": "breakfast",
+    "tags": [
+      "breakfast",
+      "breakfast"
+    ]
+  },
+  {
+    "name": "Indori Poha",
+    "description": "Indori Poha per 100g.",
+    "serving_size_g": 100,
+    "calories": 263.4,
+    "carbs_g": 29.9,
+    "protein_g": 11.2,
+    "fats_g": 11.0,
+    "category": "breakfast",
+    "tags": [
+      "breakfast",
+      "breakfast"
+    ]
+  },
+  {
+    "name": "Kanda Poha",
+    "description": "Kanda Poha per 100g.",
+    "serving_size_g": 100,
+    "calories": 237.9,
+    "carbs_g": 26.6,
+    "protein_g": 5.2,
+    "fats_g": 12.3,
+    "category": "breakfast",
+    "tags": [
+      "breakfast",
+      "breakfast"
+    ]
+  },
+  {
+    "name": "Upma",
+    "description": "Upma per 100g.",
+    "serving_size_g": 100,
+    "calories": 289.9,
+    "carbs_g": 26.6,
+    "protein_g": 8.3,
+    "fats_g": 16.7,
+    "category": "breakfast",
+    "tags": [
+      "breakfast",
+      "breakfast"
+    ]
+  },
+  {
+    "name": "Rava Idli",
+    "description": "Rava Idli per 100g.",
+    "serving_size_g": 100,
+    "calories": 302.0,
+    "carbs_g": 30.0,
+    "protein_g": 5.0,
+    "fats_g": 18.0,
+    "category": "breakfast",
+    "tags": [
+      "breakfast",
+      "breakfast"
+    ]
+  },
+  {
+    "name": "Mysore Masala Dosa",
+    "description": "Mysore Masala Dosa per 100g.",
+    "serving_size_g": 100,
+    "calories": 196.4,
+    "carbs_g": 32.7,
+    "protein_g": 3.8,
+    "fats_g": 5.6,
+    "category": "breakfast",
+    "tags": [
+      "breakfast",
+      "breakfast"
+    ]
+  },
+  {
+    "name": "Chole Kulche",
+    "description": "Chole Kulche per 100g.",
+    "serving_size_g": 100,
+    "calories": 262.9,
+    "carbs_g": 22.7,
+    "protein_g": 8.6,
+    "fats_g": 15.3,
+    "category": "breakfast",
+    "tags": [
+      "breakfast",
+      "breakfast"
+    ]
+  },
+  {
+    "name": "Omelette",
+    "description": "Omelette per 100g.",
+    "serving_size_g": 100,
+    "calories": 226.8,
+    "carbs_g": 30.6,
+    "protein_g": 3.6,
+    "fats_g": 10.0,
+    "category": "breakfast",
+    "tags": [
+      "breakfast",
+      "breakfast"
+    ]
+  },
+  {
+    "name": "Lachha Paratha",
+    "description": "Lachha Paratha per 100g.",
+    "serving_size_g": 100,
+    "calories": 309.8,
+    "carbs_g": 55.8,
+    "protein_g": 4.1,
+    "fats_g": 7.8,
+    "category": "bread",
+    "tags": [
+      "bread",
+      "bread"
+    ]
+  },
+  {
+    "name": "Makki Roti",
+    "description": "Makki Roti per 100g.",
+    "serving_size_g": 100,
+    "calories": 267.7,
+    "carbs_g": 50.5,
+    "protein_g": 7.2,
+    "fats_g": 4.1,
+    "category": "bread",
+    "tags": [
+      "bread",
+      "bread"
+    ]
+  },
+  {
+    "name": "Missi Roti",
+    "description": "Missi Roti per 100g.",
+    "serving_size_g": 100,
+    "calories": 265.1,
+    "carbs_g": 49.2,
+    "protein_g": 4.7,
+    "fats_g": 5.5,
+    "category": "bread",
+    "tags": [
+      "bread",
+      "bread"
+    ]
+  },
+  {
+    "name": "Jowar Bhakri",
+    "description": "Jowar Bhakri per 100g.",
+    "serving_size_g": 100,
+    "calories": 294.2,
+    "carbs_g": 43.6,
+    "protein_g": 9.7,
+    "fats_g": 9.0,
+    "category": "bread",
+    "tags": [
+      "bread",
+      "bread"
+    ]
+  },
+  {
+    "name": "Bajra Rotla",
+    "description": "Bajra Rotla per 100g.",
+    "serving_size_g": 100,
+    "calories": 210.2,
+    "carbs_g": 37.9,
+    "protein_g": 7.0,
+    "fats_g": 3.4,
+    "category": "bread",
+    "tags": [
+      "bread",
+      "bread"
+    ]
+  },
+  {
+    "name": "Rasmalai",
+    "description": "Rasmalai per 100g.",
+    "serving_size_g": 100,
+    "calories": 396.3,
+    "carbs_g": 62.4,
+    "protein_g": 7.2,
+    "fats_g": 13.1,
+    "category": "dessert",
+    "tags": [
+      "sweet",
+      "dessert"
+    ]
+  },
+  {
+    "name": "Cham Cham",
+    "description": "Cham Cham per 100g.",
+    "serving_size_g": 100,
+    "calories": 335.0,
+    "carbs_g": 54.2,
+    "protein_g": 5.7,
+    "fats_g": 10.6,
+    "category": "dessert",
+    "tags": [
+      "sweet",
+      "dessert"
+    ]
+  },
+  {
+    "name": "Kaju Katli",
+    "description": "Kaju Katli per 100g.",
+    "serving_size_g": 100,
+    "calories": 443.2,
+    "carbs_g": 57.9,
+    "protein_g": 5.2,
+    "fats_g": 21.2,
+    "category": "dessert",
+    "tags": [
+      "sweet",
+      "dessert"
+    ]
+  },
+  {
+    "name": "Ghewar",
+    "description": "Ghewar per 100g.",
+    "serving_size_g": 100,
+    "calories": 333.1,
+    "carbs_g": 50.9,
+    "protein_g": 2.0,
+    "fats_g": 13.5,
+    "category": "dessert",
+    "tags": [
+      "sweet",
+      "dessert"
+    ]
+  },
+  {
+    "name": "Mohanthal",
+    "description": "Mohanthal per 100g.",
+    "serving_size_g": 100,
+    "calories": 378.9,
+    "carbs_g": 35.6,
+    "protein_g": 7.6,
+    "fats_g": 22.9,
+    "category": "dessert",
+    "tags": [
+      "sweet",
+      "dessert"
+    ]
+  },
+  {
+    "name": "Gujiya",
+    "description": "Gujiya per 100g.",
+    "serving_size_g": 100,
+    "calories": 335.8,
+    "carbs_g": 59.9,
+    "protein_g": 3.8,
+    "fats_g": 9.0,
+    "category": "dessert",
+    "tags": [
+      "sweet",
+      "dessert"
+    ]
+  },
+  {
+    "name": "Malpua",
+    "description": "Malpua per 100g.",
+    "serving_size_g": 100,
+    "calories": 361.5,
+    "carbs_g": 61.3,
+    "protein_g": 7.7,
+    "fats_g": 9.5,
+    "category": "dessert",
+    "tags": [
+      "sweet",
+      "dessert"
+    ]
+  },
+  {
+    "name": "Petha",
+    "description": "Petha per 100g.",
+    "serving_size_g": 100,
+    "calories": 396.1,
+    "carbs_g": 49.6,
+    "protein_g": 2.4,
+    "fats_g": 20.9,
+    "category": "dessert",
+    "tags": [
+      "sweet",
+      "dessert"
+    ]
+  },
+  {
+    "name": "Imarti",
+    "description": "Imarti per 100g.",
+    "serving_size_g": 100,
+    "calories": 388.1,
+    "carbs_g": 58.0,
+    "protein_g": 2.8,
+    "fats_g": 16.1,
+    "category": "dessert",
+    "tags": [
+      "sweet",
+      "dessert"
+    ]
+  },
+  {
+    "name": "Rava Kesari",
+    "description": "Rava Kesari per 100g.",
+    "serving_size_g": 100,
+    "calories": 239.2,
+    "carbs_g": 26.5,
+    "protein_g": 3.6,
+    "fats_g": 13.2,
+    "category": "tiffin",
+    "tags": [
+      "tiffin",
+      "tiffin"
+    ]
+  },
+  {
+    "name": "Idiyappam",
+    "description": "Idiyappam per 100g.",
+    "serving_size_g": 100,
+    "calories": 181.4,
+    "carbs_g": 22.7,
+    "protein_g": 3.3,
+    "fats_g": 8.6,
+    "category": "tiffin",
+    "tags": [
+      "tiffin",
+      "tiffin"
+    ]
+  },
+  {
+    "name": "Puttu",
+    "description": "Puttu per 100g.",
+    "serving_size_g": 100,
+    "calories": 189.0,
+    "carbs_g": 31.9,
+    "protein_g": 3.2,
+    "fats_g": 5.4,
+    "category": "tiffin",
+    "tags": [
+      "tiffin",
+      "tiffin"
+    ]
+  },
+  {
+    "name": "Kadala Curry",
+    "description": "Kadala Curry per 100g.",
+    "serving_size_g": 100,
+    "calories": 247.1,
+    "carbs_g": 39.9,
+    "protein_g": 5.9,
+    "fats_g": 7.1,
+    "category": "tiffin",
+    "tags": [
+      "tiffin",
+      "tiffin"
+    ]
+  },
+  {
+    "name": "Pazham Pori",
+    "description": "Pazham Pori per 100g.",
+    "serving_size_g": 100,
+    "calories": 149.7,
+    "carbs_g": 25.5,
+    "protein_g": 2.7,
+    "fats_g": 4.1,
+    "category": "tiffin",
+    "tags": [
+      "tiffin",
+      "tiffin"
+    ]
+  },
+  {
+    "name": "Coconut Chutney",
+    "description": "Coconut Chutney per 100g.",
+    "serving_size_g": 100,
+    "calories": 140.2,
+    "carbs_g": 20.1,
+    "protein_g": 5.5,
+    "fats_g": 4.2,
+    "category": "tiffin",
+    "tags": [
+      "tiffin",
+      "tiffin"
+    ]
+  },
+  {
+    "name": "Sprouts Salad",
+    "description": "Sprouts Salad per 100g.",
+    "serving_size_g": 100,
+    "calories": 118.3,
+    "carbs_g": 9.4,
+    "protein_g": 5.1,
+    "fats_g": 6.7,
+    "category": "diet",
+    "tags": [
+      "diet",
+      "diet"
+    ]
+  },
+  {
+    "name": "Paneer Tikka Salad",
+    "description": "Paneer Tikka Salad per 100g.",
+    "serving_size_g": 100,
+    "calories": 190.7,
+    "carbs_g": 9.6,
+    "protein_g": 18.5,
+    "fats_g": 8.7,
+    "category": "diet",
+    "tags": [
+      "diet",
+      "diet"
+    ]
+  },
+  {
+    "name": "Chicken Salad",
+    "description": "Chicken Salad per 100g.",
+    "serving_size_g": 100,
+    "calories": 119.8,
+    "carbs_g": 6.4,
+    "protein_g": 7.8,
+    "fats_g": 7.0,
+    "category": "diet",
+    "tags": [
+      "diet",
+      "diet"
+    ]
+  },
+  {
+    "name": "Moong Dal Chilla",
+    "description": "Moong Dal Chilla per 100g.",
+    "serving_size_g": 100,
+    "calories": 146.2,
+    "carbs_g": 9.3,
+    "protein_g": 6.1,
+    "fats_g": 9.4,
+    "category": "diet",
+    "tags": [
+      "diet",
+      "diet"
+    ]
+  },
+  {
+    "name": "Oats Idli",
+    "description": "Oats Idli per 100g.",
+    "serving_size_g": 100,
+    "calories": 184.9,
+    "carbs_g": 16.4,
+    "protein_g": 11.6,
+    "fats_g": 8.1,
+    "category": "diet",
+    "tags": [
+      "diet",
+      "diet"
+    ]
+  },
+  {
+    "name": "Masala Chai",
+    "description": "Masala Chai per 100g.",
+    "serving_size_g": 100,
+    "calories": 76.1,
+    "carbs_g": 17.1,
+    "protein_g": 0.8,
+    "fats_g": 0.5,
+    "category": "beverage",
+    "tags": [
+      "drink",
+      "beverage"
+    ]
+  },
+  {
+    "name": "Milk Tea",
+    "description": "Milk Tea per 100g.",
+    "serving_size_g": 100,
+    "calories": 73.5,
+    "carbs_g": 11.5,
+    "protein_g": 1.7,
+    "fats_g": 2.3,
+    "category": "beverage",
+    "tags": [
+      "drink",
+      "beverage"
+    ]
+  },
+  {
+    "name": "Black Tea",
+    "description": "Black Tea per 100g.",
+    "serving_size_g": 100,
+    "calories": 118.5,
+    "carbs_g": 15.9,
+    "protein_g": 2.7,
+    "fats_g": 4.9,
+    "category": "beverage",
+    "tags": [
+      "drink",
+      "beverage"
+    ]
+  },
+  {
+    "name": "Filter Coffee",
+    "description": "Filter Coffee per 100g.",
+    "serving_size_g": 100,
+    "calories": 47.7,
+    "carbs_g": 6.5,
+    "protein_g": 1.6,
+    "fats_g": 1.7,
+    "category": "beverage",
+    "tags": [
+      "drink",
+      "beverage"
+    ]
+  },
+  {
+    "name": "Cold Coffee",
+    "description": "Cold Coffee per 100g.",
+    "serving_size_g": 100,
+    "calories": 84.6,
+    "carbs_g": 17.9,
+    "protein_g": 1.0,
+    "fats_g": 1.0,
+    "category": "beverage",
+    "tags": [
+      "drink",
+      "beverage"
+    ]
+  },
+  {
+    "name": "Sweet Lassi",
+    "description": "Sweet Lassi per 100g.",
+    "serving_size_g": 100,
+    "calories": 66.2,
+    "carbs_g": 11.7,
+    "protein_g": 1.7,
+    "fats_g": 1.4,
+    "category": "beverage",
+    "tags": [
+      "drink",
+      "beverage"
+    ]
+  },
+  {
+    "name": "Salted Lassi",
+    "description": "Salted Lassi per 100g.",
+    "serving_size_g": 100,
+    "calories": 69.4,
+    "carbs_g": 8.7,
+    "protein_g": 3.7,
+    "fats_g": 2.2,
+    "category": "beverage",
+    "tags": [
+      "drink",
+      "beverage"
+    ]
+  },
+  {
+    "name": "Mango Shake",
+    "description": "Mango Shake per 100g.",
+    "serving_size_g": 100,
+    "calories": 83.1,
+    "carbs_g": 17.9,
+    "protein_g": 2.2,
+    "fats_g": 0.3,
+    "category": "beverage",
+    "tags": [
+      "drink",
+      "beverage"
+    ]
+  },
+  {
+    "name": "Banana Shake",
+    "description": "Banana Shake per 100g.",
+    "serving_size_g": 100,
+    "calories": 136.4,
+    "carbs_g": 20.0,
+    "protein_g": 3.3,
+    "fats_g": 4.8,
+    "category": "beverage",
+    "tags": [
+      "drink",
+      "beverage"
+    ]
+  },
+  {
+    "name": "Oreo Shake",
+    "description": "Oreo Shake per 100g.",
+    "serving_size_g": 100,
+    "calories": 96.4,
+    "carbs_g": 18.9,
+    "protein_g": 3.4,
+    "fats_g": 0.8,
+    "category": "beverage",
+    "tags": [
+      "drink",
+      "beverage"
+    ]
+  },
+  {
+    "name": "Sugarcane Juice",
+    "description": "Sugarcane Juice per 100g.",
+    "serving_size_g": 100,
+    "calories": 73.7,
+    "carbs_g": 5.9,
+    "protein_g": 1.5,
+    "fats_g": 4.9,
+    "category": "beverage",
+    "tags": [
+      "drink",
+      "beverage"
+    ]
+  },
+  {
+    "name": "Boiled Chicken",
+    "description": "Boiled Chicken per 100g.",
+    "serving_size_g": 100,
+    "calories": 155.3,
+    "carbs_g": 7.5,
+    "protein_g": 25.7,
+    "fats_g": 2.5,
+    "category": "gym",
+    "tags": [
+      "gym",
+      "gym"
+    ]
+  },
+  {
+    "name": "Egg Whites",
+    "description": "Egg Whites per 100g.",
+    "serving_size_g": 100,
+    "calories": 202.2,
+    "carbs_g": 10.2,
+    "protein_g": 29.1,
+    "fats_g": 5.0,
+    "category": "gym",
+    "tags": [
+      "gym",
+      "gym"
+    ]
+  },
+  {
+    "name": "Grilled Paneer",
+    "description": "Grilled Paneer per 100g.",
+    "serving_size_g": 100,
+    "calories": 158.0,
+    "carbs_g": 12.4,
+    "protein_g": 24.4,
+    "fats_g": 1.2,
+    "category": "gym",
+    "tags": [
+      "gym",
+      "gym"
+    ]
+  },
+  {
+    "name": "Oats Bowl",
+    "description": "Oats Bowl per 100g.",
+    "serving_size_g": 100,
+    "calories": 177.5,
+    "carbs_g": 8.0,
+    "protein_g": 29.4,
+    "fats_g": 3.1,
+    "category": "gym",
+    "tags": [
+      "gym",
+      "gym"
+    ]
+  },
+  {
+    "name": "Sweet Potato",
+    "description": "Sweet Potato per 100g.",
+    "serving_size_g": 100,
+    "calories": 156.0,
+    "carbs_g": 12.2,
+    "protein_g": 25.0,
+    "fats_g": 0.8,
+    "category": "gym",
+    "tags": [
+      "gym",
+      "gym"
+    ]
+  },
+  {
+    "name": "Masala Chai",
+    "description": "Masala Chai per 100g beverage.",
+    "serving_size_g": 100,
+    "calories": 51.4,
+    "carbs_g": 11.4,
+    "protein_g": 0.1,
+    "fats_g": 0.6,
+    "category": "beverage",
+    "tags": [
+      "drink",
+      "chai"
+    ]
+  },
+  {
+    "name": "Ginger Chai",
+    "description": "Ginger Chai per 100g beverage.",
+    "serving_size_g": 100,
+    "calories": 47.4,
+    "carbs_g": 7.2,
+    "protein_g": 1.5,
+    "fats_g": 1.4,
+    "category": "beverage",
+    "tags": [
+      "drink",
+      "chai"
+    ]
+  },
+  {
+    "name": "Elaichi Chai",
+    "description": "Elaichi Chai per 100g beverage.",
+    "serving_size_g": 100,
+    "calories": 63.6,
+    "carbs_g": 13.9,
+    "protein_g": 0.2,
+    "fats_g": 0.8,
+    "category": "beverage",
+    "tags": [
+      "drink",
+      "chai"
+    ]
+  },
+  {
+    "name": "Tandoori Chai",
+    "description": "Tandoori Chai per 100g beverage.",
+    "serving_size_g": 100,
+    "calories": 31.8,
+    "carbs_g": 5.3,
+    "protein_g": 0.4,
+    "fats_g": 1.0,
+    "category": "beverage",
+    "tags": [
+      "drink",
+      "chai"
+    ]
+  },
+  {
+    "name": "Lemon Tea",
+    "description": "Lemon Tea per 100g beverage.",
+    "serving_size_g": 100,
+    "calories": 34.5,
+    "carbs_g": 5.3,
+    "protein_g": 0.4,
+    "fats_g": 1.3,
+    "category": "beverage",
+    "tags": [
+      "drink",
+      "chai"
+    ]
+  },
+  {
+    "name": "Cutting Chai",
+    "description": "Cutting Chai per 100g beverage.",
+    "serving_size_g": 100,
+    "calories": 54.0,
+    "carbs_g": 10.4,
+    "protein_g": 0.4,
+    "fats_g": 1.2,
+    "category": "beverage",
+    "tags": [
+      "drink",
+      "chai"
+    ]
+  },
+  {
+    "name": "Filter Coffee",
+    "description": "Filter Coffee per 100g beverage.",
+    "serving_size_g": 100,
+    "calories": 60.4,
+    "carbs_g": 9.7,
+    "protein_g": 0.0,
+    "fats_g": 2.4,
+    "category": "beverage",
+    "tags": [
+      "drink",
+      "coffee"
+    ]
+  },
+  {
+    "name": "Black Coffee",
+    "description": "Black Coffee per 100g beverage.",
+    "serving_size_g": 100,
+    "calories": 42.1,
+    "carbs_g": 8.4,
+    "protein_g": 1.0,
+    "fats_g": 0.5,
+    "category": "beverage",
+    "tags": [
+      "drink",
+      "coffee"
+    ]
+  },
+  {
+    "name": "Cold Coffee",
+    "description": "Cold Coffee per 100g beverage.",
+    "serving_size_g": 100,
+    "calories": 52.7,
+    "carbs_g": 11.5,
+    "protein_g": 1.0,
+    "fats_g": 0.3,
+    "category": "beverage",
+    "tags": [
+      "drink",
+      "coffee"
+    ]
+  },
+  {
+    "name": "Iced Coffee",
+    "description": "Iced Coffee per 100g beverage.",
+    "serving_size_g": 100,
+    "calories": 31.0,
+    "carbs_g": 1.2,
+    "protein_g": 2.5,
+    "fats_g": 1.8,
+    "category": "beverage",
+    "tags": [
+      "drink",
+      "coffee"
+    ]
+  },
+  {
+    "name": "Mocha Frappe",
+    "description": "Mocha Frappe per 100g beverage.",
+    "serving_size_g": 100,
+    "calories": 62.0,
+    "carbs_g": 9.7,
+    "protein_g": 2.2,
+    "fats_g": 1.6,
+    "category": "beverage",
+    "tags": [
+      "drink",
+      "coffee"
+    ]
+  },
+  {
+    "name": "Latte",
+    "description": "Latte per 100g beverage.",
+    "serving_size_g": 100,
+    "calories": 66.5,
+    "carbs_g": 11.7,
+    "protein_g": 1.1,
+    "fats_g": 1.7,
+    "category": "beverage",
+    "tags": [
+      "drink",
+      "coffee"
+    ]
+  },
+  {
+    "name": "Cappuccino",
+    "description": "Cappuccino per 100g beverage.",
+    "serving_size_g": 100,
+    "calories": 71.0,
+    "carbs_g": 10.0,
+    "protein_g": 1.9,
+    "fats_g": 2.6,
+    "category": "beverage",
+    "tags": [
+      "drink",
+      "coffee"
+    ]
+  },
+  {
+    "name": "Instant Coffee",
+    "description": "Instant Coffee per 100g beverage.",
+    "serving_size_g": 100,
+    "calories": 36.9,
+    "carbs_g": 6.9,
+    "protein_g": 2.1,
+    "fats_g": 0.1,
+    "category": "beverage",
+    "tags": [
+      "drink",
+      "coffee"
+    ]
+  },
+  {
+    "name": "Mango Shake",
+    "description": "Mango Shake per 100g beverage.",
+    "serving_size_g": 100,
+    "calories": 96.2,
+    "carbs_g": 18.0,
+    "protein_g": 2.9,
+    "fats_g": 1.4,
+    "category": "beverage",
+    "tags": [
+      "drink",
+      "shakes"
+    ]
+  },
+  {
+    "name": "Banana Shake",
+    "description": "Banana Shake per 100g beverage.",
+    "serving_size_g": 100,
+    "calories": 102.8,
+    "carbs_g": 18.0,
+    "protein_g": 2.3,
+    "fats_g": 2.4,
+    "category": "beverage",
+    "tags": [
+      "drink",
+      "shakes"
+    ]
+  },
+  {
+    "name": "Strawberry Shake",
+    "description": "Strawberry Shake per 100g beverage.",
+    "serving_size_g": 100,
+    "calories": 131.7,
+    "carbs_g": 23.3,
+    "protein_g": 3.1,
+    "fats_g": 2.9,
+    "category": "beverage",
+    "tags": [
+      "drink",
+      "shakes"
+    ]
+  },
+  {
+    "name": "Chocolate Shake",
+    "description": "Chocolate Shake per 100g beverage.",
+    "serving_size_g": 100,
+    "calories": 133.3,
+    "carbs_g": 17.7,
+    "protein_g": 2.8,
+    "fats_g": 5.7,
+    "category": "beverage",
+    "tags": [
+      "drink",
+      "shakes"
+    ]
+  },
+  {
+    "name": "Vanilla Shake",
+    "description": "Vanilla Shake per 100g beverage.",
+    "serving_size_g": 100,
+    "calories": 125.9,
+    "carbs_g": 23.4,
+    "protein_g": 3.8,
+    "fats_g": 1.9,
+    "category": "beverage",
+    "tags": [
+      "drink",
+      "shakes"
+    ]
+  },
+  {
+    "name": "Oreo Shake",
+    "description": "Oreo Shake per 100g beverage.",
+    "serving_size_g": 100,
+    "calories": 134.1,
+    "carbs_g": 24.5,
+    "protein_g": 2.5,
+    "fats_g": 2.9,
+    "category": "beverage",
+    "tags": [
+      "drink",
+      "shakes"
+    ]
+  },
+  {
+    "name": "Dry Fruit Shake",
+    "description": "Dry Fruit Shake per 100g beverage.",
+    "serving_size_g": 100,
+    "calories": 161.4,
+    "carbs_g": 27.9,
+    "protein_g": 3.9,
+    "fats_g": 3.8,
+    "category": "beverage",
+    "tags": [
+      "drink",
+      "shakes"
+    ]
+  },
+  {
+    "name": "Kesar Pista Shake",
+    "description": "Kesar Pista Shake per 100g beverage.",
+    "serving_size_g": 100,
+    "calories": 157.7,
+    "carbs_g": 23.9,
+    "protein_g": 4.5,
+    "fats_g": 4.9,
+    "category": "beverage",
+    "tags": [
+      "drink",
+      "shakes"
+    ]
+  },
+  {
+    "name": "Apple Juice",
+    "description": "Apple Juice per 100g beverage.",
+    "serving_size_g": 100,
+    "calories": 42.3,
+    "carbs_g": 9.8,
+    "protein_g": 0.1,
+    "fats_g": 0.3,
+    "category": "beverage",
+    "tags": [
+      "drink",
+      "juices"
+    ]
+  },
+  {
+    "name": "Orange Juice",
+    "description": "Orange Juice per 100g beverage.",
+    "serving_size_g": 100,
+    "calories": 50.1,
+    "carbs_g": 10.1,
+    "protein_g": 0.4,
+    "fats_g": 0.9,
+    "category": "beverage",
+    "tags": [
+      "drink",
+      "juices"
+    ]
+  },
+  {
+    "name": "Pineapple Juice",
+    "description": "Pineapple Juice per 100g beverage.",
+    "serving_size_g": 100,
+    "calories": 68.7,
+    "carbs_g": 15.0,
+    "protein_g": 0.6,
+    "fats_g": 0.7,
+    "category": "beverage",
+    "tags": [
+      "drink",
+      "juices"
+    ]
+  },
+  {
+    "name": "Watermelon Juice",
+    "description": "Watermelon Juice per 100g beverage.",
+    "serving_size_g": 100,
+    "calories": 56.5,
+    "carbs_g": 11.2,
+    "protein_g": 1.8,
+    "fats_g": 0.5,
+    "category": "beverage",
+    "tags": [
+      "drink",
+      "juices"
+    ]
+  },
+  {
+    "name": "Carrot Juice",
+    "description": "Carrot Juice per 100g beverage.",
+    "serving_size_g": 100,
+    "calories": 47.8,
+    "carbs_g": 10.1,
+    "protein_g": 0.5,
+    "fats_g": 0.6,
+    "category": "beverage",
+    "tags": [
+      "drink",
+      "juices"
+    ]
+  },
+  {
+    "name": "Beetroot Juice",
+    "description": "Beetroot Juice per 100g beverage.",
+    "serving_size_g": 100,
+    "calories": 53.3,
+    "carbs_g": 10.1,
+    "protein_g": 1.2,
+    "fats_g": 0.9,
+    "category": "beverage",
+    "tags": [
+      "drink",
+      "juices"
+    ]
+  },
+  {
+    "name": "Mosambi Juice",
+    "description": "Mosambi Juice per 100g beverage.",
+    "serving_size_g": 100,
+    "calories": 55.4,
+    "carbs_g": 11.2,
+    "protein_g": 0.4,
+    "fats_g": 1.0,
+    "category": "beverage",
+    "tags": [
+      "drink",
+      "juices"
+    ]
+  },
+  {
+    "name": "Guava Juice",
+    "description": "Guava Juice per 100g beverage.",
+    "serving_size_g": 100,
+    "calories": 49.2,
+    "carbs_g": 12.1,
+    "protein_g": 0.2,
+    "fats_g": 0.0,
+    "category": "beverage",
+    "tags": [
+      "drink",
+      "juices"
+    ]
+  },
+  {
+    "name": "Mixed Fruit Juice",
+    "description": "Mixed Fruit Juice per 100g beverage.",
+    "serving_size_g": 100,
+    "calories": 48.0,
+    "carbs_g": 8.9,
+    "protein_g": 1.3,
+    "fats_g": 0.8,
+    "category": "beverage",
+    "tags": [
+      "drink",
+      "juices"
+    ]
+  },
+  {
+    "name": "Sweet Lassi",
+    "description": "Sweet Lassi per 100g beverage.",
+    "serving_size_g": 100,
+    "calories": 71.7,
+    "carbs_g": 11.1,
+    "protein_g": 2.1,
+    "fats_g": 2.1,
+    "category": "beverage",
+    "tags": [
+      "drink",
+      "lassi"
+    ]
+  },
+  {
+    "name": "Salted Lassi",
+    "description": "Salted Lassi per 100g beverage.",
+    "serving_size_g": 100,
+    "calories": 119.5,
+    "carbs_g": 18.0,
+    "protein_g": 3.1,
+    "fats_g": 3.9,
+    "category": "beverage",
+    "tags": [
+      "drink",
+      "lassi"
+    ]
+  },
+  {
+    "name": "Mango Lassi",
+    "description": "Mango Lassi per 100g beverage.",
+    "serving_size_g": 100,
+    "calories": 102.0,
+    "carbs_g": 16.3,
+    "protein_g": 2.0,
+    "fats_g": 3.2,
+    "category": "beverage",
+    "tags": [
+      "drink",
+      "lassi"
+    ]
+  },
+  {
+    "name": "Banana Lassi",
+    "description": "Banana Lassi per 100g beverage.",
+    "serving_size_g": 100,
+    "calories": 85.4,
+    "carbs_g": 14.2,
+    "protein_g": 3.1,
+    "fats_g": 1.8,
+    "category": "beverage",
+    "tags": [
+      "drink",
+      "lassi"
+    ]
+  },
+  {
+    "name": "Strawberry Lassi",
+    "description": "Strawberry Lassi per 100g beverage.",
+    "serving_size_g": 100,
+    "calories": 84.3,
+    "carbs_g": 13.7,
+    "protein_g": 2.2,
+    "fats_g": 2.3,
+    "category": "beverage",
+    "tags": [
+      "drink",
+      "lassi"
+    ]
+  },
+  {
+    "name": "Nimbu Soda (Sweet)",
+    "description": "Nimbu Soda (Sweet) per 100g beverage.",
+    "serving_size_g": 100,
+    "calories": 21.6,
+    "carbs_g": 5.4,
+    "protein_g": 0.0,
+    "fats_g": 0.0,
+    "category": "beverage",
+    "tags": [
+      "drink",
+      "soda"
+    ]
+  },
+  {
+    "name": "Nimbu Soda (Masala)",
+    "description": "Nimbu Soda (Masala) per 100g beverage.",
+    "serving_size_g": 100,
+    "calories": 12.8,
+    "carbs_g": 3.2,
+    "protein_g": 0.0,
+    "fats_g": 0.0,
+    "category": "beverage",
+    "tags": [
+      "drink",
+      "soda"
+    ]
+  },
+  {
+    "name": "Soda Water",
+    "description": "Soda Water per 100g beverage.",
+    "serving_size_g": 100,
+    "calories": 44.0,
+    "carbs_g": 11.0,
+    "protein_g": 0.0,
+    "fats_g": 0.0,
+    "category": "beverage",
+    "tags": [
+      "drink",
+      "soda"
+    ]
+  },
+  {
+    "name": "Sweetened Soda",
+    "description": "Sweetened Soda per 100g beverage.",
+    "serving_size_g": 100,
+    "calories": 30.8,
+    "carbs_g": 7.7,
+    "protein_g": 0.0,
+    "fats_g": 0.0,
+    "category": "beverage",
+    "tags": [
+      "drink",
+      "soda"
+    ]
+  },
+  {
+    "name": "Ginger Ale",
+    "description": "Ginger Ale per 100g beverage.",
+    "serving_size_g": 100,
+    "calories": 36.8,
+    "carbs_g": 9.2,
+    "protein_g": 0.0,
+    "fats_g": 0.0,
+    "category": "beverage",
+    "tags": [
+      "drink",
+      "soda"
+    ]
+  },
+  {
+    "name": "Lemon Soda",
+    "description": "Lemon Soda per 100g beverage.",
+    "serving_size_g": 100,
+    "calories": 50.4,
+    "carbs_g": 12.6,
+    "protein_g": 0.0,
+    "fats_g": 0.0,
+    "category": "beverage",
+    "tags": [
+      "drink",
+      "soft drinks"
+    ]
+  },
+  {
+    "name": "Jeera Masala Soda",
+    "description": "Jeera Masala Soda per 100g beverage.",
+    "serving_size_g": 100,
+    "calories": 45.2,
+    "carbs_g": 11.3,
+    "protein_g": 0.0,
+    "fats_g": 0.0,
+    "category": "beverage",
+    "tags": [
+      "drink",
+      "soft drinks"
+    ]
+  },
+  {
+    "name": "Badam Milk",
+    "description": "Badam Milk per 100g beverage.",
+    "serving_size_g": 100,
+    "calories": 101.8,
+    "carbs_g": 16.8,
+    "protein_g": 2.8,
+    "fats_g": 2.6,
+    "category": "beverage",
+    "tags": [
+      "drink",
+      "milk drinks"
+    ]
+  },
+  {
+    "name": "Rose Milk",
+    "description": "Rose Milk per 100g beverage.",
+    "serving_size_g": 100,
+    "calories": 126.8,
+    "carbs_g": 19.9,
+    "protein_g": 4.6,
+    "fats_g": 3.2,
+    "category": "beverage",
+    "tags": [
+      "drink",
+      "milk drinks"
+    ]
+  },
+  {
+    "name": "Flavoured Milk - Chocolate",
+    "description": "Flavoured Milk - Chocolate per 100g beverage.",
+    "serving_size_g": 100,
+    "calories": 85.7,
+    "carbs_g": 14.2,
+    "protein_g": 2.5,
+    "fats_g": 2.1,
+    "category": "beverage",
+    "tags": [
+      "drink",
+      "milk drinks"
+    ]
+  },
+  {
+    "name": "Flavoured Milk - Strawberry",
+    "description": "Flavoured Milk - Strawberry per 100g beverage.",
+    "serving_size_g": 100,
+    "calories": 85.8,
+    "carbs_g": 12.1,
+    "protein_g": 4.4,
+    "fats_g": 2.2,
+    "category": "beverage",
+    "tags": [
+      "drink",
+      "milk drinks"
+    ]
+  },
+  {
+    "name": "Bournvita Milk",
+    "description": "Bournvita Milk per 100g beverage.",
+    "serving_size_g": 100,
+    "calories": 89.4,
+    "carbs_g": 10.6,
+    "protein_g": 2.3,
+    "fats_g": 4.2,
+    "category": "beverage",
+    "tags": [
+      "drink",
+      "milk drinks"
+    ]
+  },
+  {
+    "name": "Complan Milk",
+    "description": "Complan Milk per 100g beverage.",
+    "serving_size_g": 100,
+    "calories": 112.9,
+    "carbs_g": 10.7,
+    "protein_g": 5.6,
+    "fats_g": 5.3,
+    "category": "beverage",
+    "tags": [
+      "drink",
+      "milk drinks"
+    ]
+  },
+  {
+    "name": "Horlicks Milk",
+    "description": "Horlicks Milk per 100g beverage.",
+    "serving_size_g": 100,
+    "calories": 86.3,
+    "carbs_g": 8.9,
+    "protein_g": 3.0,
+    "fats_g": 4.3,
+    "category": "beverage",
+    "tags": [
+      "drink",
+      "milk drinks"
+    ]
+  }
+]

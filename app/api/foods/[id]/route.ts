@@ -4,6 +4,7 @@ import { foodSchema } from "@/lib/utils/validators";
 import { calculateCalories } from "@/lib/utils/calculations";
 import { connectToDatabase } from "@/database/mongoose";
 import { Food } from "@/database/models/food";
+import { SystemFood } from "@/database/models/SystemFood";
 
 // GET - Get a single food
 export async function GET(
@@ -16,28 +17,53 @@ export async function GET(
 
         const { id } = await context.params;
 
-        const food = await Food.findById(id).lean();
+        // ✅ Try user foods first
+        let food = await Food.findById(id).lean();
 
-        if (!food) {
-            return NextResponse.json(
-                { success: false, error: "Food not found" },
-                { status: 404 }
-            );
+        if (food) {
+            // Check access rights for user foods
+            if (food.userId !== session.user.id && !food.isPublic) {
+                return NextResponse.json(
+                    { success: false, error: "Access denied" },
+                    { status: 403 }
+                );
+            }
+
+            return NextResponse.json({
+                success: true,
+                data: {
+                    ...food,
+                    source: 'user',
+                    isEditable: food.userId === session.user.id,
+                    isDeletable: food.userId === session.user.id,
+                },
+            });
         }
 
-        // Check access rights
-        if (food.userId !== session.user.id && !food.isPublic) {
-            return NextResponse.json(
-                { success: false, error: "Access denied" },
-                { status: 403 }
-            );
+        // ✅ If not found in user foods, check system foods
+        const systemFood = await SystemFood.findById(id).lean();
+
+        if (systemFood) {
+            return NextResponse.json({
+                success: true,
+                data: {
+                    ...systemFood,
+                    source: 'system',
+                    isSystemFood: true,
+                    isEditable: false,
+                    isDeletable: false,
+                },
+            });
         }
 
-        return NextResponse.json({
-            success: true,
-            data: food,
-        });
+        // Not found in either collection
+        return NextResponse.json(
+            { success: false, error: "Food not found" },
+            { status: 404 }
+        );
     } catch (error: any) {
+        console.error('[FOOD API] GET error:', error);
+
         if (error.message === "Unauthorized") {
             return NextResponse.json(
                 { success: false, error: "Unauthorized" },
@@ -60,8 +86,22 @@ export async function PUT(
     try {
         const session = await requireAuth();
         await connectToDatabase();
-        const { id } = await context.params
+        const { id } = await context.params;
 
+        // ✅ PROTECTION: Check if it's a system food first
+        const isSystemFood = await SystemFood.findById(id);
+        if (isSystemFood) {
+            return NextResponse.json(
+                { 
+                    success: false, 
+                    error: "Cannot edit system foods",
+                    message: "Foods from the Indian database cannot be modified. Create a custom food instead."
+                },
+                { status: 403 } // Forbidden
+            );
+        }
+
+        // Now check user foods
         const food = await Food.findById(id);
 
         if (!food) {
@@ -103,6 +143,8 @@ export async function PUT(
             message: "Food updated successfully",
         });
     } catch (error: any) {
+        console.error('[FOOD API] PUT error:', error);
+
         if (error.message === "Unauthorized") {
             return NextResponse.json(
                 { success: false, error: "Unauthorized" },
@@ -133,7 +175,22 @@ export async function DELETE(
         const session = await requireAuth();
         await connectToDatabase();
 
-        const { id } = await context.params
+        const { id } = await context.params;
+
+        // ✅ PROTECTION: Check if it's a system food first
+        const isSystemFood = await SystemFood.findById(id);
+        if (isSystemFood) {
+            return NextResponse.json(
+                { 
+                    success: false, 
+                    error: "Cannot delete system foods",
+                    message: "Foods from the Indian database cannot be deleted."
+                },
+                { status: 403 } // Forbidden
+            );
+        }
+
+        // Now check user foods
         const food = await Food.findById(id);
 
         if (!food) {
@@ -158,6 +215,8 @@ export async function DELETE(
             message: "Food deleted successfully",
         });
     } catch (error: any) {
+        console.error('[FOOD API] DELETE error:', error);
+
         if (error.message === "Unauthorized") {
             return NextResponse.json(
                 { success: false, error: "Unauthorized" },

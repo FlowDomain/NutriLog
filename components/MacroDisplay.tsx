@@ -11,6 +11,11 @@ interface MacroDisplayProps {
     showPercentages?: boolean;
 }
 
+function formatMacro(value: number): string {
+    const rounded = Math.round(value * 10) / 10;
+    return rounded.toFixed(1).replace(/\.0$/, '');
+}
+
 export function MacroDisplay({ macros, calories, showPercentages = true }: MacroDisplayProps) {
     const carbsCals = macros.carbs * 4;
     const proteinCals = macros.protein * 4;
@@ -26,7 +31,7 @@ export function MacroDisplay({ macros, calories, showPercentages = true }: Macro
                 <div className="flex justify-between items-center">
                     <span className="text-sm font-medium text-blue-700">Carbs</span>
                     <span className="text-sm font-semibold">
-                        {macros.carbs}g {showPercentages && `(${carbsPercent}%)`}
+                        {formatMacro(macros.carbs)}g {showPercentages && `(${carbsPercent}%)`}
                     </span>
                 </div>
                 <div className="relative h-2 w-full overflow-hidden rounded-full bg-blue-100">
@@ -41,7 +46,7 @@ export function MacroDisplay({ macros, calories, showPercentages = true }: Macro
                 <div className="flex justify-between items-center">
                     <span className="text-sm font-medium text-green-700">Protein</span>
                     <span className="text-sm font-semibold">
-                        {macros.protein}g {showPercentages && `(${proteinPercent}%)`}
+                        {formatMacro(macros.protein)}g {showPercentages && `(${proteinPercent}%)`}
                     </span>
                 </div>
                 <div className="relative h-2 w-full overflow-hidden rounded-full bg-green-100">
@@ -56,7 +61,7 @@ export function MacroDisplay({ macros, calories, showPercentages = true }: Macro
                 <div className="flex justify-between items-center">
                     <span className="text-sm font-medium text-yellow-700">Fats</span>
                     <span className="text-sm font-semibold">
-                        {macros.fats}g {showPercentages && `(${fatsPercent}%)`}
+                        {formatMacro(macros.fats)}g {showPercentages && `(${fatsPercent}%)`}
                     </span>
                 </div>
                 <div className="relative h-2 w-full overflow-hidden rounded-full bg-yellow-100">

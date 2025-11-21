@@ -4,12 +4,16 @@ export interface Macros {
     fats: number;
 }
 
+
+export function roundToDecimal(value: number, decimals: number = 1): number {
+    return Math.round(value * Math.pow(10, decimals)) / Math.pow(10, decimals);
+}
+
 // Calculate calories from macros
 export function calculateCalories(macros: Macros): number {
     // 1g carbs = 4 cal, 1g protein = 4 cal, 1g fat = 9 cal
-    return Math.round(
-        macros.carbs * 4 + macros.protein * 4 + macros.fats * 9
-    );
+    const calories = macros.carbs * 4 + macros.protein * 4 + macros.fats * 9;
+    return Math.round(calories); // Always round to whole number
 }
 // Calculate macros for a specific quantity
 export function calculateMacrosForQuantity(
@@ -19,9 +23,9 @@ export function calculateMacrosForQuantity(
 ): Macros {
     const ratio = quantity / baseServingSize;
     return {
-        carbs: Math.round(baseMacros.carbs * ratio * 10) / 10,
-        protein: Math.round(baseMacros.protein * ratio * 10) / 10,
-        fats: Math.round(baseMacros.fats * ratio * 10) / 10,
+        carbs: roundToDecimal(baseMacros.carbs * ratio, 1),
+        protein: roundToDecimal(baseMacros.protein * ratio, 1),
+        fats: roundToDecimal(baseMacros.fats * ratio, 1),
     };
 }
 // Calculate macro percentages

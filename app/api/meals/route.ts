@@ -5,8 +5,9 @@ import { calculateMealGrade, DEFAULT_MACRO_TARGETS } from "@/lib/utils/grading";
 import { z } from "zod";
 import { connectToDatabase } from "@/database/mongoose";
 import { Meal } from "@/database/models/meal";
-import { Food } from "@/database/models/food";
+import { Food } from "@/database/models/food"; // ✅ Import SystemFood
 import { User } from "@/database/models/user";
+import { SystemFood } from "@/database/models/SystemFood";
 
 const mealSchema = z.object({
     name: z.string().min(1, "Name is required"),
@@ -74,21 +75,50 @@ export async function POST(request: NextRequest) {
         const body = await request.json();
         const validatedData = mealSchema.parse(body);
 
-        // Fetch all foods
-        const foodIds = validatedData.foods.map((f) => f.foodId);
-        const foods = await Food.find({ _id: { $in: foodIds } }).lean();
+        console.log('[MEALS API] Creating meal with foods:', validatedData.foods);
 
-        if (foods.length !== foodIds.length) {
+        // ✅ CRITICAL FIX: Search in BOTH Food and SystemFood collections
+        const foodIds = validatedData.foods.map((f) => f.foodId);
+        
+        // Search in user foods
+        const userFoods = await Food.find({ _id: { $in: foodIds } }).lean();
+        console.log('[MEALS API] Found user foods:', userFoods.length);
+        
+        // Search in system foods
+        const systemFoods = await SystemFood.find({ _id: { $in: foodIds } }).lean();
+        console.log('[MEALS API] Found system foods:', systemFoods.length);
+        
+        // Combine both
+        const allFoods = [...userFoods, ...systemFoods];
+        console.log('[MEALS API] Total foods found:', allFoods.length);
+
+        if (allFoods.length !== foodIds.length) {
+            console.error('[MEALS API] Missing foods:', {
+                requested: foodIds.length,
+                found: allFoods.length,
+                requestedIds: foodIds,
+                foundIds: allFoods.map(f => f._id.toString())
+            });
             return NextResponse.json(
-                { success: false, error: "Some foods not found" },
+                { 
+                    success: false, 
+                    error: "Some foods not found",
+                    details: {
+                        requested: foodIds.length,
+                        found: allFoods.length
+                    }
+                },
                 { status: 404 }
             );
         }
 
         // Calculate totals
         const mealFoods = validatedData.foods.map((item) => {
-            const food = foods.find((f) => f._id.toString() === item.foodId);
-            if (!food) throw new Error("Food not found");
+            const food = allFoods.find((f) => f._id.toString() === item.foodId);
+            if (!food) {
+                console.error('[MEALS API] Food not found in combined list:', item.foodId);
+                throw new Error(`Food not found: ${item.foodId}`);
+            }
 
             const macros = calculateMacrosForQuantity(
                 food.macros,
@@ -125,6 +155,13 @@ export async function POST(request: NextRequest) {
         // Calculate grade
         const gradeResult = calculateMealGrade(totalMacros, macroTargets);
 
+        console.log('[MEALS API] Creating meal with:', {
+            totalCalories,
+            totalMacros,
+            grade: gradeResult.grade,
+            foodsCount: mealFoods.length
+        });
+
         // Create meal
         const meal = await Meal.create({
             userId: session.user.id,
@@ -139,12 +176,26 @@ export async function POST(request: NextRequest) {
             notes: validatedData.notes,
         });
 
+        // ✅ Increment usage count for system foods
+        const systemFoodIds = systemFoods.map(f => f._id);
+        if (systemFoodIds.length > 0) {
+            await SystemFood.updateMany(
+                { _id: { $in: systemFoodIds } },
+                { $inc: { usageCount: 1 } }
+            );
+            console.log('[MEALS API] Updated usage count for system foods');
+        }
+
+        console.log('[MEALS API] Meal created successfully:', meal._id);
+
         return NextResponse.json({
             success: true,
             data: { ...meal.toObject(), gradeResult },
             message: "Meal logged successfully",
         }, { status: 201 });
     } catch (error: any) {
+        console.error('[MEALS API] Error:', error);
+        
         if (error.message === "Unauthorized") {
             return NextResponse.json(
                 { success: false, error: "Unauthorized" },
@@ -160,7 +211,11 @@ export async function POST(request: NextRequest) {
         }
 
         return NextResponse.json(
-            { success: false, error: "Failed to create meal" },
+            { 
+                success: false, 
+                error: "Failed to create meal",
+                details: error.message 
+            },
             { status: 500 }
         );
     }
